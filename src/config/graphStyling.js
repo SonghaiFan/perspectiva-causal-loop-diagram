@@ -18,7 +18,7 @@ export const graphStyles = [
     },
   },
   {
-    selector: "node.primary",
+    selector: "node.highlighted",
     style: {
       color: "#ffffff",
       "font-weight": "bold",
@@ -26,11 +26,10 @@ export const graphStyles = [
     },
   },
   {
-    selector: "node.highlighted",
+    selector: "node.selected",
     style: {
-      color: "#ffffff",
-      "font-weight": "bold",
-      "background-color": "#ff0000",
+      "border-color": "#000",
+      "border-width": "1px",
     },
   },
   {

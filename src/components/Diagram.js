@@ -68,6 +68,9 @@ const Graph = ({ data, layout, focusVersion }) => {
     // Add click event listener to nodes
     cy.current.on("click", "node", function (evt) {
       showTooltip(evt.target, evt.originalEvent);
+      //   add highlight class to the clicked node
+      cy.current.elements().removeClass("selected");
+      evt.target.addClass("selected");
     });
 
     // Hide tooltip when clicking on the canvas

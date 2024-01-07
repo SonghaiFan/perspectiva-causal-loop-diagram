@@ -19,7 +19,16 @@ export function updateGraph(cy, newData, layout) {
     // Updates
     newElements.forEach((ele) => {
       if (currentIds.includes(ele.data.id)) {
-        cy.getElementById(ele.data.id).data(ele.data).classes(ele.classes);
+        const existingElement = cy.getElementById(ele.data.id);
+        const existingClasses = existingElement.classes();
+        const newClasses = ele.classes ? ele.classes.split(" ") : [];
+
+        // Create a Set to combine and deduplicate classes
+        const combinedClasses = new Set([...existingClasses, ...newClasses]);
+
+        // Update data and classes
+        existingElement.data(ele.data);
+        existingElement.classes(Array.from(combinedClasses));
       }
     });
 
