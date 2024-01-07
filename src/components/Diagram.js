@@ -10,7 +10,7 @@ import Tooltip from "./Tooltip";
 cytoscape.use(cola);
 cytoscape.use(fcose);
 
-const Graph = ({ data, layout }) => {
+const Graph = ({ data, layout, focusVersion }) => {
   const cyRef = useRef(null);
   const cy = useRef(null);
   const [tooltipContent, setTooltipContent] = useState("");
@@ -28,10 +28,15 @@ const Graph = ({ data, layout }) => {
     setTooltipVisible(false);
   };
 
-  const handleVersionHover = (type) => {
-    cy.current.elements().removeClass("highlighted");
-    cy.current.elements("node." + type).addClass("highlighted");
-  };
+  useEffect(() => {
+    if (!cy.current) return; // Wait for Cytoscape to initialize
+    if (focusVersion) {
+      cy.current.elements().removeClass("highlighted");
+      cy.current.elements("node." + focusVersion).addClass("highlighted");
+    } else {
+      cy.current.elements().removeClass("highlighted");
+    }
+  }, [focusVersion]);
 
   // Initialize Cytoscape when the component mounts
   useEffect(() => {
@@ -95,7 +100,7 @@ const Graph = ({ data, layout }) => {
       <Tooltip
         element={tooltipContent}
         visible={tooltipVisible}
-        placement={"right"}
+        placement={"top"}
         position={tooltipPosition}
       />
     </div>

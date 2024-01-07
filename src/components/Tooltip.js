@@ -1,17 +1,37 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 
 const Tooltip = ({ element, visible, position, placement }) => {
   const tooltipRef = useRef(null);
   const [tooltipSize, setTooltipSize] = useState({ width: 0, height: 0 });
 
+  // Recalculate when tooltip becomes visible or the tooltip DOM element changes
   useEffect(() => {
-    if (tooltipRef.current) {
+    if (visible && tooltipRef.current) {
       setTooltipSize({
         width: tooltipRef.current.offsetWidth,
         height: tooltipRef.current.offsetHeight,
       });
     }
-  }, [element]); // Recalculate when element changes
+  }, [visible, tooltipRef.current]);
+
+  // Ensure the useMemo hooks are always called
+  const history = useMemo(
+    () => (element ? element.data("history") || [] : []),
+    [element]
+  );
+
+  const labelsWithGroups = useMemo(() => {
+    return history.map((item, index) => `P${index + 1}: ${item.label}`);
+  }, [history]);
+
+  const contributionsByType = useMemo(() => {
+    const contributions = {};
+    history.forEach((item) => {
+      const type = item.participant_type;
+      contributions[type] = (contributions[type] || 0) + 1;
+    });
+    return contributions;
+  }, [history]);
 
   if (!visible || !element) return null;
 
@@ -41,18 +61,58 @@ const Tooltip = ({ element, visible, position, placement }) => {
         return { top: position.y, left: position.x };
     }
   };
-
+  // Get styles for positioning
   const tooltipStyle = calculatePosition();
+
+  const label = element.data("label");
+
+  // conver the first letter to uppercase
+  const labelUpperCase = label.charAt(0).toUpperCase() + label.slice(1);
 
   return (
     <div
       ref={tooltipRef}
       style={tooltipStyle}
-      className="absolute bg-white p-2 rounded-lg shadow-md border border-gray-200"
+      className="absolute bg-white px-6 py-4 rounded-lg shadow-lg border border-gray-200 text-sm max-w-md"
     >
-      <div className="font-semibold text-gray-800">ID: {element.id()}</div>
-      <div className="text-gray-600">Label: {element.data("label")}</div>
-      <div className="text-gray-500 text-sm">Classes: {element.classes()}</div>
+      <div className="text-gray-900">ID: {element.id()}</div>
+      <div className="text-gray-700 mt-2 text-lg font-bold">
+        {labelUpperCase}
+      </div>
+      {element.classes().length > 0 && (
+        <div className="text-gray-600 mt-2">
+          Participant(s): {element.classes().join(", ")}
+        </div>
+      )}
+
+      {element.data("history") && (
+        <>
+          <div className="mt-4">
+            <strong className="text-gray-800 bg-yellow-400 rounded px-2 py-1">
+              Terms
+            </strong>
+            <ul className="list-disc ml-4 mt-2 text-gray-700">
+              {labelsWithGroups.map((label, index) => (
+                <li key={index}>{label}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4">
+            <strong className="text-white bg-red-400 rounded px-2 py-1">
+              Contributions
+            </strong>
+            <ul className="list-disc ml-4 mt-2 text-gray-700">
+              {Object.entries(contributionsByType).map(
+                ([type, count], index) => (
+                  <li key={index}>
+                    <span className="font-bold">{count}</span> {` ${type}`}
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        </>
+      )}
     </div>
   );
 };

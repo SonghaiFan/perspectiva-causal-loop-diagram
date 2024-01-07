@@ -13,6 +13,7 @@ const Sidebar = ({
   layout,
   layoutTypes,
   onVersionClick,
+  onVersionHover,
   onLayoutChange,
   onDatasetChange,
 }) => {
@@ -36,6 +37,7 @@ const Sidebar = ({
         versionItems={versionItems}
         selectedVersion={version}
         onVersionClick={onVersionClick}
+        onVersionHover={onVersionHover}
       />
 
       <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">

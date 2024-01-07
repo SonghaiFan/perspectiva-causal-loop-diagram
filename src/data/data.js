@@ -3,12 +3,24 @@ function getCyElements(data) {
   var edges = [];
 
   data.nodes.forEach((node) => {
+    let nodeParticipantsHistory = [];
+
+    if (node.history && node.history.length > 0) {
+      node.history.forEach((originalNode) => {
+        nodeParticipantsHistory.push(originalNode.group);
+      });
+    }
+
+    let classesString = nodeParticipantsHistory.join(" ");
+
+    console.log(classesString);
     nodes.push({
       data: {
         id: node.id.toString(),
         label: node.label,
+        history: node.history,
       },
-      classes: "secondary",
+      classes: classesString,
     });
   });
 
@@ -3157,5 +3169,7 @@ const allCyDataSets = {
   demo: cyDataSetsDemo,
   real: cyDataSetsReal,
 };
+
+console.log(cyDataSetsDemo);
 
 export { cyDataSetsDemo, cyDataSetsReal, allCyDataSets };

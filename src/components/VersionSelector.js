@@ -1,4 +1,9 @@
-const VersionSelector = ({ versionItems, onVersionClick, selectedVersion }) => {
+const VersionSelector = ({
+  versionItems,
+  onVersionClick,
+  onVersionHover,
+  selectedVersion,
+}) => {
   return (
     <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
       <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>
@@ -8,6 +13,8 @@ const VersionSelector = ({ versionItems, onVersionClick, selectedVersion }) => {
           className={`flex items-center space-x-2 hover:cursor-pointer hover:bg-gray-100 p-1 rounded-md
           ${version == "final" ? "border font-bold" : ""} `}
           onClick={() => onVersionClick(version)}
+          onMouseEnter={() => onVersionHover(version)}
+          onMouseLeave={() => onVersionHover(null)}
         >
           <div
             className={`w-4 h-4 rounded-full ${

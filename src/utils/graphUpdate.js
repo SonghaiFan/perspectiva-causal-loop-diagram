@@ -19,7 +19,7 @@ export function updateGraph(cy, newData, layout) {
     // Updates
     newElements.forEach((ele) => {
       if (currentIds.includes(ele.data.id)) {
-        cy.getElementById(ele.data.id).data(ele.data);
+        cy.getElementById(ele.data.id).data(ele.data).classes(ele.classes);
       }
     });
 

@@ -10,6 +10,7 @@ import { useState, useEffect, useRef } from "react";
 export default function Home() {
   const [dataset, setDataset] = useState("demo");
   const [version, setVersion] = useState("final");
+  const [focusVersion, setFocusVersion] = useState(null);
   const [layout, setLayout] = useState("cola");
   const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
 
@@ -46,7 +47,7 @@ export default function Home() {
         {/* Title area */}
         <Header />
         {/* Diagram area */}
-        <Graph data={data} layout={layoutConfig} />
+        <Graph data={data} layout={layoutConfig} focusVersion={focusVersion} />
       </div>
 
       {/* Sidebar */}
@@ -60,6 +61,7 @@ export default function Home() {
         layoutTypes={layoutTypes}
         onDatasetChange={(dataset) => setDataset(dataset)}
         onVersionClick={(version) => setVersion(version)}
+        onVersionHover={(version) => setFocusVersion(version)}
         onLayoutChange={(layout) => setLayout(layout)}
       />
     </main>
