@@ -8,7 +8,7 @@ const LayoutSelector = ({ layoutTypes, selectedLayout, onLayoutChange }) => {
         {layoutTypes.map((type, i) => (
           <label
             key={i}
-            className={`w-full h-fit text-center rounded hover:cursor-pointer ${
+            className={`w-full h-fit py-2 text-center rounded hover:cursor-pointer ${
               selectedLayout === type ? "bg-gray-200" : "hover:bg-gray-100"
             }`}
           >
