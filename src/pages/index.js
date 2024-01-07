@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Graph from "@/components/Diagram";
 import { cyDataSets } from "../data/data";
+import { layoutConfig } from "@/config/graphLayout";
 import cloneDeep from "lodash/cloneDeep";
 
 import { useState, useEffect, useRef } from "react";
@@ -10,6 +11,7 @@ const getCyData = (key) => cloneDeep(cyDataSets[key]);
 
 export default function Home() {
   const [data, setData] = useState(getCyData("final"));
+  const [layout, setLayout] = useState(layoutConfig);
 
   const handleVersionClick = (version) => {
     setData(getCyData(version));
@@ -21,7 +23,7 @@ export default function Home() {
         {/* Title area */}
         <Header />
         {/* Diagram area */}
-        <Graph data={data} />
+        <Graph data={data} layout={layout} />
       </div>
 
       {/* Sidebar */}

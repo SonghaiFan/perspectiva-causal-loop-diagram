@@ -1,6 +1,6 @@
 import { layoutConfig } from "@/config/graphLayout";
 
-export function updateGraph(cy, newData) {
+export function updateGraph(cy, newData, layout) {
   const currentNodes = cy.nodes();
   const currentEdges = cy.edges();
   const { nodes: newNodes, edges: newEdges } = newData;
@@ -32,5 +32,5 @@ export function updateGraph(cy, newData) {
   processElements(currentNodes, newNodes);
   processElements(currentEdges, newEdges);
 
-  cy.layout(layoutConfig).run();
+  cy.layout(layout).run();
 }
