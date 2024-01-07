@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from "react";
 // Deep copy the data to avoid direct modification of original data
 
 export default function Home() {
-  const [dataset, setDataset] = useState("demo");
+  const [dataset, setDataset] = useState("Demo");
   const [version, setVersion] = useState("final");
   const [focusVersion, setFocusVersion] = useState(null);
   const [layout, setLayout] = useState("cola");

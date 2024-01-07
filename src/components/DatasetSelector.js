@@ -14,7 +14,7 @@ const DatasetSelector = ({
 
   return (
     <div className="bg-white border rounded-md p-2 mb-8 shadow-lg relative">
-      <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>
+      <h4 className="text-lg font-semibold mb-2">Dataset</h4>
       <div className="w-full h-fit text-center rounded hover:cursor-pointer hover:bg-gray-100 relative">
         <div
           className="flex items-center justify-between w-full text-gray-700 px-4 py-2 bg-white rounded border cursor-pointer hover:bg-gray-50"

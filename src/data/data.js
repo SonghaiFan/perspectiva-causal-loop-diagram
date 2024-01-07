@@ -3166,8 +3166,8 @@ const cyDataSetsReal = Object.fromEntries(
 );
 
 const allCyDataSets = {
-  demo: cyDataSetsDemo,
-  real: cyDataSetsReal,
+  Demo: cyDataSetsDemo,
+  Real: cyDataSetsReal,
 };
 
 console.log(cyDataSetsDemo);

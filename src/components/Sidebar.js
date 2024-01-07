@@ -19,8 +19,6 @@ const Sidebar = ({
 }) => {
   if (data.length == 0) return;
 
-  const nodeTypes = [...new Set(data.nodes.map((node) => node.classes))];
-
   return (
     <div className="w-[15%] p-4 h-full overflow-auto">
       <DatasetSelector
@@ -41,7 +39,7 @@ const Sidebar = ({
       />
 
       <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
-        <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>
+        <h4 className="text-lg font-semibold mb-2">Term List</h4>
         {data.nodes.map((nodes, i) => (
           <div
             key={i}

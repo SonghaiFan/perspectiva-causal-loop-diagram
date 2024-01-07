@@ -3,7 +3,7 @@ import { useState } from "react";
 const LayoutSelector = ({ layoutTypes, selectedLayout, onLayoutChange }) => {
   return (
     <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
-      <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>
+      <h4 className="text-lg font-semibold mb-2">Dimagram Layout</h4>
       <div className="flex items-center space-x-2 border p-1 rounded-md mt-5">
         {layoutTypes.map((type, i) => (
           <label
