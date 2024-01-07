@@ -1,50 +1,36 @@
-import { colaLayoutConfig, fcoseLayoutConfig } from "@/config/graphLayout";
+import { layoutConfig } from "@/config/graphLayout";
 
 export function updateGraph(cy, newData) {
-  if (!cy) return;
+  const currentNodes = cy.nodes();
+  const currentEdges = cy.edges();
+  const { nodes: newNodes, edges: newEdges } = newData;
 
-  // Step 1: Update - Update existing elements with new data or add them if they don't exist
-  newData.nodes.forEach((nodeData) => {
-    let node = cy.getElementById(nodeData.data.id);
-    console.log(nodeData);
-    if (node.length) {
-      node.data(nodeData.data);
-      node.classes(nodeData.classes); // Update classes
-    } else {
-      cy.add({
-        group: "nodes",
-        data: nodeData.data,
-        classes: nodeData.classes,
-      });
-    }
-  });
+  const processElements = (currentElements, newElements) => {
+    const currentIds = currentElements.map((ele) => ele.id());
+    const newIds = newElements.map((ele) => ele.data.id);
 
-  newData.edges.forEach((edgeData) => {
-    let edge = cy.getElementById(edgeData.data.id);
-    if (edge.length) {
-      // If the edge exists, update its data (no animation for edges)
-      edge.data(edgeData.data);
-    } else {
-      cy.add({
-        group: "edges",
-        data: edgeData.data,
-        classes: edgeData.classes,
-      });
-    }
-  });
+    // Additions
+    const toAdd = newElements.filter(
+      (ele) => !currentIds.includes(ele.data.id)
+    );
+    cy.add(toAdd);
 
-  //  Exit - Remove elements that are not in the new data
-  cy.elements().forEach((ele) => {
-    let foundInNodes = newData.nodes.some((n) => n.data.id === ele.id());
-    let foundInEdges = newData.edges.some((e) => e.data.id === ele.id());
-    if (!foundInNodes && !foundInEdges) {
-      ele.animate({
-        style: { opacity: 0.1 },
-        duration: 500,
-        complete: () => ele.remove(),
-      });
-    }
-  });
+    // Updates
+    newElements.forEach((ele) => {
+      if (currentIds.includes(ele.data.id)) {
+        cy.getElementById(ele.data.id).data(ele.data);
+      }
+    });
 
-  cy.layout(fcoseLayoutConfig).run();
+    // Deletions
+    const toRemove = currentElements.filter(
+      (ele) => !newIds.includes(ele.id())
+    );
+    cy.remove(toRemove);
+  };
+
+  processElements(currentNodes, newNodes);
+  processElements(currentEdges, newEdges);
+
+  cy.layout(layoutConfig).run();
 }

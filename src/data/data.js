@@ -325,11 +325,9 @@ const data_a2 = {
   ],
 };
 
-const cyDataSets = {
+export const cyDataSets = {
   final: getCyElements(data_final),
   cc3: getCyElements(data_cc3),
   a1: getCyElements(data_a1),
   a2: getCyElements(data_a2),
 };
-
-export default cyDataSets;
