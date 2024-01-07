@@ -1,40 +1,42 @@
 import { useState } from "react";
 
-const Sidebar = ({ dataSet, data, onClick, onHover, onHoverOut }) => {
-  const versionItems = Object.keys(dataSet);
+import LayoutSelector from "./LayoutSelector";
+import VersionSelector from "./VersionSelector";
+import DatasetSelector from "./DatasetSelector";
 
+const Sidebar = ({
+  dataset,
+  datasetItems,
+  version,
+  versionItems,
+  data,
+  layout,
+  layoutTypes,
+  onVersionClick,
+  onLayoutChange,
+  onDatasetChange,
+}) => {
   if (data.length == 0) return;
 
   const nodeTypes = [...new Set(data.nodes.map((node) => node.classes))];
 
   return (
-    <div className="w-64 p-4 ">
-      <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
-        <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>
-        {versionItems.map((version, i) => (
-          <div
-            key={i}
-            className="flex items-center space-x-2 hover:cursor-pointer hover:bg-gray-100 p-1 rounded-md"
-            onClick={() => onClick(version)}
-          >
-            <div className="w-4 h-4 rounded-full bg-gray-400"></div>
-            <span>{version}</span>
-          </div>
-        ))}
-
-        <div className="flex items-center space-x-2 border p-1 rounded-md mt-5">
-          {nodeTypes.map((type, i) => (
-            <div
-              key={i}
-              className="w-full h-fit text-center rounded hover:cursor-pointer hover:bg-gray-200"
-              // onMouseEnter={() => onHover(type)}
-              // onMouseLeave={onHoverOut}
-            >
-              <span>{type}</span>
-            </div>
-          ))}
-        </div>
-      </div>
+    <div className="w-[15%] p-4 h-full overflow-auto">
+      <DatasetSelector
+        datasetItems={datasetItems}
+        selectedDataset={dataset}
+        onDatasetChange={onDatasetChange}
+      />
+      <LayoutSelector
+        layoutTypes={layoutTypes}
+        selectedLayout={layout}
+        onLayoutChange={onLayoutChange}
+      />
+      <VersionSelector
+        versionItems={versionItems}
+        selectedVersion={version}
+        onVersionClick={onVersionClick}
+      />
 
       <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
         <h4 className="text-lg font-semibold mb-2">Perspectiva</h4>

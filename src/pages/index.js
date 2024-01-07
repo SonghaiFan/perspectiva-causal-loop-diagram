@@ -1,21 +1,44 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Graph from "@/components/Diagram";
-import { cyDataSets } from "../data/data";
-import { layoutConfig } from "@/config/graphLayout";
+import { allCyDataSets } from "../data/data";
+import { layoutConfigs } from "@/config/graphLayout";
 import cloneDeep from "lodash/cloneDeep";
-
 import { useState, useEffect, useRef } from "react";
 // Deep copy the data to avoid direct modification of original data
-const getCyData = (key) => cloneDeep(cyDataSets[key]);
 
 export default function Home() {
-  const [data, setData] = useState(getCyData("final"));
-  const [layout, setLayout] = useState(layoutConfig);
+  const [dataset, setDataset] = useState("demo");
+  const [version, setVersion] = useState("final");
+  const [layout, setLayout] = useState("cola");
+  const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
 
-  const handleVersionClick = (version) => {
-    setData(getCyData(version));
-  };
+  const getCyData = (dataset, version) =>
+    cloneDeep(allCyDataSets[dataset][version]);
+
+  const [data, setData] = useState(getCyData(dataset, version));
+  const datasetItems = Object.keys(allCyDataSets);
+  const versionItems = Object.keys(allCyDataSets[dataset]);
+  const layoutTypes = Object.keys(layoutConfigs);
+
+  useEffect(() => {
+    // Check if the selected version exists in the new dataset
+    const versionItems = Object.keys(allCyDataSets[dataset]);
+    if (!versionItems.includes(version)) {
+      setVersion("final"); // Reset to default if version not found
+    } else {
+      setVersion(version); // Keep the current version if it exists in the new dataset
+    }
+  }, [dataset]);
+
+  useEffect(() => {
+    // Update data and layout configuration when dataset, version, or layout changes
+    const updatedVersion = Object.keys(allCyDataSets[dataset]).includes(version)
+      ? version
+      : "final";
+    setData(getCyData(dataset, updatedVersion));
+    setLayoutConfig(layoutConfigs[layout]);
+  }, [dataset, version, layout]);
 
   return (
     <main className="flex h-screen overflow-hidden">
@@ -23,11 +46,22 @@ export default function Home() {
         {/* Title area */}
         <Header />
         {/* Diagram area */}
-        <Graph data={data} layout={layout} />
+        <Graph data={data} layout={layoutConfig} />
       </div>
 
       {/* Sidebar */}
-      <Sidebar dataSet={cyDataSets} data={data} onClick={handleVersionClick} />
+      <Sidebar
+        dataset={dataset}
+        datasetItems={datasetItems}
+        version={version}
+        versionItems={versionItems}
+        data={data}
+        layout={layout}
+        layoutTypes={layoutTypes}
+        onDatasetChange={(dataset) => setDataset(dataset)}
+        onVersionClick={(version) => setVersion(version)}
+        onLayoutChange={(layout) => setLayout(layout)}
+      />
     </main>
   );
 }

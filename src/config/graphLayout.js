@@ -3,7 +3,7 @@ export const colaLayoutConfig = {
   name: "cola",
   animate: true, // whether to show the layout as it's running
   refresh: 0.2, // number of ticks per frame; higher is faster but more jerky
-  maxSimulationTime: 4000, // max length in ms to run the layout
+  maxSimulationTime: 500, // max length in ms to run the layout
   ungrabifyWhileSimulating: false, // so you can't drag nodes during layout
   fit: true, // on every layout reposition of nodes, fit the viewport
   padding: 30, // padding around the simulation
@@ -53,7 +53,7 @@ export const fcoseLayoutConfig = {
   // Whether or not to animate the layout
   animate: true,
   // Duration of animation in ms, if enabled
-  animationDuration: 500,
+  animationDuration: 1000,
   // Easing of animation, if enabled
   animationEasing: undefined,
   // Fit the viewport to the repositioned nodes
@@ -133,4 +133,7 @@ export const fcoseLayoutConfig = {
   stop: () => {}, // on layoutstop
 };
 
-export const layoutConfig = fcoseLayoutConfig;
+export const layoutConfigs = {
+  cola: colaLayoutConfig,
+  fcose: fcoseLayoutConfig,
+};
