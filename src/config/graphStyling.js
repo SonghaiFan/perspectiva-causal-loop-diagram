@@ -43,6 +43,11 @@ export const graphStyles = [
       "arrow-scale": 0.8,
       "control-point-distances": [20, -20], // Use positive and negative values to alternate curves
       "control-point-weights": [0.5], // Adjust this to control the curvature
+      label: "data(label)",
+      // "edge-text-rotation": "autorotate",
+      // add border to edge label
+      "text-outline-color": "#fff",
+      "text-outline-width": "1px",
     },
   },
   {
