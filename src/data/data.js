@@ -1662,8 +1662,7 @@ const allCyDataSets = {
                 id: "city_person_2_1",
                 key: 1,
                 label: "public policy in tech sector",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1680,8 +1679,7 @@ const allCyDataSets = {
                 id: "city_person_2_10",
                 key: 10,
                 label: "amount of data retained by private enterprises",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1706,8 +1704,7 @@ const allCyDataSets = {
                 id: "city_person_2_2",
                 key: 2,
                 label: "citizen awareness of data collection",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1724,8 +1721,7 @@ const allCyDataSets = {
                 id: "city_person_2_3",
                 key: 3,
                 label: "public sector expertise",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1742,8 +1738,7 @@ const allCyDataSets = {
                 id: "city_person_2_4",
                 key: 4,
                 label: "private transport services",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1760,8 +1755,7 @@ const allCyDataSets = {
                 id: "city_person_2_5",
                 key: 5,
                 label: "pro-private sector data structures",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1778,8 +1772,7 @@ const allCyDataSets = {
                 id: "city_person_2_6",
                 key: 6,
                 label: "rate of tech innovation",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1796,8 +1789,7 @@ const allCyDataSets = {
                 id: "city_person_2_7",
                 key: 7,
                 label: "public service funding",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1822,8 +1814,7 @@ const allCyDataSets = {
                 id: "city_person_2_8",
                 key: 8,
                 label: "hiring consultants",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1840,8 +1831,7 @@ const allCyDataSets = {
                 id: "city_person_2_9",
                 key: 9,
                 label: "technological convenience",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1858,8 +1848,7 @@ const allCyDataSets = {
                 id: "city_person_2_17",
                 key: 17,
                 label: "violation of contractual integrity (potential)",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1876,8 +1865,7 @@ const allCyDataSets = {
                 id: "city_person_2_18",
                 key: 18,
                 label: "citizen desensitisation to data collection",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1894,8 +1882,7 @@ const allCyDataSets = {
                 id: "city_person_2_46",
                 key: 46,
                 label: "quality and availability of urban services (transport)",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1920,8 +1907,7 @@ const allCyDataSets = {
                 id: "city_person_2_50",
                 key: 50,
                 label: "pedestrian data models",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1938,8 +1924,7 @@ const allCyDataSets = {
                 id: "city_person_2_11",
                 key: 11,
                 label: "on-selling of de-identified data",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1956,8 +1941,7 @@ const allCyDataSets = {
                 id: "city_person_2_51",
                 key: 51,
                 label: "corporate data practices",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1974,8 +1958,7 @@ const allCyDataSets = {
                 id: "city_person_2_12",
                 key: 12,
                 label: "speculation of data as commodity",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -1992,8 +1975,7 @@ const allCyDataSets = {
                 id: "city_person_2_14",
                 key: 14,
                 label: "private sector revenue",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -2010,8 +1992,7 @@ const allCyDataSets = {
                 id: "city_person_2_13",
                 key: 13,
                 label: "pedestrian models",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -2028,8 +2009,7 @@ const allCyDataSets = {
                 id: "city_person_2_15",
                 key: 15,
                 label: "tech investment",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },
@@ -2046,8 +2026,7 @@ const allCyDataSets = {
                 id: "city_person_2_16",
                 key: 16,
                 label: "lobbying",
-                participant_type:
-                  "person_living,_studying,_and/or_working_in_the_city",
+                participant_type: "city_person",
                 group: "city_person_2",
                 history: [],
               },

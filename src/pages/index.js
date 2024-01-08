@@ -41,7 +41,7 @@ export default function Home() {
   }, [dataset, version, layout]);
 
   return (
-    <main className="flex h-screen overflow-hidden">
+    <main className="flex w-screen h-screen overflow-hidden">
       <div className="flex flex-grow flex-col p-4">
         {/* Title area */}
         <Header />
