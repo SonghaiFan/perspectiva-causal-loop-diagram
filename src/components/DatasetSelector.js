@@ -38,7 +38,7 @@ const DatasetSelector = ({
             {datasetItems.map((dataset, i) => (
               <div
                 key={i}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                className="px-4 py-2 text-left hover:bg-gray-100 cursor-pointer"
                 onClick={() => handleDatasetChange(dataset)}
               >
                 {dataset}

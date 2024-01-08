@@ -5,15 +5,14 @@ import { allCyDataSets } from "../data/data";
 import { layoutConfigs } from "@/config/graphLayout";
 import cloneDeep from "lodash/cloneDeep";
 import { useState, useEffect, useRef } from "react";
-// Deep copy the data to avoid direct modification of original data
 
 export default function Home() {
-  const [dataset, setDataset] = useState("Demo");
+  const [dataset, setDataset] = useState(Object.keys(allCyDataSets)[0]);
   const [version, setVersion] = useState("final");
   const [focusVersion, setFocusVersion] = useState(null);
   const [layout, setLayout] = useState("cola");
   const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
-
+  // Deep copy the data to avoid direct modification of original data
   const getCyData = (dataset, version) =>
     cloneDeep(allCyDataSets[dataset][version]);
 
