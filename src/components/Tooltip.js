@@ -79,12 +79,6 @@ const Tooltip = ({ element, visible, position, placement }) => {
       <div className="text-gray-700 mt-2 text-lg font-bold">
         {labelUpperCase}
       </div>
-      {element.classes().length > 0 && (
-        <div className="text-gray-600 mt-2">
-          Participant(s): {element.classes().join(", ")}
-        </div>
-      )}
-
       {element.data("history") && (
         <>
           <div className="mt-4">
