@@ -79,7 +79,7 @@ const Tooltip = ({ element, visible, position, placement }) => {
       <div className="text-gray-700 mt-2 text-lg font-bold">
         {labelUpperCase}
       </div>
-      {element.data("history") && (
+      {element.data("history").length > 0 && (
         <>
           <div className="mt-4">
             <strong className="text-gray-800 bg-yellow-400 rounded px-2 py-1">
