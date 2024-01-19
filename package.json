@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tippyjs/react": "^4.2.6",
     "cytoscape": "^3.28.1",
     "cytoscape-cola": "^2.5.1",
     "cytoscape-fcose": "^2.2.0",
