@@ -21,7 +21,7 @@ export const graphStyles = [
     selector: "node.highlighted",
     style: {
       color: "#ffffff",
-      "background-color": "#ff0000",
+      "background-color": "#f66667",
     },
   },
   {
@@ -36,8 +36,8 @@ export const graphStyles = [
     style: {
       width: 2,
       "curve-style": "unbundled-bezier",
-      "line-color": "#AAA", // Grey line color
-      "target-arrow-color": "#AAA", // Grey arrow color
+      "line-color": "#47A770",
+      "target-arrow-color": "#47A770",
       "target-arrow-shape": "triangle",
       "arrow-scale": 0.8,
       "control-point-distances": [20, -20], // Use positive and negative values to alternate curves
@@ -53,6 +53,8 @@ export const graphStyles = [
     selector: 'edge[type="negative"]',
     style: {
       "line-style": "dashed",
+      "line-color": "#0D6876",
+      "target-arrow-color": "#0D6876",
       "curve-style": "unbundled-bezier",
       "control-point-distances": [-20, 20],
       "control-point-weights": [0.5],

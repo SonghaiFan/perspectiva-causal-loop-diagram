@@ -11,7 +11,7 @@ const VersionSelector = ({
         <div
           key={i}
           className={`flex items-center space-x-2 hover:cursor-pointer hover:bg-gray-100 p-1 rounded-md
-          ${version == "final" ? "border font-bold" : ""} `}
+          ${version === "final" ? "border font-bold" : ""}`}
           onClick={() => onVersionClick(version)}
           onMouseEnter={() => onVersionHover(version)}
           onMouseLeave={() => onVersionHover(null)}
@@ -27,6 +27,20 @@ const VersionSelector = ({
               .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
               .join(" ")}
           </span>
+          {/* Add a rounded rect badge, default is V1, and indicate V2 if selected except for 'final' */}
+          {version !== "final" && (
+            <div
+              className={`px-1 rounded-sm text-xs ${
+                selectedVersion === version
+                  ? "bg-yellow-400 text-black"
+                  : "bg-gray-200 text-gray-800"
+              }`}
+            >
+              {selectedVersion == version || selectedVersion == "final"
+                ? "V2"
+                : "V1"}
+            </div>
+          )}
         </div>
       ))}
     </div>

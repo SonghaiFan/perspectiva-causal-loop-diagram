@@ -4,14 +4,24 @@ import Graph from "@/components/Diagram";
 import { allCyDataSets } from "../data/data";
 import { layoutConfigs } from "@/config/graphLayout";
 import cloneDeep from "lodash/cloneDeep";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
-  const [dataset, setDataset] = useState(Object.keys(allCyDataSets)[0]);
+  const router = useRouter();
+  const { dataset: queryDataset } = router.query;
+  console.log("queryDataset", queryDataset);
+
+  const defaultDataset = queryDataset || Object.keys(allCyDataSets)[0];
+
+  console.log("defaultDataset", defaultDataset);
+  const [dataset, setDataset] = useState(defaultDataset);
   const [version, setVersion] = useState("final");
   const [focusVersion, setFocusVersion] = useState(null);
-  const [layout, setLayout] = useState("cola");
+  const [layout, setLayout] = useState("fcose");
   const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
+  const [loading, setLoading] = useState(true);
+
   // Deep copy the data to avoid direct modification of original data
   const getCyData = (dataset, version) =>
     cloneDeep(allCyDataSets[dataset][version]);
@@ -20,6 +30,18 @@ export default function Home() {
   const datasetItems = Object.keys(allCyDataSets);
   const versionItems = Object.keys(allCyDataSets[dataset]);
   const layoutTypes = Object.keys(layoutConfigs);
+
+  useEffect(() => {
+    if (router.isReady) {
+      const newDataset =
+        queryDataset && allCyDataSets[queryDataset]
+          ? queryDataset
+          : defaultDataset;
+      setDataset(newDataset);
+      setData(getCyData(newDataset, version));
+      setLoading(false);
+    }
+  }, [router.isReady, queryDataset]);
 
   useEffect(() => {
     // Check if the selected version exists in the new dataset
@@ -39,6 +61,10 @@ export default function Home() {
     setData(getCyData(dataset, updatedVersion));
     setLayoutConfig(layoutConfigs[layout]);
   }, [dataset, version, layout]);
+
+  if (loading) {
+    return <div>Loading...</div>; // Replace this with a proper loading indicator if needed
+  }
 
   return (
     <main className="flex w-screen h-screen overflow-hidden">
