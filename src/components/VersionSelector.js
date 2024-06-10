@@ -17,9 +17,8 @@ const VersionSelector = ({
           onMouseLeave={() => onVersionHover(null)}
         >
           <div
-            className={`w-4 h-4 rounded-full ${
-              selectedVersion === version ? "bg-yellow-400" : "bg-gray-400"
-            }`}
+            className={`w-4 h-4 rounded-full ${selectedVersion === version ? "bg-yellow-400" : "bg-gray-400"
+              }`}
           ></div>
           <span className="truncate max-w-xs">
             {version
@@ -28,7 +27,7 @@ const VersionSelector = ({
               .join(" ")}
           </span>
           {/* Add a rounded rect badge, default is V1, and indicate V2 if selected except for 'final' */}
-          {version !== "final" && (
+          {/* {version !== "final" && (
             <div
               className={`px-1 rounded-sm text-xs ${
                 selectedVersion === version
@@ -40,7 +39,7 @@ const VersionSelector = ({
                 ? "V2"
                 : "V1"}
             </div>
-          )}
+          )} */}
         </div>
       ))}
     </div>
