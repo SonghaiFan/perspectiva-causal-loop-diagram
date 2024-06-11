@@ -488,6 +488,495 @@ const allCyDataSets = {
       ],
     },
   },
+  "CLD_data_demo2.csv": {
+    advocate_1: {
+      nodes: [
+        {
+          data: {
+            id: "1",
+            label: "data collection",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "2",
+            label: "privacy risks",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "3",
+            label: "awareness",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "4",
+            label: "regulation",
+            history: [],
+          },
+          classes: "",
+        },
+      ],
+      edges: [
+        {
+          data: {
+            id: "1-2",
+            source: "1",
+            target: "2",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "2-3",
+            source: "2",
+            target: "3",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "3-4",
+            source: "3",
+            target: "4",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "4-1",
+            source: "4",
+            target: "1",
+            label: "-",
+            type: "negative",
+          },
+        },
+      ],
+    },
+    advocate_2: {
+      nodes: [
+        {
+          data: {
+            id: "1",
+            label: "data",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "5",
+            label: "desensitisation of people",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "3",
+            label: "degree of awareness",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "6",
+            label: "people's buy-in",
+            history: [],
+          },
+          classes: "",
+        },
+      ],
+      edges: [
+        {
+          data: {
+            id: "1-5",
+            source: "1",
+            target: "5",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "5-3",
+            source: "5",
+            target: "3",
+            label: "-",
+            type: "negative",
+          },
+        },
+        {
+          data: {
+            id: "3-6",
+            source: "3",
+            target: "6",
+            label: "-",
+            type: "negative",
+          },
+        },
+        {
+          data: {
+            id: "6-1",
+            source: "6",
+            target: "1",
+            label: "+",
+            type: "positive",
+          },
+        },
+      ],
+    },
+    city_council_3: {
+      nodes: [
+        {
+          data: {
+            id: "1",
+            label: "collection of data",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "7",
+            label: "better services",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "8",
+            label: "money",
+            history: [],
+          },
+          classes: "",
+        },
+      ],
+      edges: [
+        {
+          data: {
+            id: "1-7",
+            source: "1",
+            target: "7",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "7-8",
+            source: "7",
+            target: "8",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "8-1",
+            source: "8",
+            target: "1",
+            label: "+",
+            type: "positive",
+          },
+        },
+      ],
+    },
+    final: {
+      nodes: [
+        {
+          data: {
+            id: "1",
+            label: "amount of collected data",
+            history: [
+              {
+                id: "advocate_1_1",
+                key: 1,
+                label: "data collection",
+                participant_type: "advocate",
+                group: "advocate_1",
+                history: [],
+              },
+              {
+                id: "advocate_2_1",
+                key: 1,
+                label: "data",
+                participant_type: "advocate",
+                group: "advocate_2",
+                history: [],
+              },
+              {
+                id: "city_council_3_1",
+                key: 1,
+                label: "collection of data",
+                participant_type: "city_council",
+                group: "city_council_3",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_1 advocate_2 city_council_3",
+        },
+        {
+          data: {
+            id: "2",
+            label: "level of privacy risk",
+            history: [
+              {
+                id: "advocate_1_2",
+                key: 2,
+                label: "privacy risks",
+                participant_type: "advocate",
+                group: "advocate_1",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_1",
+        },
+        {
+          data: {
+            id: "3",
+            label: "level of awareness",
+            history: [
+              {
+                id: "advocate_1_3",
+                key: 3,
+                label: "awareness",
+                participant_type: "advocate",
+                group: "advocate_1",
+                history: [],
+              },
+              {
+                id: "advocate_2_3",
+                key: 3,
+                label: "degree of awareness",
+                participant_type: "advocate",
+                group: "advocate_2",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_1 advocate_2",
+        },
+        {
+          data: {
+            id: "4",
+            label: "level of regulation",
+            history: [
+              {
+                id: "advocate_1_4",
+                key: 4,
+                label: "regulation",
+                participant_type: "advocate",
+                group: "advocate_1",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_1",
+        },
+        {
+          data: {
+            id: "5",
+            label: "degree to which people are sensitised",
+            history: [
+              {
+                id: "advocate_2_5",
+                key: 5,
+                label: "desensitisation of people",
+                participant_type: "advocate",
+                group: "advocate_2",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_2",
+        },
+        {
+          data: {
+            id: "6",
+            label: "level of people's approval to data collection",
+            history: [
+              {
+                id: "advocate_2_6",
+                key: 6,
+                label: "people's buy-in",
+                participant_type: "advocate",
+                group: "advocate_2",
+                history: [],
+              },
+            ],
+          },
+          classes: "advocate_2",
+        },
+        {
+          data: {
+            id: "7",
+            label: "quality of services",
+            history: [
+              {
+                id: "city_council_3_7",
+                key: 7,
+                label: "better services",
+                participant_type: "city_council",
+                group: "city_council_3",
+                history: [],
+              },
+            ],
+          },
+          classes: "city_council_3",
+        },
+        {
+          data: {
+            id: "8",
+            label: "profit generated by data collecting entities",
+            history: [
+              {
+                id: "city_council_3_8",
+                key: 8,
+                label: "money",
+                participant_type: "city_council",
+                group: "city_council_3",
+                history: [],
+              },
+            ],
+          },
+          classes: "city_council_3",
+        },
+        {
+          data: {
+            id: "9",
+            label: "investment in data collecting initiatives",
+            history: [],
+          },
+          classes: "",
+        },
+      ],
+      edges: [
+        {
+          data: {
+            id: "1-2",
+            source: "1",
+            target: "2",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "2-3",
+            source: "2",
+            target: "3",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "3-4",
+            source: "3",
+            target: "4",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "4-1",
+            source: "4",
+            target: "1",
+            label: "-",
+            type: "negative",
+          },
+        },
+        {
+          data: {
+            id: "1-5",
+            source: "1",
+            target: "5",
+            label: "-",
+            type: "negative",
+          },
+        },
+        {
+          data: {
+            id: "5-3",
+            source: "5",
+            target: "3",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "3-6",
+            source: "3",
+            target: "6",
+            label: "-",
+            type: "negative",
+          },
+        },
+        {
+          data: {
+            id: "6-1",
+            source: "6",
+            target: "1",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "1-7",
+            source: "1",
+            target: "7",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "7-8",
+            source: "7",
+            target: "8",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "8-9",
+            source: "8",
+            target: "9",
+            label: "+",
+            type: "positive",
+          },
+        },
+        {
+          data: {
+            id: "9-1",
+            source: "9",
+            target: "1",
+            label: "+",
+            type: "positive",
+          },
+        },
+      ],
+    },
+  },
   "CLD_data_real.csv": {
     city_person_2: {
       nodes: [
