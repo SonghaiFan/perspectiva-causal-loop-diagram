@@ -35,7 +35,7 @@ def create_d3_graph_data(df, version):
 
         value = 1 if row['polarity'] == 'positive' else -1
         sign = '+' if row['polarity'] == 'positive' else '-'
-        # link_color = 1 if row['link_color'] == 'y' else 2
+        link_color = 4 if row['color_link'] == 'y' else 3
         link = {
             "id": f"{row['source_id']}-{row['target_id']}",
             "label": sign,
@@ -45,7 +45,7 @@ def create_d3_graph_data(df, version):
             "type": row['polarity'],
             "participant_type": row.get('participant_type', ''),
             "group": f"{row['participant_type']}_{row['participant_number']}" if version == 1 else "",
-            # "color": link_color
+            "color": link_color
         }
         links_data.append(link)
 
@@ -142,7 +142,8 @@ def get_cy_elements(data):
                 'source': str(link['source']),
                 'target': str(link['target']),
                 'label': link['label'],
-                'type': link['type']
+                'type': link['type'],
+                'color': link['color']
             }
         })
 
