@@ -20,20 +20,22 @@ def create_d3_graph_data(df, version):
     for _, row in df_filtered.iterrows():
         for node_type in ['source_id', 'target_id']:
             node_label = row['source'] if node_type == 'source_id' else row['target']
+            node_color = row['source_color'] if node_type == 'source_id' else row['target_color']
             node_data = {
                 "id": row[node_type],
                 "label": node_label,
                 "participant_type": row.get('participant_type', ''),
-                "group": f"{row['participant_type']}_{row['participant_number']}" if version == 1 else ""
+                "group": f"{row['participant_type']}_{row['participant_number']}" if version == 1 else "",
+                "color" : node_color
             }
             nodes_data.append(node_data)
 
         if version == 2:
-            nodes_data = list(
-                {node['id']: node for node in nodes_data}.values())
+            nodes_data = list({node['id']: node for node in nodes_data}.values())
 
         value = 1 if row['polarity'] == 'positive' else -1
         sign = '+' if row['polarity'] == 'positive' else '-'
+        # link_color = 1 if row['link_color'] == 'y' else 2
         link = {
             "id": f"{row['source_id']}-{row['target_id']}",
             "label": sign,
@@ -42,7 +44,8 @@ def create_d3_graph_data(df, version):
             "value": value,
             "type": row['polarity'],
             "participant_type": row.get('participant_type', ''),
-            "group": f"{row['participant_type']}_{row['participant_number']}" if version == 1 else ""
+            "group": f"{row['participant_type']}_{row['participant_number']}" if version == 1 else "",
+            # "color": link_color
         }
         links_data.append(link)
 
@@ -126,6 +129,7 @@ def get_cy_elements(data):
             'data': {
                 'id': str(node['id']),
                 'label': node['label'],
+                'color': node['color'],
                 'history': node.get('history', [])
             },
             'classes': classes_string
@@ -149,7 +153,7 @@ def process_datasets(data_sets):
     return {key: get_cy_elements(value) for key, value in data_sets.items()}
 
 
-file_path = ['CLD_data_demo.csv', 'CLD_data_real.csv']
+file_path = ['CLD_participant2.csv', 'CLD_participant6.csv', 'CLD_participant8.csv']
 
 
 all_cy_data_sets = {}
