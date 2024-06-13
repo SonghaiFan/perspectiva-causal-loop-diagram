@@ -35,7 +35,7 @@ def create_d3_graph_data(df, version):
 
         value = 1 if row['polarity'] == 'positive' else -1
         sign = '+' if row['polarity'] == 'positive' else '-'
-        link_color = 4 if row['color_link'] == 'y' else 3
+        link_color = row['link_color']
         link = {
             "id": f"{row['source_id']}-{row['target_id']}",
             "label": sign,

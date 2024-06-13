@@ -15,7 +15,7 @@
           "data": {
             "id": "10",
             "label": "amount of data retained by private enterprises",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -24,7 +24,7 @@
           "data": {
             "id": "2",
             "label": "citizen awareness of data collection",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -42,7 +42,7 @@
           "data": {
             "id": "4",
             "label": "private transport services",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -51,7 +51,7 @@
           "data": {
             "id": "5",
             "label": "pro-private sector data structures",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -96,7 +96,7 @@
           "data": {
             "id": "17",
             "label": "violation of contractual integrity (potential)",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -105,7 +105,7 @@
           "data": {
             "id": "18",
             "label": "citizen desensitisation to data collection",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -114,7 +114,7 @@
           "data": {
             "id": "46",
             "label": "quality and availability of urban services (transport)",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -123,7 +123,7 @@
           "data": {
             "id": "50",
             "label": "pedestrian data models",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -132,7 +132,7 @@
           "data": {
             "id": "11",
             "label": "on-selling of de-identified data",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -141,7 +141,7 @@
           "data": {
             "id": "51",
             "label": "corporate data practices",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -159,7 +159,7 @@
           "data": {
             "id": "14",
             "label": "private sector revenue",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -168,7 +168,7 @@
           "data": {
             "id": "13",
             "label": "pedestrian models",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -177,7 +177,7 @@
           "data": {
             "id": "15",
             "label": "tech investment",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -200,7 +200,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -210,7 +210,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -220,7 +220,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -230,7 +230,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -250,7 +250,7 @@
             "target": "2",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -260,7 +260,7 @@
             "target": "3",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -270,7 +270,7 @@
             "target": "3",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -280,7 +280,7 @@
             "target": "8",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -290,7 +290,7 @@
             "target": "5",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -300,7 +300,7 @@
             "target": "5",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -310,7 +310,7 @@
             "target": "17",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -320,7 +320,7 @@
             "target": "18",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -330,7 +330,7 @@
             "target": "46",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -340,7 +340,7 @@
             "target": "50",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -350,7 +350,7 @@
             "target": "11",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -360,7 +360,7 @@
             "target": "51",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -370,7 +370,7 @@
             "target": "12",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -390,7 +390,7 @@
             "target": "14",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -400,7 +400,7 @@
             "target": "14",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -410,7 +410,7 @@
             "target": "15",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -420,7 +420,7 @@
             "target": "16",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -430,7 +430,7 @@
             "target": "6",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -440,7 +440,7 @@
             "target": "4",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -450,7 +450,7 @@
             "target": "18",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -460,7 +460,7 @@
             "target": "2",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 0
           }
         }
       ]
@@ -507,7 +507,7 @@
           "data": {
             "id": "2",
             "label": "level of citizen awareness",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_2",
@@ -543,7 +543,7 @@
           "data": {
             "id": "4",
             "label": "privatisation of transport services",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_4",
@@ -579,7 +579,7 @@
           "data": {
             "id": "6",
             "label": "rate of technological innovation",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_6",
@@ -597,7 +597,7 @@
           "data": {
             "id": "7",
             "label": "public sector funding",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_7",
@@ -615,7 +615,7 @@
           "data": {
             "id": "8",
             "label": "hiring consultants",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_8",
@@ -633,7 +633,7 @@
           "data": {
             "id": "9",
             "label": "technological convenience",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_9",
@@ -651,7 +651,7 @@
           "data": {
             "id": "17",
             "label": "violation of contractual integrity (potential)",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_17",
@@ -669,7 +669,7 @@
           "data": {
             "id": "18",
             "label": "citizen desensitisation to data collection",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_18",
@@ -687,7 +687,7 @@
           "data": {
             "id": "46",
             "label": "quality of services",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_46",
@@ -759,7 +759,7 @@
           "data": {
             "id": "12",
             "label": "speculation of data as commodity",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_12",
@@ -777,7 +777,7 @@
           "data": {
             "id": "14",
             "label": "private sector revenue",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_14",
@@ -795,7 +795,7 @@
           "data": {
             "id": "13",
             "label": "pedestrian models",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_13",
@@ -813,7 +813,7 @@
           "data": {
             "id": "15",
             "label": "investments in technological developments",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_15",
@@ -831,7 +831,7 @@
           "data": {
             "id": "16",
             "label": "lobbying",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "person_living,_studying,_and/or_working_in_the_city_2_16",
@@ -849,7 +849,7 @@
           "data": {
             "id": "61",
             "label": "availability of services",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -863,7 +863,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -873,7 +873,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -883,7 +883,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -893,7 +893,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -903,7 +903,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -913,7 +913,7 @@
             "target": "2",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -923,7 +923,7 @@
             "target": "3",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -933,7 +933,7 @@
             "target": "3",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -943,7 +943,7 @@
             "target": "8",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -953,7 +953,7 @@
             "target": "5",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -963,7 +963,7 @@
             "target": "5",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -973,7 +973,7 @@
             "target": "17",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -983,7 +983,7 @@
             "target": "18",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -993,7 +993,7 @@
             "target": "46",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1003,7 +1003,7 @@
             "target": "50",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -1013,7 +1013,7 @@
             "target": "11",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -1023,7 +1023,7 @@
             "target": "51",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1043,7 +1043,7 @@
             "target": "51",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1053,7 +1053,7 @@
             "target": "14",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -1063,7 +1063,7 @@
             "target": "14",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -1073,7 +1073,7 @@
             "target": "15",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1083,7 +1083,7 @@
             "target": "16",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1103,7 +1103,7 @@
             "target": "4",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1113,7 +1113,7 @@
             "target": "18",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -1123,7 +1123,7 @@
             "target": "2",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1133,7 +1133,7 @@
             "target": "61",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         }
       ]
@@ -1155,7 +1155,7 @@
           "data": {
             "id": "28",
             "label": "data used by law enforcement",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -1173,7 +1173,7 @@
           "data": {
             "id": "21",
             "label": "access of data from other entitites",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1182,7 +1182,7 @@
           "data": {
             "id": "22",
             "label": "social and political expectations for law enfovement to be using data and technologies to better police",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1191,7 +1191,7 @@
           "data": {
             "id": "23",
             "label": "techno-solutionism",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -1200,7 +1200,7 @@
           "data": {
             "id": "24",
             "label": "people's concern about crime",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -1209,7 +1209,7 @@
           "data": {
             "id": "25",
             "label": "pop-culture",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1218,7 +1218,7 @@
           "data": {
             "id": "26",
             "label": "use of off-the-shelf products",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1227,7 +1227,7 @@
           "data": {
             "id": "27",
             "label": "exemptions in different acts",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1245,7 +1245,7 @@
           "data": {
             "id": "52",
             "label": "predictive policing",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1254,7 +1254,7 @@
           "data": {
             "id": "31",
             "label": "reactive policing",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1263,7 +1263,7 @@
           "data": {
             "id": "29",
             "label": "predicitve policing",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1272,7 +1272,7 @@
           "data": {
             "id": "53",
             "label": "biased and discriminatory outcomes",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1281,7 +1281,7 @@
           "data": {
             "id": "30",
             "label": "people's sense of being able to move in public spaces",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -1314,7 +1314,7 @@
             "target": "28",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -1324,7 +1324,7 @@
             "target": "28",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1334,7 +1334,7 @@
             "target": "28",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1354,7 +1354,7 @@
             "target": "22",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1364,7 +1364,7 @@
             "target": "22",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -1374,7 +1374,7 @@
             "target": "21",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1384,7 +1384,7 @@
             "target": "21",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1394,7 +1394,7 @@
             "target": "26",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1404,7 +1404,7 @@
             "target": "52",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -1414,7 +1414,7 @@
             "target": "31",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -1424,7 +1424,7 @@
             "target": "53",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1434,7 +1434,7 @@
             "target": "30",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1444,7 +1444,7 @@
             "target": "54",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1454,7 +1454,7 @@
             "target": "30",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         }
       ]
@@ -1483,7 +1483,7 @@
           "data": {
             "id": "28",
             "label": "amount of data used by law enforcement",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "digita_rights_advocate_6_28",
@@ -1519,7 +1519,7 @@
           "data": {
             "id": "21",
             "label": "access of data from other entitites",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "digita_rights_advocate_6_21",
@@ -1537,7 +1537,7 @@
           "data": {
             "id": "22",
             "label": "social and political expectations for law enfovement to be using data and technologies to better police",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_22",
@@ -1555,7 +1555,7 @@
           "data": {
             "id": "23",
             "label": "techno-solutionism",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "digita_rights_advocate_6_23",
@@ -1573,7 +1573,7 @@
           "data": {
             "id": "24",
             "label": "people's concern about crime",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "digita_rights_advocate_6_24",
@@ -1591,7 +1591,7 @@
           "data": {
             "id": "25",
             "label": "pop-culture",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_25",
@@ -1609,7 +1609,7 @@
           "data": {
             "id": "26",
             "label": "use of off-the-shelf products",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_26",
@@ -1627,7 +1627,7 @@
           "data": {
             "id": "27",
             "label": "exemptions in different acts",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "digita_rights_advocate_6_27",
@@ -1645,7 +1645,7 @@
           "data": {
             "id": "7",
             "label": "public sector funding",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "digita_rights_advocate_6_7",
@@ -1663,7 +1663,7 @@
           "data": {
             "id": "52",
             "label": "predictive policing",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "digita_rights_advocate_6_52",
@@ -1681,7 +1681,7 @@
           "data": {
             "id": "31",
             "label": "reactive policing",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_31",
@@ -1699,7 +1699,7 @@
           "data": {
             "id": "29",
             "label": "predicitve policing",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_29",
@@ -1717,7 +1717,7 @@
           "data": {
             "id": "53",
             "label": "biased and discriminatory outcomes",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "digita_rights_advocate_6_53",
@@ -1753,7 +1753,7 @@
           "data": {
             "id": "54",
             "label": "underming of human rights",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "digita_rights_advocate_6_54",
@@ -1776,7 +1776,7 @@
             "target": "28",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1806,7 +1806,7 @@
             "target": "28",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -1816,7 +1816,7 @@
             "target": "22",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1826,7 +1826,7 @@
             "target": "22",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1836,7 +1836,7 @@
             "target": "22",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -1846,7 +1846,7 @@
             "target": "21",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1856,7 +1856,7 @@
             "target": "21",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1866,7 +1866,7 @@
             "target": "26",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -1876,7 +1876,7 @@
             "target": "52",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -1886,7 +1886,7 @@
             "target": "31",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -1896,7 +1896,7 @@
             "target": "53",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1906,7 +1906,7 @@
             "target": "30",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -1916,7 +1916,7 @@
             "target": "54",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -1926,7 +1926,7 @@
             "target": "30",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 2
           }
         }
       ]
@@ -1939,7 +1939,7 @@
           "data": {
             "id": "32",
             "label": "regulations and policies",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1948,7 +1948,7 @@
           "data": {
             "id": "10",
             "label": "data retained by private entities",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1957,7 +1957,7 @@
           "data": {
             "id": "33",
             "label": "data disposal",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1966,7 +1966,7 @@
           "data": {
             "id": "34",
             "label": "tendency to go digital",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -1975,7 +1975,7 @@
           "data": {
             "id": "35",
             "label": "need for customised user experience",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -1984,7 +1984,7 @@
           "data": {
             "id": "36",
             "label": "need for insights about customers",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2011,7 +2011,7 @@
           "data": {
             "id": "39",
             "label": "business model based on data monetisation",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -2020,7 +2020,7 @@
           "data": {
             "id": "40",
             "label": "privacy breaches",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2029,7 +2029,7 @@
           "data": {
             "id": "41",
             "label": "cost of data storage technology",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2056,7 +2056,7 @@
           "data": {
             "id": "44",
             "label": "expanding products/service offerring",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -2065,7 +2065,7 @@
           "data": {
             "id": "45",
             "label": "partnering with other entities yo provide bundle services",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -2074,7 +2074,7 @@
           "data": {
             "id": "55",
             "label": "consumerism",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2092,7 +2092,7 @@
           "data": {
             "id": "47",
             "label": "opportunities for data monetisation",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -2101,7 +2101,7 @@
           "data": {
             "id": "57",
             "label": "connectedness through virtual environmentl",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2110,7 +2110,7 @@
           "data": {
             "id": "58",
             "label": "trust in service providers",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -2119,7 +2119,7 @@
           "data": {
             "id": "46",
             "label": "quality of services",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2128,7 +2128,7 @@
           "data": {
             "id": "59",
             "label": "user's ease of access to data",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -2137,7 +2137,7 @@
           "data": {
             "id": "48",
             "label": "tampering political systems",
-            "color": 0,
+            "color": 1,
             "history": []
           },
           "classes": ""
@@ -2146,7 +2146,7 @@
           "data": {
             "id": "60",
             "label": "justice",
-            "color": 0,
+            "color": 2,
             "history": []
           },
           "classes": ""
@@ -2155,7 +2155,7 @@
           "data": {
             "id": "49",
             "label": "undesignated use of data",
-            "color": 0,
+            "color": 3,
             "history": []
           },
           "classes": ""
@@ -2169,7 +2169,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2179,7 +2179,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -2189,7 +2189,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2199,7 +2199,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -2209,7 +2209,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -2219,7 +2219,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -2229,7 +2229,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -2269,7 +2269,7 @@
             "target": "34",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2279,7 +2279,7 @@
             "target": "34",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -2289,7 +2289,7 @@
             "target": "36",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -2299,7 +2299,7 @@
             "target": "38",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -2319,7 +2319,7 @@
             "target": "55",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2329,7 +2329,7 @@
             "target": "56",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -2339,7 +2339,7 @@
             "target": "47",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -2349,7 +2349,7 @@
             "target": "57",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -2359,7 +2359,7 @@
             "target": "58",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -2369,7 +2369,7 @@
             "target": "46",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -2389,7 +2389,7 @@
             "target": "44",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -2399,7 +2399,7 @@
             "target": "48",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -2409,7 +2409,7 @@
             "target": "60",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2419,7 +2419,7 @@
             "target": "49",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -2429,7 +2429,7 @@
             "target": "40",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -2439,7 +2439,7 @@
             "target": "37",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         }
       ]
@@ -2450,7 +2450,7 @@
           "data": {
             "id": "32",
             "label": "regulations and policies",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_32",
@@ -2468,7 +2468,7 @@
           "data": {
             "id": "10",
             "label": "amount of data retained by private entities",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "corporate_8_10",
@@ -2504,7 +2504,7 @@
           "data": {
             "id": "34",
             "label": "tendency to go digital",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "corporate_8_34",
@@ -2558,7 +2558,7 @@
           "data": {
             "id": "37",
             "label": "onset of new technologies",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_37",
@@ -2594,7 +2594,7 @@
           "data": {
             "id": "39",
             "label": "business model based on data monetisation",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "corporate_8_39",
@@ -2630,7 +2630,7 @@
           "data": {
             "id": "41",
             "label": "cost of data storage technology",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "corporate_8_41",
@@ -2648,7 +2648,7 @@
           "data": {
             "id": "42",
             "label": "cost cutting",
-            "color": 0,
+            "color": 1,
             "history": [
               {
                 "id": "corporate_8_42",
@@ -2666,7 +2666,7 @@
           "data": {
             "id": "43",
             "label": "faster delivery of services",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_43",
@@ -2684,7 +2684,7 @@
           "data": {
             "id": "44",
             "label": "expanding products/service offerring",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_44",
@@ -2702,7 +2702,7 @@
           "data": {
             "id": "45",
             "label": "partnering with other entities yo provide bundle services",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_45",
@@ -2720,7 +2720,7 @@
           "data": {
             "id": "55",
             "label": "consumerism",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "corporate_8_55",
@@ -2756,7 +2756,7 @@
           "data": {
             "id": "47",
             "label": "opportunities for data monetisation",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_47",
@@ -2774,7 +2774,7 @@
           "data": {
             "id": "57",
             "label": "connectedness through virtual environmentl",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_57",
@@ -2792,7 +2792,7 @@
           "data": {
             "id": "58",
             "label": "trust in service providers",
-            "color": 0,
+            "color": 2,
             "history": [
               {
                 "id": "corporate_8_58",
@@ -2810,7 +2810,7 @@
           "data": {
             "id": "46",
             "label": "quality of services",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "corporate_8_46",
@@ -2864,7 +2864,7 @@
           "data": {
             "id": "60",
             "label": "justice",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "corporate_8_60",
@@ -2882,7 +2882,7 @@
           "data": {
             "id": "49",
             "label": "undesignated use of data",
-            "color": 0,
+            "color": 3,
             "history": [
               {
                 "id": "corporate_8_49",
@@ -2905,7 +2905,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -2915,7 +2915,7 @@
             "target": "10",
             "label": "-",
             "type": "negative",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -2925,7 +2925,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -2965,7 +2965,7 @@
             "target": "10",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -2985,7 +2985,7 @@
             "target": "33",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -2995,7 +2995,7 @@
             "target": "33",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -3005,7 +3005,7 @@
             "target": "34",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 2
           }
         },
         {
@@ -3015,7 +3015,7 @@
             "target": "34",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -3035,7 +3035,7 @@
             "target": "38",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 1
           }
         },
         {
@@ -3045,7 +3045,7 @@
             "target": "55",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -3055,7 +3055,7 @@
             "target": "55",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -3065,7 +3065,7 @@
             "target": "56",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -3075,7 +3075,7 @@
             "target": "47",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -3085,7 +3085,7 @@
             "target": "57",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -3095,7 +3095,7 @@
             "target": "58",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 1
           }
         },
         {
@@ -3105,7 +3105,7 @@
             "target": "46",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -3115,7 +3115,7 @@
             "target": "59",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -3125,7 +3125,7 @@
             "target": "44",
             "label": "+",
             "type": "positive",
-            "color": 4
+            "color": 3
           }
         },
         {
@@ -3135,7 +3135,7 @@
             "target": "48",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 0
           }
         },
         {
@@ -3145,7 +3145,7 @@
             "target": "60",
             "label": "-",
             "type": "negative",
-            "color": 4
+            "color": 0
           }
         },
         {
@@ -3155,7 +3155,7 @@
             "target": "49",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         },
         {
@@ -3175,7 +3175,7 @@
             "target": "37",
             "label": "+",
             "type": "positive",
-            "color": 3
+            "color": 2
           }
         }
       ]
