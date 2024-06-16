@@ -22,11 +22,11 @@ const Sidebar = ({
   return (
     <div className="w-[15%] p-4 h-full overflow-auto">
 
-      {/* <DatasetSelector
+      <DatasetSelector
         datasetItems={datasetItems}
         selectedDataset={dataset}
         onDatasetChange={onDatasetChange}
-      /> */}
+      />
 
       <LayoutSelector
         layoutTypes={layoutTypes}
