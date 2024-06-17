@@ -1,4 +1,10 @@
-const Legend = ({ legendItems }) => {
+const Legend = () => {
+  const legendItems = [
+    { label: "Relationship needs clarification", color: "#E97451" },
+    { label: "Conflict with other participants", color: "#00FFFF" },
+    { label: "Added", color: "#9fc5e8" },
+  ];
+
   return (
     <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
       <h4 className="text-lg font-semibold mb-2">Legend</h4>
@@ -9,7 +15,7 @@ const Legend = ({ legendItems }) => {
               className="w-5 h-5 rounded-sm"
               style={{ backgroundColor: item.color }}
             ></div>
-            <span className="text-gray-800">{item.label}</span>
+            <span className="text-gray-600 text-sm">{item.label}</span>
           </div>
         ))}
       </div>

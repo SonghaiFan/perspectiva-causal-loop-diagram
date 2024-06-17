@@ -1,3 +1,4 @@
+import Legend from "./Legend";
 const Header = () => {
   return (
     <div className="mb-4 bg-yellow-400 rounded-md p-3">
