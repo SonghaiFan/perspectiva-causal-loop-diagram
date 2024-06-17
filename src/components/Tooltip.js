@@ -12,7 +12,7 @@ const Tooltip = ({ element, visible, position, placement }) => {
         height: tooltipRef.current.offsetHeight,
       });
     }
-  }, [visible, tooltipRef.current]);
+  }, [visible]);
 
   // Ensure the useMemo hooks are always called
   const history = useMemo(

@@ -3,6 +3,13 @@ import { useState } from "react";
 import LayoutSelector from "./LayoutSelector";
 import VersionSelector from "./VersionSelector";
 import DatasetSelector from "./DatasetSelector";
+import Legend from "./Legend";
+
+const legendItems = [
+  { label: "Relationship needs clarification", color: "#E97451" },
+  { label: "Conflict with other participants", color: "#00FFFF" },
+  { label: "Added", color: "#9fc5e8" },
+];
 
 const Sidebar = ({
   dataset,
@@ -21,6 +28,7 @@ const Sidebar = ({
 
   return (
     <div className="w-[15%] p-4 h-full overflow-auto">
+      <Legend legendItems={legendItems} />
       {/* 
       <DatasetSelector
         datasetItems={datasetItems}

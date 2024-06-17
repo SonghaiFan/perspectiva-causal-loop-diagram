@@ -28,15 +28,15 @@ const Graph = ({ data, layout, focusVersion }) => {
     setTooltipVisible(false);
   };
 
-  useEffect(() => {
-    if (!cy.current) return; // Wait for Cytoscape to initialize
-    if (focusVersion) {
-      cy.current.elements().removeClass("highlighted");
-      cy.current.elements("node." + focusVersion).addClass("highlighted");
-    } else {
-      cy.current.elements().removeClass("highlighted");
-    }
-  }, [focusVersion]);
+  // useEffect(() => {
+  //   if (!cy.current) return; // Wait for Cytoscape to initialize
+  //   if (focusVersion) {
+  //     cy.current.elements().removeClass("highlighted");
+  //     cy.current.elements("node." + focusVersion).addClass("highlighted");
+  //   } else {
+  //     cy.current.elements().removeClass("highlighted");
+  //   }
+  // }, [focusVersion]);
 
   // Initialize Cytoscape when the component mounts
   useEffect(() => {
