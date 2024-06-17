@@ -122,7 +122,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -352,7 +351,7 @@ const allCyDataSets = {
         {
           data: {
             id: "85",
-            label: "Amount of horaded data",
+            label: "Amount of hoarded data",
             history: [],
           },
           classes: "",
@@ -768,7 +767,6 @@ const allCyDataSets = {
             colour: "",
           },
         },
-
       ],
     },
     participant_3_V1: {
@@ -941,7 +939,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -1243,7 +1240,8 @@ const allCyDataSets = {
             history: [],
           },
           classes: "",
-        }, {
+        },
+        {
           data: {
             id: "91",
             label: "Data analytics models",
@@ -1297,7 +1295,8 @@ const allCyDataSets = {
         {
           data: {
             id: "107",
-            label: "Level of convenience achieved by reproducing the status quo",
+            label:
+              "Level of convenience achieved by reproducing the status quo",
             type: "added",
             history: [],
           },
@@ -1899,8 +1898,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
-
       ],
       edges: [
         {
@@ -2822,7 +2819,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -3015,7 +3011,6 @@ const allCyDataSets = {
             colour: "",
           },
         },
-
       ],
     },
     participant_5_V2: {
@@ -3142,7 +3137,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -3350,7 +3344,8 @@ const allCyDataSets = {
         {
           data: {
             id: "8",
-            label: "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+            label:
+              "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
             history: [],
           },
           classes: "",
@@ -3398,7 +3393,8 @@ const allCyDataSets = {
         {
           data: {
             id: "44",
-            label: "People's sense of being able to move in public spaces, protest. etc.",
+            label:
+              "People's sense of being able to move in public spaces, protest. etc.",
             history: [],
           },
           classes: "",
@@ -3430,7 +3426,8 @@ const allCyDataSets = {
         {
           data: {
             id: "69",
-            label: "Social and political expectations for law enforcement to be using data and technologies to better police",
+            label:
+              "Social and political expectations for law enforcement to be using data and technologies to better police",
             history: [],
           },
           classes: "",
@@ -3453,6 +3450,16 @@ const allCyDataSets = {
         },
       ],
       edges: [
+        {
+          data: {
+            id: "1-19",
+            source: "1",
+            target: "19",
+            label: "+",
+            type: "positive",
+            colour: "",
+          },
+        },
         {
           data: {
             id: "30-19",
@@ -3657,7 +3664,8 @@ const allCyDataSets = {
         {
           data: {
             id: "116",
-            label: "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
+            label:
+              "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
             history: [],
           },
           classes: "",
@@ -3748,7 +3756,8 @@ const allCyDataSets = {
         {
           data: {
             id: "142",
-            label: "Social expectations for law enforcement to be using data to better police",
+            label:
+              "Social expectations for law enforcement to be using data to better police",
             history: [],
           },
           classes: "",
@@ -4422,7 +4431,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -4652,7 +4660,7 @@ const allCyDataSets = {
         {
           data: {
             id: "85",
-            label: "Amount of horaded data",
+            label: "Amount of hoarded data",
             history: [],
           },
           classes: "",
@@ -5067,7 +5075,6 @@ const allCyDataSets = {
             colour: "",
           },
         },
-
       ],
     },
   },
@@ -5243,7 +5250,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -5546,7 +5552,8 @@ const allCyDataSets = {
             history: [],
           },
           classes: "",
-        }, {
+        },
+        {
           data: {
             id: "91",
             label: "Data analytics models",
@@ -5600,7 +5607,8 @@ const allCyDataSets = {
         {
           data: {
             id: "107",
-            label: "Level of convenience achieved by reproducing the status quo",
+            label:
+              "Level of convenience achieved by reproducing the status quo",
             type: "added",
             history: [],
           },
@@ -6205,8 +6213,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
-
       ],
       edges: [
         {
@@ -7135,7 +7141,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -7328,7 +7333,6 @@ const allCyDataSets = {
             colour: "",
           },
         },
-
       ],
     },
 
@@ -7456,7 +7460,6 @@ const allCyDataSets = {
           },
           classes: "",
         },
-
       ],
       edges: [
         {
@@ -7667,7 +7670,8 @@ const allCyDataSets = {
         {
           data: {
             id: "8",
-            label: "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+            label:
+              "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
             history: [],
           },
           classes: "",
@@ -7715,7 +7719,8 @@ const allCyDataSets = {
         {
           data: {
             id: "44",
-            label: "People's sense of being able to move in public spaces, protest. etc.",
+            label:
+              "People's sense of being able to move in public spaces, protest. etc.",
             history: [],
           },
           classes: "",
@@ -7747,7 +7752,8 @@ const allCyDataSets = {
         {
           data: {
             id: "69",
-            label: "Social and political expectations for law enforcement to be using data and technologies to better police",
+            label:
+              "Social and political expectations for law enforcement to be using data and technologies to better police",
             history: [],
           },
           classes: "",
@@ -7770,6 +7776,16 @@ const allCyDataSets = {
         },
       ],
       edges: [
+        {
+          data: {
+            id: "1-19",
+            source: "1",
+            target: "19",
+            label: "+",
+            type: "positive",
+            colour: "",
+          },
+        },
         {
           data: {
             id: "30-19",
@@ -7975,7 +7991,8 @@ const allCyDataSets = {
         {
           data: {
             id: "116",
-            label: "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
+            label:
+              "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
             history: [],
           },
           classes: "",
@@ -8066,7 +8083,8 @@ const allCyDataSets = {
         {
           data: {
             id: "142",
-            label: "Social expectations for law enforcement to be using data to better police",
+            label:
+              "Social expectations for law enforcement to be using data to better police",
             history: [],
           },
           classes: "",
@@ -8332,7 +8350,6 @@ const allCyDataSets = {
       ],
     },
   },
-
 };
 
 export { allCyDataSets };
