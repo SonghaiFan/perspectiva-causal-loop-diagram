@@ -7196,7 +7196,7 @@ const allCyDataSets = {
         {
           data: {
             id: "75-80",
-            label: "negatve",
+            label: "-",
             value: 0,
             source: "75",
             target: "80",
