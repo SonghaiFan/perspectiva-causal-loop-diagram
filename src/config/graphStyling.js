@@ -32,15 +32,28 @@ export const graphStyles = [
     },
   },
   {
+    selector: 'node[type = "clarification"]',
+    style: {
+      "background-color": "#E97451",
+    }
+  },
+  {
+    selector: 'node[type = "added"]',
+    style: {
+      "background-color": "#9fc5e8",
+    }
+  },
+
+  {
     selector: "edge",
     style: {
       width: 2,
       "curve-style": "unbundled-bezier",
-      "line-color": "#47A770",
-      "target-arrow-color": "#47A770",
+      "line-color": "#808080",
+      "target-arrow-color": "#808080",
       "target-arrow-shape": "triangle",
       "arrow-scale": 0.8,
-      "control-point-distances": [20, -20], // Use positive and negative values to alternate curves
+      "control-point-distances": [-20, 20], // Use positive and negative values to alternate curves
       "control-point-weights": [0.5], // Adjust this to control the curvature
       label: "data(label)",
       // "edge-text-rotation": "autorotate",
@@ -49,15 +62,37 @@ export const graphStyles = [
       "text-outline-width": "1px",
     },
   },
+
   {
-    selector: 'edge[type="negative"]',
+    selector: 'edge[type="clarification"]',
     style: {
-      "line-style": "dashed",
-      "line-color": "#0D6876",
-      "target-arrow-color": "#0D6876",
+      "line-color": "#E97451",
+      "target-arrow-color": "#E97451",
+    },
+  },
+
+  {
+    selector: 'edge[type="conflict"]',
+    style: {
+      //"line-style": "dashed",
+      "line-color": "#00FFFF",
+      "target-arrow-color": "#00FFFF",
       "curve-style": "unbundled-bezier",
       "control-point-distances": [-20, 20],
       "control-point-weights": [0.5],
     },
   },
+
+  {
+    selector: 'edge[type="negative"]',
+    style: {
+      //"line-style": "dashed",
+      "line-color": "#808080",
+      "target-arrow-color": "#808080",
+      "curve-style": "unbundled-bezier",
+      "control-point-distances": [-20, 20],
+      "control-point-weights": [0.5],
+    },
+  },
+
 ];
