@@ -1,0 +1,150 @@
+Master ID,Node ID,Node Name
+1,V1_1,Access to data from other entities
+2,V1_2,Actual misuse of data
+3,V1_3,Allocating funding for public services
+4,V1_4,Amount of data retained by private enterprises
+5,V1_5,Amount of urban data retained by private entities
+6,V1_6,Amount of urban data retained by public entities
+7,V1_7,Anonymity
+8,V1_8,Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class
+9,V1_9,Citizen awareness of data collection
+10,V1_10,Citizen buy-in
+11,V1_11,Citizen desensitisation to data collection
+12,V1_12,Citizen privacy concern
+13,V1_13,Collection of data by law enforcement
+14,V1_14,Commercial value of data
+15,V1_15,Commercialisation of data
+16,V1_16,Corporate data practices
+17,V1_17,Corporate profits
+18,V1_18,Data leakage
+19,V1_19,Data used by law enforcement
+20,V1_20,Empowerment of vulnerable groups
+21,V1_21,Enforcement of people-centred data related regulations
+22,V1_22,Engagement with public transport
+23,V1_23,Ensuring citizens interests
+24,V1_24,Exemptions in different acts
+25,V1_25,Government data use capacity
+26,V1_26,Hiring consultants
+27,V1_27,Hoarding data
+28,V1_28,Imagined fear of data misuse
+29,V1_29,Investment in services
+30,V1_30,Legal permission to use data (Identify and Disrupt Act)
+31,V1_31,Legal regulation
+32,V1_32,Level of technology advancement
+33,V1_33,Lobby by private interests
+34,V1_34,Lobbying
+35,V1_35,Money donations to public entities
+36,V1_36,Need for data insights in government
+37,V1_37,Need for profit
+38,V1_38,Need for services
+39,V1_39,On-selling of de-identified data
+40,V1_40,Optimising services
+41,V1_41,Pedestrian data models
+42,V1_42,Penalty
+43,V1_43,People's concerns about crime
+44,V1_44,"People's sense of being able to move in public spaces, protest. etc."
+45,V1_45,Pop-culture
+46,V1_46,Predictive policing
+47,V1_47,Privacy concerns
+48,V1_48,Private sector revenue
+49,V1_49,Privatisation of urban data
+50,V1_50,Privatised transport services
+51,V1_51,Profit
+52,V1_52,Pro-private sector data structures
+53,V1_53,Protection of the most vulnerable
+54,V1_54,Providing consumer wants and needs
+55,V1_55,Public good uses of data
+56,V1_56,Public policy tech sector intervention
+57,V1_57,Public sector expertise
+58,V1_58,Public service funding
+59,V1_59,Quality and availability of urban services
+60,V1_60,Quality of life
+61,V1_61,Quality of services
+62,V1_62,Rate of tech innovation
+63,V1_63,Rate of technological innovation
+64,V1_64,Reactive policing
+65,V1_65,Regulation
+66,V1_66,Reward systems
+67,V1_67,Security risks
+68,V1_68,"Service efficiency, coverage, and performance"
+69,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police
+70,V1_70,Social media
+71,V1_71,Speculation of data as a commodity
+72,V1_72,State surveillance
+73,V1_73,Targeted advertising
+74,V1_74,Tech investment
+75,V1_75,Technological convenience
+76,V1_76,Technological innovation in data use
+77,V1_77,Technology adoption
+78,V1_78,Techno-solutionism
+79,V1_79,Transparency of data collection and use
+80,V1_80,Trust by people
+81,V1_81,Undermining of human rights
+82,V1_82,Violation of contextual integrity
+83,V1_83,"Wellbeing, livelihood, and safety"
+84,V2_1,Adoption of technology
+85,V2_2,Amount of horaded data
+86,V2_3,Availability of services
+87,V2_4,Commercial value of data
+88,V2_5,Commercialisation of data
+89,V2_6,Commodification of data
+90,V2_7,Competitive market
+91,V2_8,Data analytics models
+92,V2_9,Data collection by law enforcement
+93,V2_10,Data retained by city council
+94,V2_11,Data retained by private entities
+95,V2_12,Data subject interventions
+96,V2_13,Data use by law enforcement
+97,V2_14,Degree of techno-solutionism
+98,V2_15,Discrimination against marginalised communities
+99,V2_16,Empowerment of vulnerable groups
+100,V2_17,Engagement with reward systems
+101,V2_18,Events of data misuse
+102,V2_19,Fulfillment of citizens' needs
+103,V2_20,Investment in services
+104,V2_21,Investment in technology
+105,V2_22,Level of citizen awareness
+106,V2_23,Level of citizen sensitisation
+107,V2_24,Level of convenience achieved by reproducing the status quo
+108,V2_25,Level of regulation
+109,V2_26,Level of technological advancement
+110,V2_27,Likelihood of privacy violation
+111,V2_28,Likelihood of using data for public good
+112,V2_29,Lobbying
+113,V2_30,Need for data insights in government
+114,V2_31,Need for profit
+115,V2_32,Need for services
+116,V2_33,Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts
+117,V2_34,Number of people concerned about crime
+118,V2_35,Optimisation of services
+119,V2_36,Optimised allocation of funding to public services
+120,V2_37,Penalties
+121,V2_38,People's sense of freedom to move in public spaces
+122,V2_39,Perceived level of technological convenience
+123,V2_40,Perceived misuse of data
+124,V2_41,Pop-culture
+125,V2_42,Possibility of data leakage
+126,V2_43,Predictive policing
+127,V2_44,Privacy concerns
+128,V2_45,Private sector revenue
+129,V2_46,Private-public partnerships
+130,V2_47,Privatisation of urban services
+131,V2_48,Promotion of pro-private data collection schemes
+132,V2_49,Protests
+133,V2_50,Public sector expertise
+134,V2_51,Public sector funding
+135,V2_52,Public sector intervention
+136,V2_53,Quality of life
+137,V2_54,Quality of services
+138,V2_55,Reactive data-driven policing
+139,V2_56,Realisation of human rights
+140,V2_57,Recruitment of consultancy firms
+141,V2_58,Security risks
+142,V2_59,Social expectations for law enforcement to be using data to better police
+143,V2_60,Social inequalities
+144,V2_61,State surveillance
+145,V2_62,Targeted advertising
+146,V2_63,Transparency of data collection and use
+147,V2_64,Use of off-the-shelf tech products by city council
+148,V2_65,Use of social media
+149,V2_66,Use of urban services

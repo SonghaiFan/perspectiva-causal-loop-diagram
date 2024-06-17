@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Graph from "@/components/Diagram";
-import { allCyDataSets } from "../data/data";
+import { allCyDataSets } from "../data/new_data";
 import { layoutConfigs } from "@/config/graphLayout";
 import cloneDeep from "lodash/cloneDeep";
 import { useState, useEffect } from "react";
@@ -9,8 +9,7 @@ import { useRouter } from "next/router";
 
 export default function Home() {
   const router = useRouter();
-  const { dataset: queryDataset } = router.query;
-  console.log("queryDataset", queryDataset);
+  const { dataset: queryDataset, debug: debug } = router.query;
 
   const defaultDataset = queryDataset || Object.keys(allCyDataSets)[0];
 
@@ -41,7 +40,7 @@ export default function Home() {
       setData(getCyData(newDataset, version));
       setLoading(false);
     }
-  }, [router.isReady, queryDataset]);
+  }, [router.isReady, queryDataset, defaultDataset, version]);
 
   useEffect(() => {
     // Check if the selected version exists in the new dataset
@@ -51,7 +50,7 @@ export default function Home() {
     } else {
       setVersion(version); // Keep the current version if it exists in the new dataset
     }
-  }, [dataset]);
+  }, [dataset, version]);
 
   useEffect(() => {
     // Update data and layout configuration when dataset, version, or layout changes
@@ -72,12 +71,14 @@ export default function Home() {
         {/* Title area */}
         <Header />
         {/* Diagram area */}
+
         <Graph data={data} layout={layoutConfig} focusVersion={focusVersion} />
       </div>
 
       {/* Sidebar */}
       <Sidebar
         dataset={dataset}
+        debug={debug}
         datasetItems={datasetItems}
         version={version}
         versionItems={versionItems}

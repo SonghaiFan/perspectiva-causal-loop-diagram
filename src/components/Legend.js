@@ -1,15 +1,11 @@
-const Legend = () => {
-  const legendItems = [
-    { label: "Relationship needs clarification", color: "#E97451" },
-    { label: "Conflict with other participants", color: "#00FFFF" },
-    { label: "Added", color: "#9fc5e8" },
-  ];
+import { colorSchema } from "@/config/colorSchema";
 
+const Legend = () => {
   return (
     <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
       <h4 className="text-lg font-semibold mb-2">Legend</h4>
       <div className="space-y-4">
-        {legendItems.map((item, index) => (
+        {colorSchema.map((item, index) => (
           <div key={index} className="flex items-center space-x-3">
             <div
               className="w-5 h-5 rounded-sm"

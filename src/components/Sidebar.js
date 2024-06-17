@@ -7,6 +7,7 @@ import Legend from "./Legend";
 
 const Sidebar = ({
   dataset,
+  debug,
   datasetItems,
   version,
   versionItems,
@@ -23,12 +24,14 @@ const Sidebar = ({
   return (
     <div className="w-[15%] p-4 h-full overflow-auto">
       <Legend />
-      {/* 
-      <DatasetSelector
-        datasetItems={datasetItems}
-        selectedDataset={dataset}
-        onDatasetChange={onDatasetChange}
-      /> */}
+
+      {debug && (
+        <DatasetSelector
+          datasetItems={datasetItems}
+          selectedDataset={dataset}
+          onDatasetChange={onDatasetChange}
+        />
+      )}
 
       <LayoutSelector
         layoutTypes={layoutTypes}
@@ -49,7 +52,7 @@ const Sidebar = ({
             key={i}
             className="items-center space-x-2 hover:cursor-pointer hover:bg-gray-100 p-1 rounded-md overflow-hidden overflow-ellipsis whitespace-nowrap"
           >
-            <span className="w-4 h-4 rounded-full">{nodes.data.id}</span>{" "}
+            <span className="w-4 h-4 rounded-full">{nodes.data.key}</span>{" "}
             {nodes.data.label}
           </div>
         ))}
