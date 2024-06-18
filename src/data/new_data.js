@@ -769,7 +769,7 @@ const allCyDataSets = {
       nodes: [
         {
           data: {
-            id: "None",
+            id: "129",
             key: "V2_46",
             label: "Private-public partnerships",
             participant_type: "advocate",
@@ -1213,7 +1213,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "132",
             key: "V2_49",
             label: "Protests",
             participant_type: "advocate",
@@ -1369,7 +1369,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "147",
             key: "V2_64",
             label: "Use of off-the-shelf tech products by city council",
             participant_type: "advocate",
@@ -1402,7 +1402,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "147",
             key: "V2_64",
             label: "Use of off-the-shelf tech products by city council",
             participant_type: "advocate",
@@ -1424,7 +1424,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "147",
             key: "V2_64",
             label: "Use of off-the-shelf tech products by city council",
             participant_type: "advocate",
@@ -1446,7 +1446,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "147",
             key: "V2_64",
             label: "Use of off-the-shelf tech products by city council",
             participant_type: "advocate",
@@ -1532,7 +1532,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "143",
             key: "V2_60",
             label: "Social inequalities",
             participant_type: "advocate",
@@ -1586,10 +1586,10 @@ const allCyDataSets = {
       edges: [
         {
           data: {
-            id: "None-49",
+            id: "129-49",
             label: "+",
             value: 1,
-            source: "None",
+            source: "129",
             target: "49",
             polarity: "positive",
             participant_type: "advocate",
@@ -1729,11 +1729,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "46-None",
+            id: "46-132",
             label: "-",
             value: -1,
             source: "46",
-            target: "None",
+            target: "132",
             polarity: "negative",
             participant_type: "advocate",
             group: "advocate_7",
@@ -1794,10 +1794,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-6",
+            id: "147-6",
             label: "+",
             value: 1,
-            source: "None",
+            source: "147",
             target: "6",
             polarity: "positive",
             participant_type: "advocate",
@@ -1807,11 +1807,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "57-None",
+            id: "57-147",
             label: "+",
             value: 1,
             source: "57",
-            target: "None",
+            target: "147",
             polarity: "positive",
             participant_type: "advocate",
             group: "advocate_7",
@@ -1820,11 +1820,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "58-None",
+            id: "58-147",
             label: "+",
             value: 1,
             source: "58",
-            target: "None",
+            target: "147",
             polarity: "positive",
             participant_type: "advocate",
             group: "advocate_7",
@@ -1833,11 +1833,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "36-None",
+            id: "36-147",
             label: "+",
             value: 1,
             source: "36",
-            target: "None",
+            target: "147",
             polarity: "positive",
             participant_type: "advocate",
             group: "advocate_7",
@@ -1872,11 +1872,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "8-None",
+            id: "8-143",
             label: "+",
             value: 1,
             source: "8",
-            target: "None",
+            target: "143",
             polarity: "positive",
             participant_type: "advocate",
             group: "advocate_7",
@@ -3814,7 +3814,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -3825,7 +3825,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -4210,11 +4210,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "49-None",
+            id: "49-86",
             label: "?",
             value: 0,
             source: "49",
-            target: "None",
+            target: "86",
             polarity: "?",
             participant_type: "citizen",
             group: "citizen_1",
@@ -4223,10 +4223,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-75",
+            id: "86-75",
             label: "+",
             value: 1,
-            source: "None",
+            source: "86",
             target: "75",
             polarity: "positive",
             participant_type: "citizen",
@@ -5844,7 +5844,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "95",
             key: "V2_12",
             label: "Data subject interventions",
             participant_type: "citizen",
@@ -5886,7 +5886,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "95",
             key: "V2_12",
             label: "Data subject interventions",
             participant_type: "citizen",
@@ -6041,7 +6041,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "107",
             key: "V2_24",
             label:
               "Level of convenience achieved by reproducing the status quo",
@@ -6350,7 +6350,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -6496,7 +6496,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -6622,7 +6622,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -6805,11 +6805,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "80-None",
+            id: "80-95",
             label: "+",
             value: 1,
             source: "80",
-            target: "None",
+            target: "95",
             polarity: "positive",
             participant_type: "citizen",
             group: "citizen_3",
@@ -6831,10 +6831,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-49",
+            id: "95-49",
             label: "-",
             value: -1,
-            source: "None",
+            source: "95",
             target: "49",
             polarity: "negative",
             participant_type: "citizen",
@@ -6896,10 +6896,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-52",
+            id: "107-52",
             label: "+",
             value: 1,
-            source: "None",
+            source: "107",
             target: "52",
             polarity: "positive",
             participant_type: "citizen",
@@ -7013,11 +7013,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "49-None",
+            id: "49-86",
             label: "?",
             value: 0,
             source: "49",
-            target: "None",
+            target: "86",
             polarity: "?",
             participant_type: "citizen",
             group: "citizen_3",
@@ -7078,11 +7078,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "41-None",
+            id: "41-86",
             label: "+",
             value: 1,
             source: "41",
-            target: "None",
+            target: "86",
             polarity: "positive",
             participant_type: "citizen",
             group: "citizen_3",
@@ -7143,10 +7143,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-75",
+            id: "86-75",
             label: "+",
             value: 1,
-            source: "None",
+            source: "86",
             target: "75",
             polarity: "positive",
             participant_type: "citizen",
@@ -7197,10 +7197,10 @@ const allCyDataSets = {
           data: {
             id: "75-80",
             label: "-",
-            value: 0,
+            value: -1,
             source: "75",
             target: "80",
-            polarity: "negatve",
+            polarity: "negative",
             participant_type: "citizen",
             group: "citizen_3",
             color: "0",
@@ -8620,7 +8620,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "95",
             key: "V2_12",
             label: "Data subject interventions",
             participant_type: "citizen",
@@ -8950,7 +8950,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "95",
             key: "V2_12",
             label: "Data subject interventions",
             participant_type: "citizen",
@@ -9382,7 +9382,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "88",
             key: "V2_5",
             label: "Commercialisation of data",
             participant_type: "citizen",
@@ -9524,7 +9524,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "88",
             key: "V2_5",
             label: "Commercialisation of data",
             participant_type: "citizen",
@@ -9586,7 +9586,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "90",
             key: "V2_7",
             label: "Competitive market",
             participant_type: "citizen",
@@ -9654,10 +9654,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-49",
+            id: "95-49",
             label: "-",
             value: 0,
-            source: "None",
+            source: "95",
             target: "49",
             polarity: "Negative",
             participant_type: "citizen",
@@ -9784,11 +9784,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "80-None",
+            id: "80-95",
             label: "+",
             value: 1,
             source: "80",
-            target: "None",
+            target: "95",
             polarity: "positive",
             participant_type: "citizen",
             group: "citizen_4",
@@ -9966,10 +9966,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-51",
+            id: "88-51",
             label: "+",
             value: 1,
-            source: "None",
+            source: "88",
             target: "51",
             polarity: "positive",
             participant_type: "citizen",
@@ -10018,10 +10018,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-80",
+            id: "88-80",
             label: "+",
             value: 0,
-            source: "None",
+            source: "88",
             target: "80",
             polarity: "Positive",
             participant_type: "citizen",
@@ -10044,10 +10044,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-68",
+            id: "90-68",
             label: "+",
             value: 0,
-            source: "None",
+            source: "90",
             target: "68",
             polarity: "Positive",
             participant_type: "citizen",
@@ -11286,7 +11286,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -11328,7 +11328,7 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None",
+            id: "86",
             key: "V2_3",
             label: "Availability of services",
             participant_type: "citizen",
@@ -11794,11 +11794,11 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "49-None",
+            id: "49-86",
             label: "+",
             value: 1,
             source: "49",
-            target: "None",
+            target: "86",
             polarity: "positive",
             participant_type: "citizen",
             group: "citizen_5",
@@ -11820,10 +11820,10 @@ const allCyDataSets = {
         },
         {
           data: {
-            id: "None-54",
+            id: "86-54",
             label: "+",
             value: 1,
-            source: "None",
+            source: "86",
             target: "54",
             polarity: "positive",
             participant_type: "citizen",

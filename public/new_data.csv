@@ -130,21 +130,21 @@
 128,128,V2_45,Private sector revenue,112,V2_29,Lobbying,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,51,35
 129,128,V2_45,Private sector revenue,109,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,51,76
 130,113,V2_30,Need for data insights in government,109,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,36,76
-131,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,C,49,None
-132,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,AV,None,75
+131,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,C,49,86
+132,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,AV,86,75
 133,122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,75,80
 134,89,V2_6,Commodification of data,128,V2_45,Private sector revenue,positive,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,71,51
 135,89,V2_6,Commodification of data,111,V2_28,Likelihood of using data for public good,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,71,55
 136,135,V2_52,Public sector intervention,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,56,49
 137,105,V2_22,Level of citizen awareness,106,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,AL,9,80
-138,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,80,None
+138,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,80,95
 139,106,V2_23,Level of citizen sensitisation,135,V2_52,Public sector intervention,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,80,56
-140,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,None,49
+140,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,95,49
 141,133,V2_50,Public sector expertise,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_3,RNC,57,49
 142,130,V2_47,Privatisation of urban services,94,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,50,49
 143,131,V2_48,Promotion of pro-private data collection schemes,94,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,52,49
 144,130,V2_47,Privatisation of urban services,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,AL,50,52
-145,107,V2_24,Level of convenience achieved by reproducing the status quo,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,None,52
+145,107,V2_24,Level of convenience achieved by reproducing the status quo,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,107,52
 146,140,V2_57,Recruitment of consultancy firms,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,26,52
 147,133,V2_50,Public sector expertise,140,V2_57,Recruitment of consultancy firms,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,57,26
 148,134,V2_51,Public sector funding,133,V2_50,Public sector expertise,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,58,57
@@ -153,23 +153,23 @@
 151,94,V2_11,Data retained by private entities,110,V2_27,Likelihood of privacy violation,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,82
 152,110,V2_27,Likelihood of privacy violation,127,V2_44,Privacy concerns,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,82,47
 153,127,V2_44,Privacy concerns,106,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,47,80
-154,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,3,citizen,V2,,0,0,0,,,citizen_3,K,49,None
+154,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,3,citizen,V2,,0,0,0,,,citizen_3,K,49,86
 155,94,V2_11,Data retained by private entities,137,V2_54,Quality of services,?,3,citizen,V2,,0,0,0,,,citizen_3,K,49,68
 156,94,V2_11,Data retained by private entities,91,V2_8,Data analytics models,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,41
 157,94,V2_11,Data retained by private entities,89,V2_6,Commodification of data,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,71
 158,89,V2_6,Commodification of data,128,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,71,51
-159,91,V2_8,Data analytics models,86,V2_3,Availability of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,None
+159,91,V2_8,Data analytics models,86,V2_3,Availability of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,86
 160,91,V2_8,Data analytics models,128,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,51
 161,91,V2_8,Data analytics models,137,V2_54,Quality of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,68
 162,128,V2_45,Private sector revenue,104,V2_21,Investment in technology,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,51,74
 163,128,V2_45,Private sector revenue,112,V2_29,Lobbying,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,51,35
-164,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,None,75
+164,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,86,75
 165,137,V2_54,Quality of services,122,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,68,75
 166,112,V2_29,Lobbying,130,V2_47,Privatisation of urban services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,35,50
 167,104,V2_21,Investment in technology,109,V2_26,Level of technological advancement,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,74,76
-168,122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negatve,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,75,80
+168,122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,75,80
 169,149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,22,49
-170,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,Negative,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,AV,None,49
+170,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,Negative,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,AV,95,49
 171,108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,65,49
 172,84,V2_1,Adoption of technology,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,77,49
 173,115,V2_32,Need for services,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,38,49
@@ -179,7 +179,7 @@
 177,115,V2_32,Need for services,109,V2_26,Level of technological advancement,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,38,76
 178,109,V2_26,Level of technological advancement,115,V2_32,Need for services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,76,38
 179,127,V2_44,Privacy concerns,106,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,AL,47,80
-180,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,AV,80,None
+180,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,AV,80,95
 181,110,V2_27,Likelihood of privacy violation,127,V2_44,Privacy concerns,positive,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,AV,82,47
 182,106,V2_23,Level of citizen sensitisation,108,V2_25,Level of regulation,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,80,65
 183,108,V2_25,Level of regulation,146,V2_63,Transparency of data collection and use,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,AL,65,79
@@ -193,13 +193,13 @@
 191,141,V2_58,Security risks,125,V2_42,Possibility of data leakage,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,67,18
 192,125,V2_42,Possibility of data leakage,120,V2_37,Penalties,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,18,42
 193,120,V2_37,Penalties,128,V2_45,Private sector revenue,Negative,4,citizen,V2,,0,0,0,,,citizen_4,K,42,51
-194,88,V2_5,Commercialisation of data,128,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,None,51
+194,88,V2_5,Commercialisation of data,128,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,88,51
 195,118,V2_35,Optimisation of services,128,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,40,51
 196,128,V2_45,Private sector revenue,103,V2_20,Investment in services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,51,29
 197,103,V2_20,Investment in services,137,V2_54,Quality of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,29,68
-198,88,V2_5,Commercialisation of data,106,V2_23,Level of citizen sensitisation,Positive,4,citizen,V2,,0,0,0,,,citizen_4,K,None,80
+198,88,V2_5,Commercialisation of data,106,V2_23,Level of citizen sensitisation,Positive,4,citizen,V2,,0,0,0,,,citizen_4,K,88,80
 199,114,V2_31,Need for profit,137,V2_54,Quality of services,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,37,68
-200,90,V2_7,Competitive market,137,V2_54,Quality of services,Positive,4,citizen,V2,,1,0,1,blue,added variable and link,citizen_4,AVAL,None,68
+200,90,V2_7,Competitive market,137,V2_54,Quality of services,Positive,4,citizen,V2,,1,0,1,blue,added variable and link,citizen_4,AVAL,90,68
 201,125,V2_42,Possibility of data leakage,110,V2_27,Likelihood of privacy violation,Positive,4,citizen,V2,,0,1,1,blue,added variable and link,citizen_4,AVAL,18,82
 202,149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,22,49
 203,148,V2_65,Use of social media,94,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,70,49
@@ -207,9 +207,9 @@
 205,108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,65,49
 206,112,V2_29,Lobbying,108,V2_25,Level of regulation,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,35,65
 207,94,V2_11,Data retained by private entities,137,V2_54,Quality of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,AV,49,68
-208,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,AV,49,None
+208,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,AV,49,86
 209,137,V2_54,Quality of services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,AV,68,54
-210,86,V2_3,Availability of services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,AV,None,54
+210,86,V2_3,Availability of services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,AV,86,54
 211,102,V2_19,Fulfillment of citizens' needs,149,V2_66,Use of urban services,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,54,22
 212,94,V2_11,Data retained by private entities,110,V2_27,Likelihood of privacy violation,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,49,82
 213,110,V2_27,Likelihood of privacy violation,99,V2_16,Empowerment of vulnerable groups,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,82,20
@@ -220,7 +220,7 @@
 218,119,V2_36,Optimised allocation of funding to public services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,3,54
 219,102,V2_19,Fulfillment of citizens' needs,136,V2_53,Quality of life,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,54,83
 220,102,V2_19,Fulfillment of citizens' needs,93,V2_10,Data retained by city council,positive,5,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_5,RNC,54,6
-221,129,V2_46,Private-public partnerships,94,V2_11,Data retained by private entities,positive,7,advocate,V2,,1,1,1,blue,added variables and link,advocate_7,AVAL,None,49
+221,129,V2_46,Private-public partnerships,94,V2_11,Data retained by private entities,positive,7,advocate,V2,,1,1,1,blue,added variables and link,advocate_7,AVAL,129,49
 222,94,V2_11,Data retained by private entities,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,AV,49,19
 223,116,V2_33,Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,30,19
 224,92,V2_9,Data collection by law enforcement,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,13,19
@@ -231,16 +231,16 @@
 229,96,V2_13,Data use by law enforcement,126,V2_43,Predictive policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,19,46
 230,96,V2_13,Data use by law enforcement,138,V2_55,Reactive data-driven policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,19,64
 231,126,V2_43,Predictive policing,98,V2_15,Discrimination against marginalised communities,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,46,8
-232,126,V2_43,Predictive policing,132,V2_49,Protests,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,46,None
+232,126,V2_43,Predictive policing,132,V2_49,Protests,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,46,132
 233,138,V2_55,Reactive data-driven policing,121,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,64,44
 234,126,V2_43,Predictive policing,121,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,46,44
 235,121,V2_38,People's sense of freedom to move in public spaces,106,V2_23,Level of citizen sensitisation,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,44,80
 236,93,V2_10,Data retained by city council,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,AV,6,19
-237,147,V2_64,Use of off-the-shelf tech products by city council,93,V2_10,Data retained by city council,positive,7,advocate,V2,,0,1,0,,,advocate_7,K,None,6
-238,133,V2_50,Public sector expertise,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,57,None
-239,134,V2_51,Public sector funding,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,58,None
-240,113,V2_30,Need for data insights in government,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,1,1,Blue,added variable,advocate_7,AV,36,None
+237,147,V2_64,Use of off-the-shelf tech products by city council,93,V2_10,Data retained by city council,positive,7,advocate,V2,,0,1,0,,,advocate_7,K,147,6
+238,133,V2_50,Public sector expertise,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,57,147
+239,134,V2_51,Public sector funding,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,58,147
+240,113,V2_30,Need for data insights in government,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,1,1,Blue,added variable,advocate_7,AV,36,147
 241,113,V2_30,Need for data insights in government,93,V2_10,Data retained by city council,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,36,6
 242,98,V2_15,Discrimination against marginalised communities,106,V2_23,Level of citizen sensitisation,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,8,80
-243,98,V2_15,Discrimination against marginalised communities,143,V2_60,Social inequalities,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,8,None
+243,98,V2_15,Discrimination against marginalised communities,143,V2_60,Social inequalities,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,8,143
 244,121,V2_38,People's sense of freedom to move in public spaces,139,V2_56,Realisation of human rights,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,44,81

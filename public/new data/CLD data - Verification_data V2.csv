@@ -58,9 +58,9 @@ Master ID,Node ID,cause,Master ID,Node ID,effect,polarity,participant_number,par
 137,V2_54,Quality of services,122,V2_39,Perceived level of technological convenience,positive,3,Citizen,2,0,1,0,blue,added variable
 112,V2_29,Lobbying,130,V2_47,Privatisation of urban services,positive,3,Citizen,2,0,0,0,,
 104,V2_21,Investment in technology,109,V2_26,Level of technological advancement,positive,3,Citizen,2,0,0,0,,
-122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negatve,3,Citizen,2,1,0,0,blue,added variable
+122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negative,3,Citizen,2,1,0,0,blue,added variable
 149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,4,Citizen,2,0,0,0,,
-95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,Negative,4,Citizen,2,1,0,0,blue,added variable
+95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,negative,4,Citizen,2,1,0,0,blue,added variable
 108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,4,Citizen,2,0,0,0,,
 84,V2_1,Adoption of technology,94,V2_11,Data retained by private entities,positive,4,Citizen,2,0,0,0,,
 115,V2_32,Need for services,94,V2_11,Data retained by private entities,positive,4,Citizen,2,0,0,0,,
@@ -83,15 +83,15 @@ Master ID,Node ID,cause,Master ID,Node ID,effect,polarity,participant_number,par
 94,V2_11,Data retained by private entities,89,V2_6,Commodification of data,positive,4,Citizen,2,0,0,0,,
 141,V2_58,Security risks,125,V2_42,Possibility of data leakage,positive,4,Citizen,2,0,0,0,,
 125,V2_42,Possibility of data leakage,120,V2_37,Penalties,positive,4,Citizen,2,0,0,0,,
-120,V2_37,Penalties,128,V2_45,Private sector revenue,Negative,4,Citizen,2,0,0,0,,
+120,V2_37,Penalties,128,V2_45,Private sector revenue,negative,4,Citizen,2,0,0,0,,
 88,V2_5,Commercialisation of data,128,V2_45,Private sector revenue,positive,4,Citizen,2,0,0,0,,
 118,V2_35,Optimisation of services,128,V2_45,Private sector revenue,positive,4,Citizen,2,0,0,0,,
 128,V2_45,Private sector revenue,103,V2_20,Investment in services,positive,4,Citizen,2,0,0,0,,
 103,V2_20,Investment in services,137,V2_54,Quality of services,positive,4,Citizen,2,0,0,0,,
-88,V2_5,Commercialisation of data,106,V2_23,Level of citizen sensitisation,Positive,4,Citizen,2,0,0,0,,
+88,V2_5,Commercialisation of data,106,V2_23,Level of citizen sensitisation,positive,4,Citizen,2,0,0,0,,
 114,V2_31,Need for profit,137,V2_54,Quality of services,negative,4,Citizen,2,0,0,0,,
-90,V2_7,Competitive market,137,V2_54,Quality of services,Positive,4,Citizen,2,1,0,1,blue,added variable and link
-125,V2_42,Possibility of data leakage,110,V2_27,Likelihood of privacy violation,Positive,4,Citizen,2,0,1,1,blue,added variable and link
+90,V2_7,Competitive market,137,V2_54,Quality of services,positive,4,Citizen,2,1,0,1,blue,added variable and link
+125,V2_42,Possibility of data leakage,110,V2_27,Likelihood of privacy violation,positive,4,Citizen,2,0,1,1,blue,added variable and link
 149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,5,Citizen,2,0,0,0,,
 148,V2_65,Use of social media,94,V2_11,Data retained by private entities,positive,5,Citizen,2,0,0,0,,
 100,V2_17,Engagement with reward systems,94,V2_11,Data retained by private entities,positive,5,Citizen,2,0,0,0,,
