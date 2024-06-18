@@ -42,7 +42,7 @@ const VersionSelector = ({
             <div className="rounded-xs bg-yellow-400 px-1 text-xs">V1</div>
           ) : (
             <div className="rounded-xs bg-gray-200 px-1 text-xs">
-              {selectedVersion === "final" ? "V2" : ""}
+              {selectedVersion === "final" && version === "final" ? "V2" : ""}
             </div>
           )}
         </div>

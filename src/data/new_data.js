@@ -1,6 +1,6 @@
 const allCyDataSets = {
   advocate_7: {
-    V1: {
+    advocate_7: {
       nodes: [
         {
           data: {
@@ -1900,7 +1900,7 @@ const allCyDataSets = {
     },
   },
   citizen_1: {
-    V1: {
+    citizen_1: {
       nodes: [
         {
           data: {
@@ -4277,7 +4277,7 @@ const allCyDataSets = {
     },
   },
   citizen_3: {
-    V1: {
+    citizen_3: {
       nodes: [
         {
           data: {
@@ -7210,7 +7210,7 @@ const allCyDataSets = {
     },
   },
   citizen_4: {
-    V1: {
+    citizen_4: {
       nodes: [
         {
           data: {
@@ -10072,7 +10072,7 @@ const allCyDataSets = {
     },
   },
   citizen_5: {
-    V1: {
+    citizen_5: {
       nodes: [
         {
           data: {
