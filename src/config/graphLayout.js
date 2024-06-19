@@ -49,13 +49,13 @@ export const fcoseLayoutConfig = {
   quality: "proof",
   // Use random node positions at beginning of layout
   // if this is set to false, then quality option must be "proof"
-  randomize: true,
+  randomize: false,
   // Whether or not to animate the layout
   animate: true,
   // Duration of animation in ms, if enabled
   animationDuration: 1000,
   // Easing of animation, if enabled
-  animationEasing: undefined,
+  animationEasing: "ease-in-out",
   // Fit the viewport to the repositioned nodes
   fit: true,
   // Padding around layout

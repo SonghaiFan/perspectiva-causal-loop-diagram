@@ -87,6 +87,8 @@ const Graph = ({ data, layout, focusVersion }) => {
     return () => {
       cy.current.destroy();
     };
+    // only run this effect once
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Update the graph when the data changes

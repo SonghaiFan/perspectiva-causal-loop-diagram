@@ -1,6 +1,6 @@
 const allCyDataSets = {
   advocate_7: {
-    advocate_7: {
+    V1: {
       nodes: [
         {
           data: {
@@ -1900,7 +1900,7 @@ const allCyDataSets = {
     },
   },
   citizen_1: {
-    citizen_1: {
+    V1: {
       nodes: [
         {
           data: {
@@ -4277,7 +4277,7 @@ const allCyDataSets = {
     },
   },
   citizen_3: {
-    citizen_3: {
+    V1: {
       nodes: [
         {
           data: {
@@ -6044,7 +6044,7 @@ const allCyDataSets = {
             id: "107",
             key: "V2_24",
             label:
-              "Level of convenience achieved by reproducing the status quo",
+              "Relative level of convenience achieved by reproducing the status quo",
             participant_type: "citizen",
             color: "1",
             history: [],
@@ -6775,6 +6775,104 @@ const allCyDataSets = {
           },
           classes: "",
         },
+        {
+          data: {
+            id: "50",
+            key: "V2_47",
+            label: "Privatisation of urban services",
+            participant_type: "citizen",
+            color: "0",
+            history: [
+              {
+                id: "50",
+                key: 50,
+                label: "Privatised transport services",
+                participant_type: "citizen",
+                group: "citizen_3",
+                history: [],
+              },
+            ],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "150",
+            key: "V2_67",
+            label: "Use of proprietary infrastructures",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "150",
+            key: "V2_67",
+            label: "Use of proprietary infrastructures",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "151",
+            key: "V2_68",
+            label: "Interoperability of infrastructures",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "151",
+            key: "V2_68",
+            label: "Interoperability of infrastructures",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "152",
+            key: "V2_69",
+            label: "Switching costs",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "152",
+            key: "V2_69",
+            label: "Switching costs",
+            participant_type: "citizen",
+            color: "1",
+            history: [],
+          },
+          classes: "",
+        },
+        {
+          data: {
+            id: "107",
+            key: "V2_24",
+            label:
+              "Relative level of convenience achieved by reproducing the status quo",
+            participant_type: "citizen",
+            color: "0",
+            history: [],
+          },
+          classes: "",
+        },
       ],
       edges: [
         {
@@ -7021,7 +7119,7 @@ const allCyDataSets = {
             polarity: "?",
             participant_type: "citizen",
             group: "citizen_3",
-            color: "0",
+            color: "3",
           },
         },
         {
@@ -7034,7 +7132,7 @@ const allCyDataSets = {
             polarity: "?",
             participant_type: "citizen",
             group: "citizen_3",
-            color: "0",
+            color: "3",
           },
         },
         {
@@ -7206,11 +7304,63 @@ const allCyDataSets = {
             color: "0",
           },
         },
+        {
+          data: {
+            id: "50-150",
+            label: "+",
+            value: 1,
+            source: "50",
+            target: "150",
+            polarity: "positive",
+            participant_type: "citizen",
+            group: "citizen_3",
+            color: "1",
+          },
+        },
+        {
+          data: {
+            id: "150-151",
+            label: "+",
+            value: 1,
+            source: "150",
+            target: "151",
+            polarity: "positive",
+            participant_type: "citizen",
+            group: "citizen_3",
+            color: "1",
+          },
+        },
+        {
+          data: {
+            id: "151-152",
+            label: "+",
+            value: 1,
+            source: "151",
+            target: "152",
+            polarity: "positive",
+            participant_type: "citizen",
+            group: "citizen_3",
+            color: "1",
+          },
+        },
+        {
+          data: {
+            id: "152-107",
+            label: "+",
+            value: 1,
+            source: "152",
+            target: "107",
+            polarity: "positive",
+            participant_type: "citizen",
+            group: "citizen_3",
+            color: "1",
+          },
+        },
       ],
     },
   },
   citizen_4: {
-    citizen_4: {
+    V1: {
       nodes: [
         {
           data: {
@@ -8517,7 +8667,7 @@ const allCyDataSets = {
         {
           data: {
             id: "42-51",
-            label: "-",
+            label: "Negative",
             value: 0,
             source: "42",
             target: "51",
@@ -9656,10 +9806,10 @@ const allCyDataSets = {
           data: {
             id: "95-49",
             label: "-",
-            value: 0,
+            value: -1,
             source: "95",
             target: "49",
-            polarity: "Negative",
+            polarity: "negative",
             participant_type: "citizen",
             group: "citizen_4",
             color: "0",
@@ -9955,10 +10105,10 @@ const allCyDataSets = {
           data: {
             id: "42-51",
             label: "-",
-            value: 0,
+            value: -1,
             source: "42",
             target: "51",
-            polarity: "Negative",
+            polarity: "negative",
             participant_type: "citizen",
             group: "citizen_4",
             color: "0",
@@ -10020,10 +10170,10 @@ const allCyDataSets = {
           data: {
             id: "88-80",
             label: "+",
-            value: 0,
+            value: 1,
             source: "88",
             target: "80",
-            polarity: "Positive",
+            polarity: "positive",
             participant_type: "citizen",
             group: "citizen_4",
             color: "0",
@@ -10046,10 +10196,10 @@ const allCyDataSets = {
           data: {
             id: "90-68",
             label: "+",
-            value: 0,
+            value: 1,
             source: "90",
             target: "68",
-            polarity: "Positive",
+            polarity: "positive",
             participant_type: "citizen",
             group: "citizen_4",
             color: "1",
@@ -10059,10 +10209,10 @@ const allCyDataSets = {
           data: {
             id: "18-82",
             label: "+",
-            value: 0,
+            value: 1,
             source: "18",
             target: "82",
-            polarity: "Positive",
+            polarity: "positive",
             participant_type: "citizen",
             group: "citizen_4",
             color: "1",
@@ -10072,7 +10222,7 @@ const allCyDataSets = {
     },
   },
   citizen_5: {
-    citizen_5: {
+    V1: {
       nodes: [
         {
           data: {
