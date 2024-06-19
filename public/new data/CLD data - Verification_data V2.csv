@@ -35,7 +35,7 @@ Master ID,Node ID,cause,Master ID,Node ID,effect,polarity,participant_number,par
 130,V2_47,Privatisation of urban services,94,V2_11,Data retained by private entities,positive,3,Citizen,2,0,0,0,,
 131,V2_48,Promotion of pro-private data collection schemes,94,V2_11,Data retained by private entities,positive,3,Citizen,2,0,0,0,,
 130,V2_47,Privatisation of urban services,131,V2_48,Promotion of pro-private data collection schemes,positive,3,Citizen,2,0,0,1,blue,added link
-107,V2_24,Level of convenience achieved by reproducing the status quo,131,V2_48,Promotion of pro-private data collection schemes,positive,3,Citizen,2,1,0,0,blue,added variable
+107,V2_24,Relative level of convenience achieved by reproducing the status quo,131,V2_48,Promotion of pro-private data collection schemes,positive,3,Citizen,2,1,0,0,blue,added variable
 140,V2_57,Recruitment of consultancy firms,131,V2_48,Promotion of pro-private data collection schemes,positive,3,Citizen,2,0,0,0,,
 133,V2_50,Public sector expertise,140,V2_57,Recruitment of consultancy firms,negative,3,Citizen,2,0,0,0,,
 134,V2_51,Public sector funding,133,V2_50,Public sector expertise,positive,3,Citizen,2,0,0,0,,
@@ -135,3 +135,7 @@ Master ID,Node ID,cause,Master ID,Node ID,effect,polarity,participant_number,par
 98,V2_15,Discrimination against marginalised communities,106,V2_23,Level of citizen sensitisation,positive,7,Advocate,2,0,0,0,,
 98,V2_15,Discrimination against marginalised communities,143,V2_60,Social inequalities,positive,7,Advocate,2,0,0,0,,
 121,V2_38,People's sense of freedom to move in public spaces,139,V2_56,Realisation of human rights,positive,7,Advocate,2,0,0,0,,
+130,V2_47,Privatisation of urban services,150,V2_67,Use of proprietary infrastructures,positive,3,Citizen,2,0,1,1,,																	
+150,V2_67,Use of proprietary infrastructures,151,V2_68,Interoperability of infrastructures,positive,3,Citizen,2,1,1,1,,																
+151,V2_68,Interoperability of infrastructures,152,V2_69,Switching costs	positive,3,Citizen,2,1,1,1,,																
+152,V2_69,Switching costs,107,V2_24,Relative level of convenience achieved by reproducing the status quo,positive,3,Citizen,2,1,0,1,,																
