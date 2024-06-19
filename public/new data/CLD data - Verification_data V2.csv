@@ -44,8 +44,8 @@ Master ID,Node ID,cause,Master ID,Node ID,effect,polarity,participant_number,par
 94,V2_11,Data retained by private entities,110,V2_27,Likelihood of privacy violation,positive,3,Citizen,2,0,0,0,,
 110,V2_27,Likelihood of privacy violation,127,V2_44,Privacy concerns,positive,3,Citizen,2,0,1,0,blue,added variable
 127,V2_44,Privacy concerns,106,V2_23,Level of citizen sensitisation,positive,3,Citizen,2,1,0,0,blue,added variable
-94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,3,Citizen,2,0,0,0,,
-94,V2_11,Data retained by private entities,137,V2_54,Quality of services,?,3,Citizen,2,0,0,0,,
+94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,3,Citizen,2,0,0,3,,
+94,V2_11,Data retained by private entities,137,V2_54,Quality of services,?,3,Citizen,2,0,0,3,,
 94,V2_11,Data retained by private entities,91,V2_8,Data analytics models,positive,3,Citizen,2,0,0,0,,
 94,V2_11,Data retained by private entities,89,V2_6,Commodification of data,positive,3,Citizen,2,0,0,0,,
 89,V2_6,Commodification of data,128,V2_45,Private sector revenue,positive,3,Citizen,2,0,0,0,,
