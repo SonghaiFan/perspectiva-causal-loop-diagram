@@ -8667,11 +8667,11 @@ const allCyDataSets = {
         {
           data: {
             id: "42-51",
-            label: "Negative",
+            label: "-",
             value: 0,
             source: "42",
             target: "51",
-            polarity: "Negative",
+            polarity: "negative",
             participant_type: "citizen",
             group: "citizen_4",
             color: "0",
