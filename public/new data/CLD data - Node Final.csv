@@ -151,3 +151,115 @@ Master ID,Node ID,Node Name
 150,V2_67,Use of proprietary infrastructures
 151,V2_68,Interoperability of infrastructures
 152,V2_69,Switching costs
+153,V1_84,Regulations
+154,V1_85,Awareness
+155,V1_86,Opportunity to gain power
+156,V1_87,Embeddedness of data collection processes in daily lives
+157,V1_88,Need to achieve efficiency
+158,V1_89,Degree of neoliberalism
+159,V1_90,Technology
+160,V1_91,People's perception of human connectedness
+161,V1_92,Human curiosity
+162,V1_93,Disinformation
+163,V1_94,Empowerment of already powerful actors (e.g. Big Tech)
+164,V1_95,Degree of control over people
+165,V1_96,Collective action
+166,V1_97,(dis)empowerment of individuals/groups
+167,V1_98,Economic equality
+168,V1_99,Ethical political discourse
+169,V1_100,Individualism 
+170,V1_101,Nefarious use of data 
+171,V1_102,Data disposal
+172,V1_103,Tendency to go digital
+173,V1_104,Need for customised user experience
+174,V1_105,Data sharing between entities
+175,V1_106,Need for insights about customers
+176,V1_107,Business model based on data monetisation
+177,V1_108,Privacy breaches
+178,V1_109,Cost of data storage technology
+179,V1_110,Cost-cutting
+180,V1_111,Faster delivery services
+181,V1_112,Partnering with other entities to provide bundle services
+182,V1_113,Expanding products/ services offering
+183,V1_114,Onset of new technologies
+184,V1_115,Data retained by private entities
+185,V1_116,Quality of services
+186,V1_117,Opportunities for data monetisation
+187,V1_118,Tampering political systems
+188,V1_119,Undesignated use of data
+189,V1_120,Timesaving
+190,V1_121,Consumerism
+191,V1_122,Ease of access to my data as a user
+192,V1_123,Connectedness through virtual environments
+193,V1_124,Trust in service providers
+194,V1_125,Justice
+195,V1_126,Polls or surveys from citizens to decide how and where to provide community resources
+196,V1_127,Need for information to develop and maintain the city/urban environment
+197,V1_128,Surveillance of the community
+198,V1_129,A desire / imperative to serve the community; this is literally the city council's entire role
+199,V1_130,Fighting /reducing criminal activity
+200,V1_131,Amount of data retained with city council
+201,V1_132,City can aggregate data to make decisions about infrastructure
+202,V1_133,Data is stored as historical data for future comparisons
+203,V1_134,Data is (hopefully) appropriately access-controlled to protect the privacy of individuals
+204,V1_135,"Data is aggregated and de-identified where appropriate, again to preserve individual privacy, while also remaining useful for its intended collection purpose"
+205,V1_136,Data is (hopefully) kept for only as long as is required before being securely erased
+206,V2_70,Embeddedness of digital infrastructures
+207,V2_71,Level of decision-maker awareness
+208,V2_72,Degree to which people perceive digital connectedness to equate to human connectedness
+209,V2_73,Degree of neoliberalism
+210,V2_74,Individualism
+211,V2_75,Human curiosity
+212,V2_76,Need to achieve efficiency
+213,V2_77,Cost-cutting
+214,V2_78,Likelihood of using data nefariously
+215,V2_79,Collective action
+216,V2_80,Big Tech's market cap
+217,V2_81,Economic equality
+218,V2_82,Disinformation
+219,V2_83,Human autonomy
+220,V2_84,Assetisation of data
+221,V2_85,Tampering political systems
+222,V2_86,Data disposal
+223,V2_87,Data sharing between entities
+224,V2_88,Need for insights about customers
+225,V2_89,Collection of new types of data
+226,V2_90,Cost of data storage technology
+227,V2_91,Partnering with other entities to provide bundle services
+228,V2_92,Expansion of service offering
+229,V2_93,Onset of new technologies
+230,V2_94,Customised user experience
+231,V2_95,Undesignated use of data
+232,V2_96,Ease of access to my data as a user
+233,V2_97,Consumerism
+234,V2_98,Connectedness through virtual environments
+235,V2_99,City-led data collection schemes
+236,V2_100,City-led use of surveillance technologies
+237,V2_101,Need to reduce criminal activity
+238,V2_102,Aggregation of data
+239,V2_103,De-identification of data
+240,V2_104,Familiarity with data-related policies
+241,V2_105,Possibility of masking inequalities
+242,V2_106,Harassment of vulnerable individuals
+243,V2_107,Possibility of data re-identification
+244,V2_108,Optimisation of urban infrastructures
+245,V2_109,Public procurement of digital infrastructures
+246,V2_110,Buying data from private entities
+247,V2_111,Data sharing by private entities
+248,V2_112,Private organisations' legal hurdles
+249,V2_113,Open data
+250,V2_114,Data siloes
+251,V2_115,Difficulty of dealing with data requests
+252,V2_116,Reluctance to share data
+253,V2_117,Potential repercussions
+254,V2_118,Exposure of flaws in decision-making
+255,V2_119,Collaborations between various stakeholders
+256,V2_120,Efficiency of the city's internal operations
+257,V2_121,Development of urban solutions
+258,V2_122,Compliance to data minimisation
+259,V2_123,Capacity to build and use mature data systems
+260,V2_124,City-led experimentation with data collection schemes
+261,V2_125,Generation of personal data
+262,V2_126,Data siloes
+263,V2_127,Commodification of data by the public sector
+264,V2_128,Optimisation of urban planning decisions
