@@ -15,7 +15,8 @@ export default function Home() {
 
   console.log("defaultDataset", defaultDataset);
   const [dataset, setDataset] = useState(defaultDataset);
-  const [version, setVersion] = useState("final");
+  const [version1, setVersion1] = useState("V1");
+  const [version2, setVersion2] = useState("final");
   const [focusVersion, setFocusVersion] = useState(null);
   const [layout, setLayout] = useState("fcose");
   const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
@@ -25,7 +26,9 @@ export default function Home() {
   const getCyData = (dataset, version) =>
     cloneDeep(allCyDataSets[dataset][version]);
 
-  const [data, setData] = useState(getCyData(dataset, version));
+  const [data1, setData1] = useState(getCyData(dataset, version1));
+  const [data2, setData2] = useState(getCyData(dataset, version2));
+
   const datasetItems = Object.keys(allCyDataSets);
   const versionItems = Object.keys(allCyDataSets[dataset]);
   const layoutTypes = Object.keys(layoutConfigs);
@@ -37,32 +40,30 @@ export default function Home() {
           ? queryDataset
           : defaultDataset;
       setDataset(newDataset);
-      setData(getCyData(newDataset, version));
+      setData1(getCyData(newDataset, version1));
+      setData2(getCyData(newDataset, version2));
       setLoading(false);
     }
-  }, [router.isReady, queryDataset, defaultDataset, version]);
+  }, [router.isReady, queryDataset, defaultDataset, version1, version2]);
 
   useEffect(() => {
-    // Check if the selected version exists in the new dataset
     const versionItems = Object.keys(allCyDataSets[dataset]);
-    if (!versionItems.includes(version)) {
-      setVersion("final"); // Reset to default if version not found
-    } else {
-      setVersion(version); // Keep the current version if it exists in the new dataset
+    if (!versionItems.includes(version1)) {
+      setVersion1("V1");
     }
-  }, [dataset, version]);
+    if (!versionItems.includes(version2)) {
+      setVersion2("final");
+    }
+  }, [dataset, version1, version2]);
 
   useEffect(() => {
-    // Update data and layout configuration when dataset, version, or layout changes
-    const updatedVersion = Object.keys(allCyDataSets[dataset]).includes(version)
-      ? version
-      : "final";
-    setData(getCyData(dataset, updatedVersion));
+    setData1(getCyData(dataset, version1));
+    setData2(getCyData(dataset, version2));
     setLayoutConfig(layoutConfigs[layout]);
-  }, [dataset, version, layout]);
+  }, [dataset, version1, version2, layout]);
 
   if (loading) {
-    return <div>Loading...</div>; // Replace this with a proper loading indicator if needed
+    return <div>Loading...</div>;
   }
 
   return (
@@ -70,9 +71,16 @@ export default function Home() {
       <div className="flex flex-grow flex-col p-4">
         {/* Title area */}
         <Header />
-        {/* Diagram area */}
 
-        <Graph data={data} layout={layoutConfig} focusVersion={focusVersion} />
+        {/* Diagram area with two graphs side by side */}
+        <div className="flex flex-grow flex-row gap-4">
+          <div className="flex-1 border border-gray-300 h-full">
+            <Graph data={data1} layout={layoutConfig} focusVersion={focusVersion} />
+          </div>
+          <div className="flex-1 border border-gray-300 h-full">
+            <Graph data={data2} layout={layoutConfig} focusVersion={focusVersion} />
+          </div>
+        </div>
       </div>
 
       {/* Sidebar */}
@@ -80,13 +88,13 @@ export default function Home() {
         dataset={dataset}
         debug={debug}
         datasetItems={datasetItems}
-        version={version}
+        version={version1}
         versionItems={versionItems}
-        data={data}
+        data={data1}
         layout={layout}
         layoutTypes={layoutTypes}
         onDatasetChange={(dataset) => setDataset(dataset)}
-        onVersionClick={(version) => setVersion(version)}
+        onVersionClick={(version) => setVersion1(version)}
         onVersionHover={(version) => setFocusVersion(version)}
         onLayoutChange={(layout) => setLayout(layout)}
       />

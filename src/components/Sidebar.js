@@ -38,12 +38,12 @@ const Sidebar = ({
         selectedLayout={layout}
         onLayoutChange={onLayoutChange}
       />
-      <VersionSelector
+      {/* <VersionSelector
         versionItems={versionItems}
         selectedVersion={version}
         onVersionClick={onVersionClick}
         onVersionHover={onVersionHover}
-      />
+      /> */}
 
       <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
         <h4 className="text-lg font-semibold mb-2">Term List</h4>
