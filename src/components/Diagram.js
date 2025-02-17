@@ -41,10 +41,7 @@ const Graph = ({ data, layout, focusVersion }) => {
   // Initialize Cytoscape when the component mounts
   useEffect(() => {
     if (cy.current) {
-      // Clean up existing listeners if they exist
-      cy.current.removeListener("click", "node");
-      cy.current.removeListener("mouseover", "node");
-      cy.current.removeListener("mouseout", "node");
+      cy.current.destroy(); // Destroy previous instance to avoid issues
     }
 
     cy.current = cytoscape({
@@ -76,7 +73,7 @@ const Graph = ({ data, layout, focusVersion }) => {
     // Hide tooltip when clicking on the canvas
     cy.current.on("tap", function (event) {
       if (event.target === cy.current) {
-        hideTooltip;
+        hideTooltip();
       }
     });
 
@@ -93,7 +90,9 @@ const Graph = ({ data, layout, focusVersion }) => {
 
   // Update the graph when the data changes
   useEffect(() => {
-    updateGraph(cy.current, data, layout);
+    if (cy.current) {
+      updateGraph(cy.current, data, layout);
+    }
   }, [data, layout]);
 
   return (

@@ -14,10 +14,12 @@ const Sidebar = ({
   data,
   layout,
   layoutTypes,
+  viewMode,
   onVersionClick,
   onVersionHover,
   onLayoutChange,
   onDatasetChange,
+  onViewModeChange,
 }) => {
   if (data.length == 0) return;
 
@@ -38,12 +40,28 @@ const Sidebar = ({
         selectedLayout={layout}
         onLayoutChange={onLayoutChange}
       />
-      {/* <VersionSelector
-        versionItems={versionItems}
-        selectedVersion={version}
-        onVersionClick={onVersionClick}
-        onVersionHover={onVersionHover}
-      /> */}
+
+      {/* View Mode Selection */}
+      <div className="bg-white border rounded-md p-2 mb-4 shadow-lg">
+        <h4 className="text-lg font-semibold mb-2">View Mode</h4>
+        <select
+          value={viewMode}
+          onChange={(e) => onViewModeChange(e.target.value)}
+          className="w-full border rounded p-1"
+        >
+          <option value="1 Graph">1 Graph</option>
+          <option value="2 Graphs">2 Graphs</option>
+        </select>
+      </div>
+
+      {viewMode === "1 Graph" && (
+        <VersionSelector
+          versionItems={versionItems}
+          selectedVersion={version}
+          onVersionClick={onVersionClick}
+          onVersionHover={onVersionHover}
+        />
+      )}
 
       <div className="bg-white border rounded-md p-2 mb-8 shadow-lg">
         <h4 className="text-lg font-semibold mb-2">Term List</h4>
