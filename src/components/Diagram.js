@@ -10,13 +10,12 @@ import Tooltip from "./Tooltip";
 cytoscape.use(cola);
 cytoscape.use(fcose);
 
-const Graph = ({ data, layout, focusVersion }) => {
+const Graph = ({data1, data2, layout, focusVersion, viewMode, graphId }) => {
   const cyRef = useRef(null);
   const cy = useRef(null);
   const [tooltipContent, setTooltipContent] = useState("");
   const [tooltipVisible, setTooltipVisible] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
-
   // Function to update tooltip state on node click
   const showTooltip = (node, event) => {
     setTooltipContent(node);
@@ -28,29 +27,24 @@ const Graph = ({ data, layout, focusVersion }) => {
     setTooltipVisible(false);
   };
 
-  // useEffect(() => {
-  //   if (!cy.current) return; // Wait for Cytoscape to initialize
-  //   if (focusVersion) {
-  //     cy.current.elements().removeClass("highlighted");
-  //     cy.current.elements("node." + focusVersion).addClass("highlighted");
-  //   } else {
-  //     cy.current.elements().removeClass("highlighted");
-  //   }
-  // }, [focusVersion]);
-
-  // Initialize Cytoscape when the component mounts
   useEffect(() => {
     if (cy.current) {
-      cy.current.destroy(); // Destroy previous instance to avoid issues
+      cy.current.destroy(); // Clean up previous instance to avoid issues
     }
 
+    // Initialize the Cytoscape instance
     cy.current = cytoscape({
       container: cyRef.current,
-      elements: data,
+      elements: data1,
       style: graphStyles,
       layout: layout,
     });
+    // // Access a node using its ID
+    // const nodeId = '30'; // replace with actual node id
+    // const cyNode = cy.current.$(`#${nodeId}`);
+    // console.log('Node:', cyNode);
 
+    // Tooltip and mouse events
     cy.current.on("mouseover", "node", function (evt) {
       showTooltip(evt.target, evt.originalEvent);
     });
@@ -62,10 +56,9 @@ const Graph = ({ data, layout, focusVersion }) => {
     });
     cy.current.on("mouseout", "node", hideTooltip);
 
-    // Add click event listener to nodes
+    // Click event for highlighting selected node
     cy.current.on("click", "node", function (evt) {
       showTooltip(evt.target, evt.originalEvent);
-      //   add highlight class to the clicked node
       cy.current.elements().removeClass("selected");
       evt.target.addClass("selected");
     });
@@ -77,23 +70,42 @@ const Graph = ({ data, layout, focusVersion }) => {
       }
     });
 
-    // Hide tooltip when zooming or panning or dragging
-    cy.current.on("zoom pan drag", hideTooltip);
+    // Hide tooltip on zoom, pan, drag
+    cy.current.on("zoom pan drag", () => hideTooltip());
 
     // Clean up when the component unmounts
     return () => {
       cy.current.destroy();
     };
-    // only run this effect once
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [data1, layout]);
 
-  // Update the graph when the data changes
-  useEffect(() => {
-    if (cy.current) {
-      updateGraph(cy.current, data, layout);
+
+  const applyNodePositionsFromData = () => {
+    if (cy && data2) {
+      // Apply node positions from data2 to data1
+      const data2Nodes = data2.nodes;
+      data2Nodes.forEach(node => {
+        const id = node.data.id;
+        const position = node.position;
+
+        // Find node in the graph and set its position from data2
+        const cyNode = cy.current.$(`#${id}`);
+        if (cyNode.length > 0) {
+          cyNode.position(position);
+          console.log(`After update - Node ${id} position:`, cyNode.position());
+        }
+      });
     }
-  }, [data, layout]);
+  };
+
+  // Update the graph when the data changes (be careful not to override positions)
+  useEffect(() => {
+    if (graphId == "graph-2") {
+      console.log("Position changing")
+      applyNodePositionsFromData();
+      console.log("Position changed")
+    }
+  }, [focusVersion, cy]);
 
   return (
     <div className="flex h-full">

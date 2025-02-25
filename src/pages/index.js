@@ -21,11 +21,10 @@ export default function Home() {
   const [layout, setLayout] = useState("fcose");
   const [layoutConfig, setLayoutConfig] = useState(layoutConfigs[layout]);
   const [loading, setLoading] = useState(true);
-	const [viewMode, setViewMode] = useState("2 Graphs");
-
+  const [viewMode, setViewMode] = useState("2 Graphs");
+  
   // Deep copy the data to avoid direct modification of original data
-  const getCyData = (dataset, version) =>
-    cloneDeep(allCyDataSets[dataset][version]);
+  const getCyData = (dataset, version) => cloneDeep(allCyDataSets[dataset][version]);
 
   const [data1, setData1] = useState(getCyData(dataset, version1));
   const [data2, setData2] = useState(getCyData(dataset, version2));
@@ -36,10 +35,7 @@ export default function Home() {
 
   useEffect(() => {
     if (router.isReady) {
-      const newDataset =
-        queryDataset && allCyDataSets[queryDataset]
-          ? queryDataset
-          : defaultDataset;
+      const newDataset = queryDataset && allCyDataSets[queryDataset] ? queryDataset : defaultDataset;
       setDataset(newDataset);
       setData1(getCyData(newDataset, version1));
       setData2(getCyData(newDataset, version2));
@@ -73,34 +69,46 @@ export default function Home() {
         {/* Title area */}
         <Header />
 
-				{/* Diagram area with conditional rendering based on viewMode */}
-				<div className="flex flex-grow flex-row gap-4">
-					{viewMode === "1 Graph" ? (
-						<div className="flex-1 border border-gray-300 h-full">
-							<Graph
-								key="single-graph"
-								data={data1}
-								layout={layoutConfig}
-								focusVersion={focusVersion}
-								viewMode={viewMode}
-							/>
-						</div>
-					) : (
-						<>
-							<div className="flex-1 border border-gray-300 h-full">
-								<Graph
-									key="graph-1"
-									data={data1}
-									layout={layoutConfig}
-									focusVersion={focusVersion}
-									viewMode={viewMode}
-								/>
-							</div>
-							<div className="flex-1 border border-gray-300 h-full">
-            <Graph data={data2} layout={layoutConfig} focusVersion={focusVersion} />
-          </div>
-						</>
-					)}
+        {/* Diagram area with conditional rendering based on viewMode */}
+        <div className="flex flex-grow flex-row gap-4">
+          {viewMode === "1 Graph" ? (
+            <div className="flex-1 border border-gray-300 h-full">
+              <Graph
+                key="single-graph"
+                data1={data1}
+                data2={data2} // Pass both datasets here
+                layout={layoutConfig}
+                focusVersion={focusVersion}
+                viewMode={viewMode}
+                graphId = "single-graph"
+              />
+            </div>
+          ) : (
+            <>
+              <div className="flex-1 border border-gray-300 h-full">
+                <Graph
+                  key="graph-1"
+                  data1={data1}
+                  data2={data2} // Pass both datasets here
+                  layout={layoutConfig}
+                  focusVersion={focusVersion}
+                  viewMode={viewMode}
+                  graphId = "graph-1"
+                />
+              </div>
+              <div className="flex-1 border border-gray-300 h-full">
+                <Graph
+                  key="graph-2"
+                  data1={data2}
+                  data2={data1} // Pass both datasets here
+                  layout={layoutConfig}
+                  focusVersion={focusVersion}
+                  viewMode={viewMode}
+                  graphId = "graph-2"
+                />
+              </div>
+            </>
+          )}
         </div>
       </div>
 
@@ -114,12 +122,12 @@ export default function Home() {
         data={data1}
         layout={layout}
         layoutTypes={layoutTypes}
-				viewMode={viewMode}
+        viewMode={viewMode}
         onDatasetChange={(dataset) => setDataset(dataset)}
         onVersionClick={(version) => setVersion1(version)}
         onVersionHover={(version) => setFocusVersion(version)}
         onLayoutChange={(layout) => setLayout(layout)}
-				onViewModeChange={(mode) => setViewMode(mode)}
+        onViewModeChange={(mode) => setViewMode(mode)}
       />
     </main>
   );
