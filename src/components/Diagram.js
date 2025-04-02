@@ -10,7 +10,17 @@ import Tooltip from "./Tooltip";
 cytoscape.use(cola);
 cytoscape.use(fcose);
 
-const Graph = ({ data, layout, focusVersion }) => {
+const Graph = ({
+  data1,
+  data2,
+  layout,
+  focusVersion,
+  viewMode,
+  graphId,
+  // synchronizing positions:
+  onLayoutComplete,  // for graph-1 - send computed positions up
+  forcedPositions    // for graph-2 -positions to force onto the nodes
+}) => {
   const cyRef = useRef(null);
   const cy = useRef(null);
   const [tooltipContent, setTooltipContent] = useState("");
@@ -28,25 +38,14 @@ const Graph = ({ data, layout, focusVersion }) => {
     setTooltipVisible(false);
   };
 
-  // useEffect(() => {
-  //   if (!cy.current) return; // Wait for Cytoscape to initialize
-  //   if (focusVersion) {
-  //     cy.current.elements().removeClass("highlighted");
-  //     cy.current.elements("node." + focusVersion).addClass("highlighted");
-  //   } else {
-  //     cy.current.elements().removeClass("highlighted");
-  //   }
-  // }, [focusVersion]);
-
-  // Initialize Cytoscape when the component mounts
   useEffect(() => {
     if (cy.current) {
-      cy.current.destroy(); // Destroy previous instance to avoid issues
+      cy.current.destroy();
     }
 
     cy.current = cytoscape({
       container: cyRef.current,
-      elements: data,
+      elements: data1,
       style: graphStyles,
       layout: layout,
     });
@@ -65,42 +64,55 @@ const Graph = ({ data, layout, focusVersion }) => {
     // Add click event listener to nodes
     cy.current.on("click", "node", function (evt) {
       showTooltip(evt.target, evt.originalEvent);
-      //   add highlight class to the clicked node
       cy.current.elements().removeClass("selected");
       evt.target.addClass("selected");
     });
-
-    // Hide tooltip when clicking on the canvas
-    cy.current.on("tap", function (event) {
-      if (event.target === cy.current) {
-        hideTooltip();
-      }
+    cy.current.on("tap", (event) => {
+      if (event.target === cy.current) hideTooltip();
     });
-
-    // Hide tooltip when zooming or panning or dragging
     cy.current.on("zoom pan drag", hideTooltip);
 
-    // Clean up when the component unmounts
+    // for graph-1 -> once layout stops, collect positions from all nodes
+    if (graphId === "graph-1" && onLayoutComplete) {
+      cy.current.once("layoutstop", () => {
+        const positions = {};
+        cy.current.nodes().forEach((node) => {
+          positions[node.id()] = node.position();
+        });
+        console.log("Graph-1 computed positions:", positions);
+        onLayoutComplete(positions);
+      });
+    }
+
+    updateGraph(cy.current, data1, layout);
+
     return () => {
       cy.current.destroy();
     };
-    // only run this effect once
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [data1, layout, graphId, onLayoutComplete]);
 
-  // Update the graph when the data changes
+  // for graph-2 - when forcedPositions are there, put them to nodes
   useEffect(() => {
-    if (cy.current) {
-      updateGraph(cy.current, data, layout);
+    if (graphId === "graph-2" && forcedPositions && Object.keys(forcedPositions).length > 0) {
+      console.log("Graph-2 applying forced positions:", forcedPositions);
+      cy.current.batch(() => {
+        Object.entries(forcedPositions).forEach(([nodeId, pos]) => {
+          const node = cy.current.getElementById(nodeId);
+          if (node && node.length > 0) {
+            node.position(pos);
+            console.log(`Graph-2 forced Node ${nodeId} position:`, node.position());
+          }
+        });
+      });
+      // preset layout to manually set positions
+      cy.current.layout({ name: "preset" }).run();
+      console.log("Graph-2 forced positions applied successfully.");
     }
-  }, [data, layout]);
+  }, [forcedPositions, graphId]);
 
   return (
     <div className="flex h-full">
-      <div
-        ref={cyRef}
-        className="flex-grow bg-gray-100 rounded-md p-6 overflow-auto"
-      ></div>
+      <div ref={cyRef} className="flex-grow bg-gray-100 rounded-md p-6 overflow-auto"></div>
       <Tooltip
         element={tooltipContent}
         visible={tooltipVisible}
