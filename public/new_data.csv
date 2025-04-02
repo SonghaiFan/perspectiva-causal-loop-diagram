@@ -1,250 +1,456 @@
-,source_master_id,source_node_id,source,target_master_id,target_node_id,target,polarity,participant_number,participant_type,version,modification,source_color,target_color,link_color,Color,comment,group,types,source_map_id,target_map_id
-0,12,V1_12,Citizen privacy concern,49,V1_49,Privatisation of urban data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,12,49
-1,14,V1_14,Commercial value of data,49,V1_49,Privatisation of urban data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,14,49
-2,31,V1_31,Legal regulation,49,V1_49,Privatisation of urban data,negative,1,citizen,V1,,0,0,0,,,citizen_1,O,31,49
-3,12,V1_12,Citizen privacy concern,31,V1_31,Legal regulation,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,12,31
-4,25,V1_25,Government data use capacity,49,V1_49,Privatisation of urban data,negative,1,citizen,V1,,0,0,0,,,citizen_1,O,25,49
-5,33,V1_33,Lobby by private interests,14,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,33,14
-6,76,V1_76,Technological innovation in data use,14,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,76,14
-7,36,V1_36,Need for data insights in government,14,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,36,14
-8,36,V1_36,Need for data insights in government,25,V1_25,Government data use capacity,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,36,25
-9,33,V1_33,Lobby by private interests,25,V1_25,Government data use capacity,negative,1,citizen,V1,,0,0,0,,,citizen_1,O,33,25
-10,28,V1_28,Imagined fear of data misuse,12,V1_12,Citizen privacy concern,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,28,12
-11,2,V1_2,Actual misuse of data,28,V1_28,Imagined fear of data misuse,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,2,28
-12,49,V1_49,Privatisation of urban data,55,V1_55,Public good uses of data,negative,1,citizen,V1,,0,0,0,,,citizen_1,O,49,55
-13,49,V1_49,Privatisation of urban data,68,V1_68,"Service efficiency, coverage, and performance",negative,1,citizen,V1,,0,0,0,,,citizen_1,O,49,68
-14,49,V1_49,Privatisation of urban data,27,V1_27,Hoarding data,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,49,27
-15,27,V1_27,Hoarding data,17,V1_17,Corporate profits,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,27,17
-16,68,V1_68,"Service efficiency, coverage, and performance",10,V1_10,Citizen buy-in,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,68,10
-17,55,V1_55,Public good uses of data,10,V1_10,Citizen buy-in,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,55,10
-18,10,V1_10,Citizen buy-in,12,V1_12,Citizen privacy concern,negative,1,citizen,V1,,0,0,0,,,citizen_1,O,10,12
-19,17,V1_17,Corporate profits,33,V1_33,Lobby by private interests,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,17,33
-20,17,V1_17,Corporate profits,76,V1_76,Technological innovation in data use,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,17,76
-21,36,V1_36,Need for data insights in government,76,V1_76,Technological innovation in data use,positive,1,citizen,V1,,0,0,0,,,citizen_1,O,36,76
-22,56,V1_56,Public policy tech sector intervention,4,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,56,4
-23,9,V1_9,Citizen awareness of data collection,4,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,9,4
-24,57,V1_57,Public sector expertise,4,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,57,4
-25,50,V1_50,Privatised transport services,4,V1_4,Amount of data retained by private enterprises,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,50,4
-26,52,V1_52,Pro-private sector data structures,4,V1_4,Amount of data retained by private enterprises,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,52,4
-27,75,V1_75,Technological convenience,52,V1_52,Pro-private sector data structures,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,75,52
-28,26,V1_26,Hiring consultants,52,V1_52,Pro-private sector data structures,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,26,52
-29,57,V1_57,Public sector expertise,26,V1_26,Hiring consultants,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,57,26
-30,58,V1_58,Public service funding,57,V1_57,Public sector expertise,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,58,57
-31,62,V1_62,Rate of tech innovation,57,V1_57,Public sector expertise,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,62,57
-32,62,V1_62,Rate of tech innovation,9,V1_9,Citizen awareness of data collection,negative,3,citizen,V1,,0,0,0,,,citizen_3,O,62,9
-33,9,V1_9,Citizen awareness of data collection,56,V1_56,Public policy tech sector intervention,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,9,56
-34,4,V1_4,Amount of data retained by private enterprises,82,V1_82,Violation of contextual integrity,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,4,82
-35,4,V1_4,Amount of data retained by private enterprises,11,V1_11,Citizen desensitisation to data collection,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,4,11
-36,4,V1_4,Amount of data retained by private enterprises,59,V1_59,Quality and availability of urban services,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,4,59
-37,4,V1_4,Amount of data retained by private enterprises,41,V1_41,Pedestrian data models,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,4,41
-38,4,V1_4,Amount of data retained by private enterprises,39,V1_39,On-selling of de-identified data,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,4,39
-39,39,V1_39,On-selling of de-identified data,16,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,39,16
-40,71,V1_71,Speculation of data as a commodity,16,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,71,16
-41,41,V1_41,Pedestrian data models,48,V1_48,Private sector revenue,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,41,48
-42,48,V1_48,Private sector revenue,71,V1_71,Speculation of data as a commodity,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,48,71
-43,48,V1_48,Private sector revenue,16,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,48,16
-44,48,V1_48,Private sector revenue,74,V1_74,Tech investment,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,48,74
-45,48,V1_48,Private sector revenue,34,V1_34,Lobbying,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,48,34
-46,39,V1_39,On-selling of de-identified data,48,V1_48,Private sector revenue,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,39,48
-47,16,V1_16,Corporate data practices,75,V1_75,Technological convenience,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,16,75
-48,34,V1_34,Lobbying,50,V1_50,Privatised transport services,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,34,50
-49,74,V1_74,Tech investment,63,V1_63,Rate of technological innovation,positive,3,citizen,V1,,0,0,0,,,citizen_3,O,74,63
-50,61,V1_61,Quality of services,5,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,61,5
-51,80,V1_80,Trust by people,5,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,80,5
-52,21,V1_21,Enforcement of people-centred data related regulations,5,V1_5,Amount of urban data retained by private entities,negative,4,citizen,V1,,0,0,0,,,citizen_4,O,21,5
-53,77,V1_77,Technology adoption,5,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,77,5
-54,38,V1_38,Need for services,5,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,38,5
-55,72,V1_72,State surveillance,5,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,72,5
-56,38,V1_38,Need for services,77,V1_77,Technology adoption,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,38,77
-57,60,V1_60,Quality of life,38,V1_38,Need for services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,60,38
-58,38,V1_38,Need for services,32,V1_32,Level of technology advancement,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,38,32
-59,32,V1_32,Level of technology advancement,38,V1_38,Need for services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,32,38
-60,47,V1_47,Privacy concerns,21,V1_21,Enforcement of people-centred data related regulations,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,47,21
-61,79,V1_79,Transparency of data collection and use,80,V1_80,Trust by people,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,79,80
-62,21,V1_21,Enforcement of people-centred data related regulations,80,V1_80,Trust by people,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,21,80
-63,37,V1_37,Need for profit,61,V1_61,Quality of services,negative,4,citizen,V1,,0,0,0,,,citizen_4,O,37,61
-64,5,V1_5,Amount of urban data retained by private entities,61,V1_61,Quality of services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,5,61
-65,5,V1_5,Amount of urban data retained by private entities,67,V1_67,Security risks,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,5,67
-66,5,V1_5,Amount of urban data retained by private entities,40,V1_40,Optimising services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,5,40
-67,5,V1_5,Amount of urban data retained by private entities,15,V1_15,Commercialisation of data,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,5,15
-68,67,V1_67,Security risks,18,V1_18,Data leakage,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,67,18
-69,18,V1_18,Data leakage,42,V1_42,Penalty,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,18,42
-70,42,V1_42,Penalty,51,V1_51,Profit,Negative,4,citizen,V1,,0,0,0,,,citizen_4,O,42,51
-71,15,V1_15,Commercialisation of data,51,V1_51,Profit,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,15,51
-72,40,V1_40,Optimising services,51,V1_51,Profit,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,40,51
-73,51,V1_51,Profit,29,V1_29,Investment in services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,51,29
-74,29,V1_29,Investment in services,61,V1_61,Quality of services,positive,4,citizen,V1,,0,0,0,,,citizen_4,O,29,61
-75,15,V1_15,Commercialisation of data,80,V1_80,Trust by people,negative,4,citizen,V1,,0,0,0,,,citizen_4,O,15,80
-76,22,V1_22,Engagement with public transport,5,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,22,5
-77,70,V1_70,Social media,5,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,70,5
-78,66,V1_66,Reward systems,5,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,66,5
-79,65,V1_65,Regulation,5,V1_5,Amount of urban data retained by private entities,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,65,5
-80,35,V1_35,Money donations to public entities,65,V1_65,Regulation,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,35,65
-81,5,V1_5,Amount of urban data retained by private entities,54,V1_54,Providing consumer wants and needs,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,5,54
-82,54,V1_54,Providing consumer wants and needs,5,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,54,5
-83,5,V1_5,Amount of urban data retained by private entities,7,V1_7,Anonymity,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,5,7
-84,5,V1_5,Amount of urban data retained by private entities,73,V1_73,Targeted advertising,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,5,73
-85,7,V1_7,Anonymity,73,V1_73,Targeted advertising,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,7,73
-86,73,V1_73,Targeted advertising,20,V1_20,Empowerment of vulnerable groups,negative,5,citizen,V1,,0,0,0,,,citizen_5,O,73,20
-87,54,V1_54,Providing consumer wants and needs,66,V1_66,Reward systems,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,54,66
-88,7,V1_7,Anonymity,53,V1_53,Protection of the most vulnerable,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,7,53
-89,5,V1_5,Amount of urban data retained by private entities,6,V1_6,Amount of urban data retained by public entities,?,5,citizen,V1,,0,0,0,,,citizen_5,O,5,6
-90,6,V1_6,Amount of urban data retained by public entities,3,V1_3,Allocating funding for public services,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,6,3
-91,3,V1_3,Allocating funding for public services,23,V1_23,Ensuring citizens interests,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,3,23
-92,23,V1_23,Ensuring citizens interests,20,V1_20,Empowerment of vulnerable groups,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,23,20
-93,23,V1_23,Ensuring citizens interests,83,V1_83,"Wellbeing, livelihood, and safety",positive,5,citizen,V1,,0,0,0,,,citizen_5,O,23,83
-94,23,V1_23,Ensuring citizens interests,6,V1_6,Amount of urban data retained by public entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,O,23,6
-95,30,V1_30,Legal permission to use data (Identify and Disrupt Act),19,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,30,19
-96,24,V1_24,Exemptions in different acts,1,V1_1,Access to data from other entities,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,24,1
-97,13,V1_13,Collection of data by law enforcement,19,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,13,19
-98,69,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,19,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,69,19
-99,78,V1_78,Techno-solutionism,69,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,78,69
-100,43,V1_43,People's concerns about crime,69,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,43,69
-101,45,V1_45,Pop-culture,69,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,45,69
-102,19,V1_19,Data used by law enforcement,46,V1_46,Predictive policing,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,19,46
-103,19,V1_19,Data used by law enforcement,64,V1_64,Reactive policing,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,19,64
-104,46,V1_46,Predictive policing,8,V1_8,Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,46,8
-105,46,V1_46,Predictive policing,44,V1_44,"People's sense of being able to move in public spaces, protest. etc.",negative,7,advocate,V1,,0,0,0,,,advocate_7,O,46,44
-106,64,V1_64,Reactive policing,44,V1_44,"People's sense of being able to move in public spaces, protest. etc.",negative,7,advocate,V1,,0,0,0,,,advocate_7,O,64,44
-107,44,V1_44,"People's sense of being able to move in public spaces, protest. etc.",81,V1_81,Undermining of human rights,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,44,81
-108,1,V1_1,Access to data from other entities,19,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,O,1,19
-109,127,V2_44,Privacy concerns,94,V2_11,Data retained by private entities,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,47,49
-110,87,V2_4,Commercial value of data,94,V2_11,Data retained by private entities,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,14,49
-111,108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,1,citizen,V2,,0,0,0,,,citizen_1,K,65,49
-112,127,V2_44,Privacy concerns,108,V2_25,Level of regulation,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,47,65
-113,133,V2_50,Public sector expertise,94,V2_11,Data retained by private entities,negative,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,RNC,57,49
-114,112,V2_29,Lobbying,87,V2_4,Commercial value of data,positive,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,RNC,35,14
-115,109,V2_26,Level of technological advancement,87,V2_4,Commercial value of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,76,14
-116,113,V2_30,Need for data insights in government,87,V2_4,Commercial value of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,36,14
-117,113,V2_30,Need for data insights in government,133,V2_50,Public sector expertise,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,36,57
-118,112,V2_29,Lobbying,133,V2_50,Public sector expertise,negative,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,RNC,35,57
-119,123,V2_40,Perceived misuse of data,127,V2_44,Privacy concerns,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,28,47
-120,101,V2_18,Events of data misuse,123,V2_40,Perceived misuse of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,2,28
-121,94,V2_11,Data retained by private entities,111,V2_28,Likelihood of using data for public good,negative,1,citizen,V2,,0,0,0,,,citizen_1,K,49,55
-122,94,V2_11,Data retained by private entities,137,V2_54,Quality of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,C,49,68
-123,94,V2_11,Data retained by private entities,85,V2_2,Amount of horaded data,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,49,27
-124,85,V2_2,Amount of horaded data,89,V2_6,Commodification of data,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,AV,27,71
-125,137,V2_54,Quality of services,122,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,68,75
-126,111,V2_28,Likelihood of using data for public good,106,V2_23,Level of citizen sensitisation,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,55,80
-127,106,V2_23,Level of citizen sensitisation,127,V2_44,Privacy concerns,negative,1,citizen,V2,,0,0,0,,,citizen_1,K,80,47
-128,128,V2_45,Private sector revenue,112,V2_29,Lobbying,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,51,35
-129,128,V2_45,Private sector revenue,109,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,51,76
-130,113,V2_30,Need for data insights in government,109,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,K,36,76
-131,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,C,49,86
-132,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,AV,86,75
-133,122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,75,80
-134,89,V2_6,Commodification of data,128,V2_45,Private sector revenue,positive,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,71,51
-135,89,V2_6,Commodification of data,111,V2_28,Likelihood of using data for public good,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,AV,71,55
-136,135,V2_52,Public sector intervention,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,56,49
-137,105,V2_22,Level of citizen awareness,106,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,AL,9,80
-138,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,80,95
-139,106,V2_23,Level of citizen sensitisation,135,V2_52,Public sector intervention,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,80,56
-140,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,95,49
-141,133,V2_50,Public sector expertise,94,V2_11,Data retained by private entities,negative,3,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_3,RNC,57,49
-142,130,V2_47,Privatisation of urban services,94,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,50,49
-143,131,V2_48,Promotion of pro-private data collection schemes,94,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,52,49
-144,130,V2_47,Privatisation of urban services,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,AL,50,52
-145,107,V2_24,Relative level of convenience achieved by reproducing the status quo,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,107,52
-146,140,V2_57,Recruitment of consultancy firms,131,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,26,52
-147,133,V2_50,Public sector expertise,140,V2_57,Recruitment of consultancy firms,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,57,26
-148,134,V2_51,Public sector funding,133,V2_50,Public sector expertise,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,58,57
-149,109,V2_26,Level of technological advancement,133,V2_50,Public sector expertise,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,76,57
-150,109,V2_26,Level of technological advancement,105,V2_22,Level of citizen awareness,negative,3,citizen,V2,,0,0,0,,,citizen_3,K,76,9
-151,94,V2_11,Data retained by private entities,110,V2_27,Likelihood of privacy violation,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,82
-152,110,V2_27,Likelihood of privacy violation,127,V2_44,Privacy concerns,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,82,47
-153,127,V2_44,Privacy concerns,106,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,47,80
-154,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,?,3,citizen,V2,,0,0,3,,,citizen_3,K,49,86
-155,94,V2_11,Data retained by private entities,137,V2_54,Quality of services,?,3,citizen,V2,,0,0,3,,,citizen_3,K,49,68
-156,94,V2_11,Data retained by private entities,91,V2_8,Data analytics models,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,41
-157,94,V2_11,Data retained by private entities,89,V2_6,Commodification of data,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,49,71
-158,89,V2_6,Commodification of data,128,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,71,51
-159,91,V2_8,Data analytics models,86,V2_3,Availability of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,86
-160,91,V2_8,Data analytics models,128,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,51
-161,91,V2_8,Data analytics models,137,V2_54,Quality of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,41,68
-162,128,V2_45,Private sector revenue,104,V2_21,Investment in technology,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,51,74
-163,128,V2_45,Private sector revenue,112,V2_29,Lobbying,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,51,35
-164,86,V2_3,Availability of services,122,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,86,75
-165,137,V2_54,Quality of services,122,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,AV,68,75
-166,112,V2_29,Lobbying,130,V2_47,Privatisation of urban services,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,35,50
-167,104,V2_21,Investment in technology,109,V2_26,Level of technological advancement,positive,3,citizen,V2,,0,0,0,,,citizen_3,K,74,76
-168,122,V2_39,Perceived level of technological convenience,106,V2_23,Level of citizen sensitisation,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,AV,75,80
-169,149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,22,49
-170,95,V2_12,Data subject interventions,94,V2_11,Data retained by private entities,negative,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,AV,95,49
-171,108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,65,49
-172,84,V2_1,Adoption of technology,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,77,49
-173,115,V2_32,Need for services,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,38,49
-174,144,V2_61,State surveillance,94,V2_11,Data retained by private entities,positive,4,citizen,V2,,2,2,2,red,relationship and variable need clarification,citizen_4,RAVNC,72,49
-175,115,V2_32,Need for services,84,V2_1,Adoption of technology,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,38,77
-176,136,V2_53,Quality of life,115,V2_32,Need for services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,83,38
-177,115,V2_32,Need for services,109,V2_26,Level of technological advancement,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,38,76
-178,109,V2_26,Level of technological advancement,115,V2_32,Need for services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,76,38
-179,127,V2_44,Privacy concerns,106,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,AL,47,80
-180,106,V2_23,Level of citizen sensitisation,95,V2_12,Data subject interventions,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,AV,80,95
-181,110,V2_27,Likelihood of privacy violation,127,V2_44,Privacy concerns,positive,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,AV,82,47
-182,106,V2_23,Level of citizen sensitisation,108,V2_25,Level of regulation,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,80,65
-183,108,V2_25,Level of regulation,146,V2_63,Transparency of data collection and use,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,AL,65,79
-184,146,V2_63,Transparency of data collection and use,106,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,79,80
-185,108,V2_25,Level of regulation,106,V2_23,Level of citizen sensitisation,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,65,80
-186,137,V2_54,Quality of services,149,V2_66,Use of urban services,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,AV,68,22
-187,94,V2_11,Data retained by private entities,118,V2_35,Optimisation of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,49,40
-188,118,V2_35,Optimisation of services,137,V2_54,Quality of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,40,68
-189,94,V2_11,Data retained by private entities,141,V2_58,Security risks,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,49,67
-190,94,V2_11,Data retained by private entities,89,V2_6,Commodification of data,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,49,71
-191,141,V2_58,Security risks,125,V2_42,Possibility of data leakage,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,67,18
-192,125,V2_42,Possibility of data leakage,120,V2_37,Penalties,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,18,42
-193,120,V2_37,Penalties,128,V2_45,Private sector revenue,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,42,51
-194,88,V2_5,Commercialisation of data,128,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,88,51
-195,118,V2_35,Optimisation of services,128,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,40,51
-196,128,V2_45,Private sector revenue,103,V2_20,Investment in services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,51,29
-197,103,V2_20,Investment in services,137,V2_54,Quality of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,29,68
-198,88,V2_5,Commercialisation of data,106,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,0,,,citizen_4,K,88,80
-199,114,V2_31,Need for profit,137,V2_54,Quality of services,negative,4,citizen,V2,,0,0,0,,,citizen_4,K,37,68
-200,90,V2_7,Competitive market,137,V2_54,Quality of services,positive,4,citizen,V2,,1,0,1,blue,added variable and link,citizen_4,AVAL,90,68
-201,125,V2_42,Possibility of data leakage,110,V2_27,Likelihood of privacy violation,positive,4,citizen,V2,,0,1,1,blue,added variable and link,citizen_4,AVAL,18,82
-202,149,V2_66,Use of urban services,94,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,22,49
-203,148,V2_65,Use of social media,94,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,70,49
-204,100,V2_17,Engagement with reward systems,94,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,66,49
-205,108,V2_25,Level of regulation,94,V2_11,Data retained by private entities,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,65,49
-206,112,V2_29,Lobbying,108,V2_25,Level of regulation,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,35,65
-207,94,V2_11,Data retained by private entities,137,V2_54,Quality of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,AV,49,68
-208,94,V2_11,Data retained by private entities,86,V2_3,Availability of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,AV,49,86
-209,137,V2_54,Quality of services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,AV,68,54
-210,86,V2_3,Availability of services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,AV,86,54
-211,102,V2_19,Fulfillment of citizens' needs,149,V2_66,Use of urban services,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,54,22
-212,94,V2_11,Data retained by private entities,110,V2_27,Likelihood of privacy violation,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,49,82
-213,110,V2_27,Likelihood of privacy violation,99,V2_16,Empowerment of vulnerable groups,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,82,20
-214,94,V2_11,Data retained by private entities,145,V2_62,Targeted advertising,negative,5,citizen,V2,,0,0,0,,,citizen_5,K,49,73
-215,145,V2_62,Targeted advertising,99,V2_16,Empowerment of vulnerable groups,negative,5,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_5,RNC,73,20
-216,94,V2_11,Data retained by private entities,93,V2_10,Data retained by city council,?,5,citizen,V2,,0,0,2,red,relationship needs clarification,citizen_5,RNC,49,6
-217,93,V2_10,Data retained by city council,119,V2_36,Optimised allocation of funding to public services,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,6,3
-218,119,V2_36,Optimised allocation of funding to public services,102,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,3,54
-219,102,V2_19,Fulfillment of citizens' needs,136,V2_53,Quality of life,positive,5,citizen,V2,,0,0,0,,,citizen_5,K,54,83
-220,102,V2_19,Fulfillment of citizens' needs,93,V2_10,Data retained by city council,positive,5,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_5,RNC,54,6
-221,129,V2_46,Private-public partnerships,94,V2_11,Data retained by private entities,positive,7,advocate,V2,,1,1,1,blue,added variables and link,advocate_7,AVAL,129,49
-222,94,V2_11,Data retained by private entities,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,AV,49,19
-223,116,V2_33,Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,30,19
-224,92,V2_9,Data collection by law enforcement,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,13,19
-225,142,V2_59,Social expectations for law enforcement to be using data to better police,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,69,19
-226,97,V2_14,Degree of techno-solutionism,142,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,78,69
-227,117,V2_34,Number of people concerned about crime,142,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,43,69
-228,124,V2_41,Pop-culture,142,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,45,69
-229,96,V2_13,Data use by law enforcement,126,V2_43,Predictive policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,19,46
-230,96,V2_13,Data use by law enforcement,138,V2_55,Reactive data-driven policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,19,64
-231,126,V2_43,Predictive policing,98,V2_15,Discrimination against marginalised communities,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,46,8
-232,126,V2_43,Predictive policing,132,V2_49,Protests,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,46,132
-233,138,V2_55,Reactive data-driven policing,121,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,64,44
-234,126,V2_43,Predictive policing,121,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,46,44
-235,121,V2_38,People's sense of freedom to move in public spaces,106,V2_23,Level of citizen sensitisation,negative,7,advocate,V2,,0,0,0,,,advocate_7,K,44,80
-236,93,V2_10,Data retained by city council,96,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,AV,6,19
-237,147,V2_64,Use of off-the-shelf tech products by city council,93,V2_10,Data retained by city council,positive,7,advocate,V2,,0,1,0,,,advocate_7,K,147,6
-238,133,V2_50,Public sector expertise,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,57,147
-239,134,V2_51,Public sector funding,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,AV,58,147
-240,113,V2_30,Need for data insights in government,147,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,1,1,Blue,added variable,advocate_7,AV,36,147
-241,113,V2_30,Need for data insights in government,93,V2_10,Data retained by city council,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,36,6
-242,98,V2_15,Discrimination against marginalised communities,106,V2_23,Level of citizen sensitisation,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,8,80
-243,98,V2_15,Discrimination against marginalised communities,143,V2_60,Social inequalities,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,8,143
-244,121,V2_38,People's sense of freedom to move in public spaces,139,V2_56,Realisation of human rights,positive,7,advocate,V2,,0,0,0,,,advocate_7,K,44,81
-245,130,V2_47,Privatisation of urban services,150,V2_67,Use of proprietary infrastructures,positive,3,citizen,V2,,0,1,1,,																	,citizen_3,,50,150
-246,150,V2_67,Use of proprietary infrastructures,151,V2_68,Interoperability of infrastructures,positive,3,citizen,V2,,1,1,1,,																,citizen_3,,150,151
-247,151,V2_68,Interoperability of infrastructures,152,V2_69,Switching costs,positive,3,citizen,V2,,1,1,1,,																,citizen_3,,151,152
-248,152,V2_69,Switching costs,107,V2_24,Relative level of convenience achieved by reproducing the status quo,positive,3,citizen,V2,,1,0,1,,																,citizen_3,,152,107
+,source_master_id,source_node_id,source,target_master_id,target_node_id,target,polarity,participant_number,participant_type,version,modification,source_color,target_color,link_color,Color,comment,group,perspectiva,types,source_map_id,target_map_id,dataset
+0,12.0,V1_12,Citizen privacy concern,49.0,V1_49,Privatisation of urban data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,12,49,Merged Data
+1,14.0,V1_14,Commercial value of data,49.0,V1_49,Privatisation of urban data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,14,49,Merged Data
+2,31.0,V1_31,Legal regulation,49.0,V1_49,Privatisation of urban data,negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,31,49,Merged Data
+3,12.0,V1_12,Citizen privacy concern,31.0,V1_31,Legal regulation,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,12,31,Merged Data
+4,25.0,V1_25,Government data use capacity,49.0,V1_49,Privatisation of urban data,negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,25,49,Merged Data
+5,33.0,V1_33,Lobby by private interests,14.0,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,33,14,Merged Data
+6,76.0,V1_76,Technological innovation in data use,14.0,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,76,14,Merged Data
+7,36.0,V1_36,Need for data insights in government,14.0,V1_14,Commercial value of data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,36,14,Merged Data
+8,36.0,V1_36,Need for data insights in government,25.0,V1_25,Government data use capacity,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,36,25,Merged Data
+9,33.0,V1_33,Lobby by private interests,25.0,V1_25,Government data use capacity,negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,33,25,Merged Data
+10,28.0,V1_28,Imagined fear of data misuse,12.0,V1_12,Citizen privacy concern,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,28,12,Merged Data
+11,2.0,V1_2,Actual misuse of data,28.0,V1_28,Imagined fear of data misuse,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,2,28,Merged Data
+12,49.0,V1_49,Privatisation of urban data,55.0,V1_55,Public good uses of data,negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,49,55,Merged Data
+13,49.0,V1_49,Privatisation of urban data,68.0,V1_68,"Service efficiency, coverage, and performance",negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,49,68,Merged Data
+14,49.0,V1_49,Privatisation of urban data,27.0,V1_27,Hoarding data,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,49,27,Merged Data
+15,27.0,V1_27,Hoarding data,17.0,V1_17,Corporate profits,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,27,17,Merged Data
+16,68.0,V1_68,"Service efficiency, coverage, and performance",10.0,V1_10,Citizen buy-in,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,68,10,Merged Data
+17,55.0,V1_55,Public good uses of data,10.0,V1_10,Citizen buy-in,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,55,10,Merged Data
+18,10.0,V1_10,Citizen buy-in,12.0,V1_12,Citizen privacy concern,negative,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,10,12,Merged Data
+19,17.0,V1_17,Corporate profits,33.0,V1_33,Lobby by private interests,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,17,33,Merged Data
+20,17.0,V1_17,Corporate profits,76.0,V1_76,Technological innovation in data use,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,17,76,Merged Data
+21,36.0,V1_36,Need for data insights in government,76.0,V1_76,Technological innovation in data use,positive,1,citizen,V1,,0,0,0,,,citizen_1,citizen_1,O,36,76,Merged Data
+22,56.0,V1_56,Public policy tech sector intervention,4.0,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,56,4,Merged Data
+23,9.0,V1_9,Citizen awareness of data collection,4.0,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,9,4,Merged Data
+24,57.0,V1_57,Public sector expertise,4.0,V1_4,Amount of data retained by private enterprises,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,57,4,Merged Data
+25,50.0,V1_50,Privatised transport services,4.0,V1_4,Amount of data retained by private enterprises,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,50,4,Merged Data
+26,52.0,V1_52,Pro-private sector data structures,4.0,V1_4,Amount of data retained by private enterprises,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,52,4,Merged Data
+27,75.0,V1_75,Technological convenience,52.0,V1_52,Pro-private sector data structures,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,75,52,Merged Data
+28,26.0,V1_26,Hiring consultants,52.0,V1_52,Pro-private sector data structures,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,26,52,Merged Data
+29,57.0,V1_57,Public sector expertise,26.0,V1_26,Hiring consultants,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,57,26,Merged Data
+30,58.0,V1_58,Public service funding,57.0,V1_57,Public sector expertise,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,58,57,Merged Data
+31,62.0,V1_62,Rate of tech innovation,57.0,V1_57,Public sector expertise,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,62,57,Merged Data
+32,62.0,V1_62,Rate of tech innovation,9.0,V1_9,Citizen awareness of data collection,negative,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,62,9,Merged Data
+33,9.0,V1_9,Citizen awareness of data collection,56.0,V1_56,Public policy tech sector intervention,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,9,56,Merged Data
+34,4.0,V1_4,Amount of data retained by private enterprises,82.0,V1_82,Violation of contextual integrity,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,4,82,Merged Data
+35,4.0,V1_4,Amount of data retained by private enterprises,11.0,V1_11,Citizen desensitisation to data collection,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,4,11,Merged Data
+36,4.0,V1_4,Amount of data retained by private enterprises,59.0,V1_59,Quality and availability of urban services,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,4,59,Merged Data
+37,4.0,V1_4,Amount of data retained by private enterprises,41.0,V1_41,Pedestrian data models,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,4,41,Merged Data
+38,4.0,V1_4,Amount of data retained by private enterprises,39.0,V1_39,On-selling of de-identified data,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,4,39,Merged Data
+39,39.0,V1_39,On-selling of de-identified data,16.0,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,39,16,Merged Data
+40,71.0,V1_71,Speculation of data as a commodity,16.0,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,71,16,Merged Data
+41,41.0,V1_41,Pedestrian data models,48.0,V1_48,Private sector revenue,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,41,48,Merged Data
+42,48.0,V1_48,Private sector revenue,71.0,V1_71,Speculation of data as a commodity,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,48,71,Merged Data
+43,48.0,V1_48,Private sector revenue,16.0,V1_16,Corporate data practices,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,48,16,Merged Data
+44,48.0,V1_48,Private sector revenue,74.0,V1_74,Tech investment,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,48,74,Merged Data
+45,48.0,V1_48,Private sector revenue,34.0,V1_34,Lobbying,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,48,34,Merged Data
+46,39.0,V1_39,On-selling of de-identified data,48.0,V1_48,Private sector revenue,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,39,48,Merged Data
+47,16.0,V1_16,Corporate data practices,75.0,V1_75,Technological convenience,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,16,75,Merged Data
+48,34.0,V1_34,Lobbying,50.0,V1_50,Privatised transport services,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,34,50,Merged Data
+49,74.0,V1_74,Tech investment,63.0,V1_63,Rate of technological innovation,positive,3,citizen,V1,,0,0,0,,,citizen_3,citizen_3,O,74,63,Merged Data
+50,61.0,V1_61,Quality of services,5.0,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,61,5,Merged Data
+51,80.0,V1_80,Trust by people,5.0,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,80,5,Merged Data
+52,21.0,V1_21,Enforcement of people-centred data related regulations,5.0,V1_5,Amount of urban data retained by private entities,negative,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,21,5,Merged Data
+53,77.0,V1_77,Technology adoption,5.0,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,77,5,Merged Data
+54,38.0,V1_38,Need for services,5.0,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,38,5,Merged Data
+55,72.0,V1_72,State surveillance,5.0,V1_5,Amount of urban data retained by private entities,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,72,5,Merged Data
+56,38.0,V1_38,Need for services,77.0,V1_77,Technology adoption,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,38,77,Merged Data
+57,60.0,V1_60,Quality of life,38.0,V1_38,Need for services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,60,38,Merged Data
+58,38.0,V1_38,Need for services,32.0,V1_32,Level of technology advancement,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,38,32,Merged Data
+59,32.0,V1_32,Level of technology advancement,38.0,V1_38,Need for services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,32,38,Merged Data
+60,47.0,V1_47,Privacy concerns,21.0,V1_21,Enforcement of people-centred data related regulations,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,47,21,Merged Data
+61,79.0,V1_79,Transparency of data collection and use,80.0,V1_80,Trust by people,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,79,80,Merged Data
+62,21.0,V1_21,Enforcement of people-centred data related regulations,80.0,V1_80,Trust by people,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,21,80,Merged Data
+63,37.0,V1_37,Need for profit,61.0,V1_61,Quality of services,negative,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,37,61,Merged Data
+64,5.0,V1_5,Amount of urban data retained by private entities,61.0,V1_61,Quality of services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,5,61,Merged Data
+65,5.0,V1_5,Amount of urban data retained by private entities,67.0,V1_67,Security risks,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,5,67,Merged Data
+66,5.0,V1_5,Amount of urban data retained by private entities,40.0,V1_40,Optimising services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,5,40,Merged Data
+67,5.0,V1_5,Amount of urban data retained by private entities,15.0,V1_15,Commercialisation of data,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,5,15,Merged Data
+68,67.0,V1_67,Security risks,18.0,V1_18,Data leakage,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,67,18,Merged Data
+69,18.0,V1_18,Data leakage,42.0,V1_42,Penalty,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,18,42,Merged Data
+70,42.0,V1_42,Penalty,51.0,V1_51,Profit,Negative,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,42,51,Merged Data
+71,15.0,V1_15,Commercialisation of data,51.0,V1_51,Profit,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,15,51,Merged Data
+72,40.0,V1_40,Optimising services,51.0,V1_51,Profit,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,40,51,Merged Data
+73,51.0,V1_51,Profit,29.0,V1_29,Investment in services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,51,29,Merged Data
+74,29.0,V1_29,Investment in services,61.0,V1_61,Quality of services,positive,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,29,61,Merged Data
+75,15.0,V1_15,Commercialisation of data,80.0,V1_80,Trust by people,negative,4,citizen,V1,,0,0,0,,,citizen_4,citizen_4,O,15,80,Merged Data
+76,22.0,V1_22,Engagement with public transport,5.0,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,22,5,Merged Data
+77,70.0,V1_70,Social media,5.0,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,70,5,Merged Data
+78,66.0,V1_66,Reward systems,5.0,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,66,5,Merged Data
+79,65.0,V1_65,Regulation,5.0,V1_5,Amount of urban data retained by private entities,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,65,5,Merged Data
+80,35.0,V1_35,Money donations to public entities,65.0,V1_65,Regulation,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,35,65,Merged Data
+81,5.0,V1_5,Amount of urban data retained by private entities,54.0,V1_54,Providing consumer wants and needs,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,5,54,Merged Data
+82,54.0,V1_54,Providing consumer wants and needs,5.0,V1_5,Amount of urban data retained by private entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,54,5,Merged Data
+83,5.0,V1_5,Amount of urban data retained by private entities,7.0,V1_7,Anonymity,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,5,7,Merged Data
+84,5.0,V1_5,Amount of urban data retained by private entities,73.0,V1_73,Targeted advertising,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,5,73,Merged Data
+85,7.0,V1_7,Anonymity,73.0,V1_73,Targeted advertising,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,7,73,Merged Data
+86,73.0,V1_73,Targeted advertising,20.0,V1_20,Empowerment of vulnerable groups,negative,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,73,20,Merged Data
+87,54.0,V1_54,Providing consumer wants and needs,66.0,V1_66,Reward systems,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,54,66,Merged Data
+88,7.0,V1_7,Anonymity,53.0,V1_53,Protection of the most vulnerable,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,7,53,Merged Data
+89,5.0,V1_5,Amount of urban data retained by private entities,6.0,V1_6,Amount of urban data retained by public entities,?,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,5,6,Merged Data
+90,6.0,V1_6,Amount of urban data retained by public entities,3.0,V1_3,Allocating funding for public services,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,6,3,Merged Data
+91,3.0,V1_3,Allocating funding for public services,23.0,V1_23,Ensuring citizens interests,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,3,23,Merged Data
+92,23.0,V1_23,Ensuring citizens interests,20.0,V1_20,Empowerment of vulnerable groups,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,23,20,Merged Data
+93,23.0,V1_23,Ensuring citizens interests,83.0,V1_83,"Wellbeing, livelihood, and safety",positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,23,83,Merged Data
+94,23.0,V1_23,Ensuring citizens interests,6.0,V1_6,Amount of urban data retained by public entities,positive,5,citizen,V1,,0,0,0,,,citizen_5,citizen_5,O,23,6,Merged Data
+95,30.0,V1_30,Legal permission to use data (Identify and Disrupt Act),19.0,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,30,19,Merged Data
+96,24.0,V1_24,Exemptions in different acts,1.0,V1_1,Access to data from other entities,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,24,1,Merged Data
+97,13.0,V1_13,Collection of data by law enforcement,19.0,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,13,19,Merged Data
+98,69.0,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,19.0,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,69,19,Merged Data
+99,78.0,V1_78,Techno-solutionism,69.0,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,78,69,Merged Data
+100,43.0,V1_43,People's concerns about crime,69.0,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,43,69,Merged Data
+101,45.0,V1_45,Pop-culture,69.0,V1_69,Social and political expectations for law enforcement to be using data and technologies to better police,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,45,69,Merged Data
+102,19.0,V1_19,Data used by law enforcement,46.0,V1_46,Predictive policing,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,19,46,Merged Data
+103,19.0,V1_19,Data used by law enforcement,64.0,V1_64,Reactive policing,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,19,64,Merged Data
+104,46.0,V1_46,Predictive policing,8.0,V1_8,Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,46,8,Merged Data
+105,46.0,V1_46,Predictive policing,44.0,V1_44,"People's sense of being able to move in public spaces, protest. etc.",negative,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,46,44,Merged Data
+106,64.0,V1_64,Reactive policing,44.0,V1_44,"People's sense of being able to move in public spaces, protest. etc.",negative,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,64,44,Merged Data
+107,44.0,V1_44,"People's sense of being able to move in public spaces, protest. etc.",81.0,V1_81,Undermining of human rights,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,44,81,Merged Data
+108,1.0,V1_1,Access to data from other entities,19.0,V1_19,Data used by law enforcement,positive,7,advocate,V1,,0,0,0,,,advocate_7,advocate_7,O,1,19,Merged Data
+109,,V1_90,Technology,,V1_101,Nefarious use of data ,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,90,101,Merged Data
+110,,V1_84,Regulations,,V1_101,Nefarious use of data ,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,84,101,Merged Data
+111,,,Awareness ,,V1_101,Nefarious use of data ,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,None,101,Merged Data
+112,,,Opportunity to gain power ,,V1_101,Nefarious use of data ,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,None,101,Merged Data
+113,,,Embededness of data collection processes in daily lives,,V1_101,Nefarious use of data ,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,None,101,Merged Data
+114,,V1_88,Need to achieve efficiency,,, Embededness of data collection processes in daily lives,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,88,None,Merged Data
+115,,V1_89,Degree of neoliberalism,,V1_88,Need to achieve efficiency,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,89,88,Merged Data
+116,,V1_89,Degree of neoliberalism,,,Opportunity to gain power ,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,89,None,Merged Data
+117,,V1_89,Degree of neoliberalism,,V1_84,Regulations,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,89,84,Merged Data
+118,,V1_89,Degree of neoliberalism,,V1_90,Technology,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,89,90,Merged Data
+119,,V1_91,People's perception of human connectedness,,,Opportunity to gain power ,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,91,None,Merged Data
+120,,V1_91,People's perception of human connectedness,,,Awareness ,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,91,None,Merged Data
+121,,V1_92,Human curiosity,,V1_90,Technology,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,92,90,Merged Data
+122,,V1_100,Individualism ,,V1_91,People's perception of human connectedness,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,100,91,Merged Data
+123,,V1_101,Nefarious use of data ,,V1_93,Disinformation,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,101,93,Merged Data
+124,,V1_101,Nefarious use of data ,,V1_94,Empowerment of already powerful actors (e.g. Big Tech),positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,101,94,Merged Data
+125,,V1_101,Nefarious use of data ,,V1_95,Degree of control over people,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,101,95,Merged Data
+126,,V1_101,Nefarious use of data ,,V1_96,Collective action,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,101,96,Merged Data
+127,,V1_101,Nefarious use of data ,,V1_97,(dis)empowerment of individuals/groups,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,101,97,Merged Data
+128,,V1_96,Collective action,,V1_100,Individualism ,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,96,100,Merged Data
+129,,V1_100,Individualism ,,V1_89,Degree of neoliberalism,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,100,89,Merged Data
+130,,V1_94,Empowerment of already powerful actors (e.g. Big Tech),,V1_98,Economic equality,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,94,98,Merged Data
+131,,V1_97,(dis)empowerment of individuals/groups,,V1_98,Economic equality,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,97,98,Merged Data
+132,,V1_93,Disinformation,,V1_99,Ethical political discourse,negative,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,93,99,Merged Data
+133,,V1_99,Ethical political discourse,,V1_85,Awareness,positive,1,expert,V1,,0,0,0,,,expert_1,expert_1,O,99,85,Merged Data
+134,,V1_84,Regulations,,V1_115,Data retained by private entities,negative,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,84,115,Merged Data
+135,,V1_102,Data disposal,,V1_115,Data retained by private entities,negative,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,102,115,Merged Data
+136,,V1_103,Tendency to go digital,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,103,115,Merged Data
+137,,V1_104,Need for customised user experience,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,104,115,Merged Data
+138,,V1_105,Data sharing between entities,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,105,115,Merged Data
+139,,V1_106,Need for insights about customers,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,106,115,Merged Data
+140,,V1_107,Business model based on data monetisation,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,107,115,Merged Data
+141,,V1_108,Privacy breaches,,V1_102,Data disposal,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,108,102,Merged Data
+142,,V1_109,Cost of data storage technology,,V1_102,Data disposal,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,109,102,Merged Data
+143,,V1_110,Cost-cutting,,V1_103,Tendency to go digital,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,110,103,Merged Data
+144,,V1_111,Faster delivery services,,V1_103,Tendency to go digital,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,111,103,Merged Data
+145,,V1_104,Need for customised user experience,,V1_120,Timesaving,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,104,120,Merged Data
+146,,V1_104,Need for customised user experience,,V1_121,Consumerism,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,104,121,Merged Data
+147,,V1_112,Partnering with other entities to provide bundle services,,V1_121,Consumerism,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,112,121,Merged Data
+148,,V1_112,Partnering with other entities to provide bundle services,,V1_122,Ease of access to my data as a user,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,112,122,Merged Data
+149,,V1_112,Partnering with other entities to provide bundle services,,V1_105,Data sharing between entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,112,105,Merged Data
+150,,V1_113,Expanding products/ services offering,,V1_106,Need for insights about customers,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,113,106,Merged Data
+151,,V1_114,Onset of new technologies,,V1_115,Data retained by private entities,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,114,115,Merged Data
+152,,V1_115,Data retained by private entities,,V1_123,Connectedness through virtual environments,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,115,123,Merged Data
+153,,V1_115,Data retained by private entities,,V1_124,Trust in service providers,negative,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,115,124,Merged Data
+154,,V1_115,Data retained by private entities,,V1_116,Quality of services,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,115,116,Merged Data
+155,,V1_115,Data retained by private entities,,V1_117,Opportunities for data monetisation,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,115,117,Merged Data
+156,,V1_116,Quality of services,,V1_113,Expanding products/ services offering,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,116,113,Merged Data
+157,,V1_117,Opportunities for data monetisation,,V1_114,Onset of new technologies,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,117,114,Merged Data
+158,,V1_117,Opportunities for data monetisation,,V1_119,Undesignated use of data,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,117,119,Merged Data
+159,,V1_117,Opportunities for data monetisation,,V1_118,Tampering political systems,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,117,118,Merged Data
+160,,V1_118,Tampering political systems,,V1_125,Justice,negative,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,118,125,Merged Data
+161,,V1_119,Undesignated use of data,,V1_108,Privacy breaches,positive,9,expert,V1,,0,0,0,,,expert_9,expert_9,O,119,108,Merged Data
+162,,V1_126,Polls or surveys from citizens to decide how and where to provide community resources,,V1_131,Amount of data retained with city council,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,126,131,Merged Data
+163,,V1_127,Need for information to develop and maintain the city/urban environment,,V1_131,Amount of data retained with city council,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,127,131,Merged Data
+164,,V1_128,Surveillance of the community,,V1_131,Amount of data retained with city council,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,128,131,Merged Data
+165,,V1_129,A desire / imperative to serve the community; this is literally the city council's entire role,,V1_126,Polls or surveys from citizens to decide how and where to provide community resources,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,129,126,Merged Data
+166,,V1_129,A desire / imperative to serve the community; this is literally the city council's entire role,,V1_127,Need for information to develop and maintain the city/urban environment,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,129,127,Merged Data
+167,,V1_130,fighting /reducing criminal activity,,V1_128,Surveillance of the community,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,130,128,Merged Data
+168,,V1_131,Amount of data retained with city council,,V1_132,City can aggregate data to make decisions about infrastructure,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,131,132,Merged Data
+169,,V1_131,Amount of data retained with city council,,V1_133,Data is stored as historical data for future comparisons,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,131,133,Merged Data
+170,,V1_131,Amount of data retained with city council,,V1_134,Data is (hopefully) appropriately access-controlled to protect the privacy of individuals,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,131,134,Merged Data
+171,,V1_131,Amount of data retained with city council,,V1_135,"Data is aggregated and de-identified where appropriate, again to preserve individual privacy, while also remaining useful for its intended collection purpose",positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,131,135,Merged Data
+172,,V1_131,Amount of data retained with city council,,V1_136,Data is (hopefully) kept for only as long as is required before being securely erased,positive,6,advocate,V1,,0,0,0,,,advocate_6,advocate_6,O,131,136,Merged Data
+173,127.0,V2_44,Privacy concerns,94.0,V2_11,Data retained by private entities,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,47,115,Merged Data
+174,87.0,V2_4,Commercial value of data,94.0,V2_11,Data retained by private entities,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,14,115,Merged Data
+175,108.0,V2_25,Level of regulation,94.0,V2_11,Data retained by private entities,negative,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,84,115,Merged Data
+176,127.0,V2_44,Privacy concerns,108.0,V2_25,Level of regulation,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,47,84,Merged Data
+177,133.0,V2_50,Public sector expertise,94.0,V2_11,Data retained by private entities,negative,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,final_merged,RNC,57,115,Merged Data
+178,112.0,V2_29,Lobbying,87.0,V2_4,Commercial value of data,positive,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,final_merged,RNC,35,14,Merged Data
+179,109.0,V2_26,Level of technological advancement,87.0,V2_4,Commercial value of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,90,14,Merged Data
+180,113.0,V2_30,Need for data insights in government,87.0,V2_4,Commercial value of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,127,14,Merged Data
+181,113.0,V2_30,Need for data insights in government,133.0,V2_50,Public sector expertise,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,127,57,Merged Data
+182,112.0,V2_29,Lobbying,133.0,V2_50,Public sector expertise,negative,1,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_1,final_merged,RNC,35,57,Merged Data
+183,123.0,V2_40,Perceived misuse of data,127.0,V2_44,Privacy concerns,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,28,47,Merged Data
+184,101.0,V2_18,Events of data misuse,123.0,V2_40,Perceived misuse of data,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,2,28,Merged Data
+185,94.0,V2_11,Data retained by private entities,111.0,V2_28,Likelihood of using data for public good,negative,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,115,55,Merged Data
+186,94.0,V2_11,Data retained by private entities,137.0,V2_54,Quality of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,final_merged,C,115,116,Merged Data
+187,94.0,V2_11,Data retained by private entities,85.0,V2_2,Amount of horaded data,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,115,27,Merged Data
+188,85.0,V2_2,Amount of horaded data,89.0,V2_6,Commodification of data,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,final_merged,AV,27,117,Merged Data
+189,137.0,V2_54,Quality of services,122.0,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,116,120,Merged Data
+190,111.0,V2_28,Likelihood of using data for public good,106.0,V2_23,Level of citizen sensitisation,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,55,124,Merged Data
+191,106.0,V2_23,Level of citizen sensitisation,127.0,V2_44,Privacy concerns,negative,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,124,47,Merged Data
+192,128.0,V2_45,Private sector revenue,112.0,V2_29,Lobbying,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,51,35,Merged Data
+193,128.0,V2_45,Private sector revenue,109.0,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,51,90,Merged Data
+194,113.0,V2_30,Need for data insights in government,109.0,V2_26,Level of technological advancement,positive,1,citizen,V2,,0,0,0,,,citizen_1,final_merged,K,127,90,Merged Data
+195,94.0,V2_11,Data retained by private entities,86.0,V2_3,Availability of services,?,1,citizen,V2,,0,0,3,cyan,conflict,citizen_1,final_merged,C,115,86,Merged Data
+196,86.0,V2_3,Availability of services,122.0,V2_39,Perceived level of technological convenience,positive,1,citizen,V2,,0,1,0,blue,added variabe,citizen_1,final_merged,AV,86,120,Merged Data
+197,122.0,V2_39,Perceived level of technological convenience,106.0,V2_23,Level of citizen sensitisation,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,final_merged,AV,120,124,Merged Data
+198,89.0,V2_6,Commodification of data,128.0,V2_45,Private sector revenue,positive,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,final_merged,AV,117,51,Merged Data
+199,89.0,V2_6,Commodification of data,111.0,V2_28,Likelihood of using data for public good,negative,1,citizen,V2,,1,0,0,blue,added variabe,citizen_1,final_merged,AV,117,55,Merged Data
+200,135.0,V2_52,Public sector intervention,94.0,V2_11,Data retained by private entities,negative,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,56,115,Merged Data
+201,105.0,V2_22,Level of citizen awareness,106.0,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,final_merged,AL,85,124,Merged Data
+202,106.0,V2_23,Level of citizen sensitisation,95.0,V2_12,Data subject interventions,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,final_merged,AV,124,95,Merged Data
+203,106.0,V2_23,Level of citizen sensitisation,135.0,V2_52,Public sector intervention,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,124,56,Merged Data
+204,95.0,V2_12,Data subject interventions,94.0,V2_11,Data retained by private entities,negative,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,final_merged,AV,95,115,Merged Data
+205,133.0,V2_50,Public sector expertise,94.0,V2_11,Data retained by private entities,negative,3,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_3,final_merged,RNC,57,115,Merged Data
+206,130.0,V2_47,Privatisation of urban services,94.0,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,50,115,Merged Data
+207,131.0,V2_48,Promotion of pro-private data collection schemes,94.0,V2_11,Data retained by private entities,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,52,115,Merged Data
+208,130.0,V2_47,Privatisation of urban services,131.0,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,1,blue,added link,citizen_3,final_merged,AL,50,52,Merged Data
+209,107.0,V2_24,Relative level of convenience achieved by reproducing the status quo,131.0,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,final_merged,AV,107,52,Merged Data
+210,140.0,V2_57,Recruitment of consultancy firms,131.0,V2_48,Promotion of pro-private data collection schemes,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,26,52,Merged Data
+211,133.0,V2_50,Public sector expertise,140.0,V2_57,Recruitment of consultancy firms,negative,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,57,26,Merged Data
+212,134.0,V2_51,Public sector funding,133.0,V2_50,Public sector expertise,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,58,57,Merged Data
+213,109.0,V2_26,Level of technological advancement,133.0,V2_50,Public sector expertise,negative,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,90,57,Merged Data
+214,109.0,V2_26,Level of technological advancement,105.0,V2_22,Level of citizen awareness,negative,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,90,85,Merged Data
+215,94.0,V2_11,Data retained by private entities,110.0,V2_27,Likelihood of privacy violation,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,115,134,Merged Data
+216,110.0,V2_27,Likelihood of privacy violation,127.0,V2_44,Privacy concerns,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,final_merged,AV,134,47,Merged Data
+217,127.0,V2_44,Privacy concerns,106.0,V2_23,Level of citizen sensitisation,positive,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,final_merged,AV,47,124,Merged Data
+218,94.0,V2_11,Data retained by private entities,86.0,V2_3,Availability of services,?,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,115,86,Merged Data
+219,94.0,V2_11,Data retained by private entities,137.0,V2_54,Quality of services,?,3,citizen,V2,,0,0,3,,,citizen_3,final_merged,K,115,116,Merged Data
+220,94.0,V2_11,Data retained by private entities,91.0,V2_8,Data analytics models,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,115,41,Merged Data
+221,94.0,V2_11,Data retained by private entities,89.0,V2_6,Commodification of data,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,115,117,Merged Data
+222,89.0,V2_6,Commodification of data,128.0,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,117,51,Merged Data
+223,91.0,V2_8,Data analytics models,86.0,V2_3,Availability of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,41,86,Merged Data
+224,91.0,V2_8,Data analytics models,128.0,V2_45,Private sector revenue,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,41,51,Merged Data
+225,91.0,V2_8,Data analytics models,137.0,V2_54,Quality of services,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,41,116,Merged Data
+226,128.0,V2_45,Private sector revenue,104.0,V2_21,Investment in technology,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,51,74,Merged Data
+227,128.0,V2_45,Private sector revenue,112.0,V2_29,Lobbying,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,51,35,Merged Data
+228,86.0,V2_3,Availability of services,122.0,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,final_merged,AV,86,120,Merged Data
+229,137.0,V2_54,Quality of services,122.0,V2_39,Perceived level of technological convenience,positive,3,citizen,V2,,0,1,0,blue,added variable,citizen_3,final_merged,AV,116,120,Merged Data
+230,112.0,V2_29,Lobbying,130.0,V2_47,Privatisation of urban services,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,35,50,Merged Data
+231,104.0,V2_21,Investment in technology,109.0,V2_26,Level of technological advancement,positive,3,citizen,V2,,0,0,0,,,citizen_3,final_merged,K,74,90,Merged Data
+232,122.0,V2_39,Perceived level of technological convenience,106.0,V2_23,Level of citizen sensitisation,negatve,3,citizen,V2,,1,0,0,blue,added variable,citizen_3,final_merged,AV,120,124,Merged Data
+233,149.0,V2_66,Use of urban services,94.0,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,22,115,Merged Data
+234,95.0,V2_12,Data subject interventions,94.0,V2_11,Data retained by private entities,Negative,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,final_merged,AV,95,115,Merged Data
+235,108.0,V2_25,Level of regulation,94.0,V2_11,Data retained by private entities,negative,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,84,115,Merged Data
+236,84.0,V2_1,Adoption of technology,94.0,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,77,115,Merged Data
+237,115.0,V2_32,Need for services,94.0,V2_11,Data retained by private entities,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,38,115,Merged Data
+238,144.0,V2_61,State surveillance,94.0,V2_11,Data retained by private entities,positive,4,citizen,V2,,2,2,2,red,relationship and variable need clarification,citizen_4,final_merged,RAVNC,72,115,Merged Data
+239,115.0,V2_32,Need for services,84.0,V2_1,Adoption of technology,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,38,77,Merged Data
+240,136.0,V2_53,Quality of life,115.0,V2_32,Need for services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,83,38,Merged Data
+241,115.0,V2_32,Need for services,109.0,V2_26,Level of technological advancement,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,38,90,Merged Data
+242,109.0,V2_26,Level of technological advancement,115.0,V2_32,Need for services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,90,38,Merged Data
+243,127.0,V2_44,Privacy concerns,106.0,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,final_merged,AL,47,124,Merged Data
+244,106.0,V2_23,Level of citizen sensitisation,95.0,V2_12,Data subject interventions,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,final_merged,AV,124,95,Merged Data
+245,110.0,V2_27,Likelihood of privacy violation,127.0,V2_44,Privacy concerns,positive,4,citizen,V2,,1,0,0,blue,added variable,citizen_4,final_merged,AV,134,47,Merged Data
+246,106.0,V2_23,Level of citizen sensitisation,108.0,V2_25,Level of regulation,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,124,84,Merged Data
+247,108.0,V2_25,Level of regulation,146.0,V2_63,Transparency of data collection and use,positive,4,citizen,V2,,0,0,1,blue,added link,citizen_4,final_merged,AL,84,79,Merged Data
+248,146.0,V2_63,Transparency of data collection and use,106.0,V2_23,Level of citizen sensitisation,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,79,124,Merged Data
+249,108.0,V2_25,Level of regulation,106.0,V2_23,Level of citizen sensitisation,negative,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,84,124,Merged Data
+250,137.0,V2_54,Quality of services,149.0,V2_66,Use of urban services,positive,4,citizen,V2,,0,1,0,blue,added variable,citizen_4,final_merged,AV,116,22,Merged Data
+251,94.0,V2_11,Data retained by private entities,118.0,V2_35,Optimisation of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,115,40,Merged Data
+252,118.0,V2_35,Optimisation of services,137.0,V2_54,Quality of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,40,116,Merged Data
+253,94.0,V2_11,Data retained by private entities,141.0,V2_58,Security risks,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,115,67,Merged Data
+254,94.0,V2_11,Data retained by private entities,89.0,V2_6,Commodification of data,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,115,117,Merged Data
+255,141.0,V2_58,Security risks,125.0,V2_42,Possibility of data leakage,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,67,18,Merged Data
+256,125.0,V2_42,Possibility of data leakage,120.0,V2_37,Penalties,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,18,42,Merged Data
+257,120.0,V2_37,Penalties,128.0,V2_45,Private sector revenue,Negative,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,42,51,Merged Data
+258,88.0,V2_5,Commercialisation of data,128.0,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,88,51,Merged Data
+259,118.0,V2_35,Optimisation of services,128.0,V2_45,Private sector revenue,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,40,51,Merged Data
+260,128.0,V2_45,Private sector revenue,103.0,V2_20,Investment in services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,51,29,Merged Data
+261,103.0,V2_20,Investment in services,137.0,V2_54,Quality of services,positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,29,116,Merged Data
+262,88.0,V2_5,Commercialisation of data,106.0,V2_23,Level of citizen sensitisation,Positive,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,88,124,Merged Data
+263,114.0,V2_31,Need for profit,137.0,V2_54,Quality of services,negative,4,citizen,V2,,0,0,0,,,citizen_4,final_merged,K,37,116,Merged Data
+264,90.0,V2_7,Competitive market,137.0,V2_54,Quality of services,Positive,4,citizen,V2,,1,0,1,blue,added variable and link,citizen_4,final_merged,AVAL,90,116,Merged Data
+265,125.0,V2_42,Possibility of data leakage,110.0,V2_27,Likelihood of privacy violation,Positive,4,citizen,V2,,0,1,1,blue,added variable and link,citizen_4,final_merged,AVAL,18,134,Merged Data
+266,149.0,V2_66,Use of urban services,94.0,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,22,115,Merged Data
+267,148.0,V2_65,Use of social media,94.0,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,70,115,Merged Data
+268,100.0,V2_17,Engagement with reward systems,94.0,V2_11,Data retained by private entities,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,66,115,Merged Data
+269,108.0,V2_25,Level of regulation,94.0,V2_11,Data retained by private entities,negative,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,84,115,Merged Data
+270,112.0,V2_29,Lobbying,108.0,V2_25,Level of regulation,negative,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,35,84,Merged Data
+271,94.0,V2_11,Data retained by private entities,137.0,V2_54,Quality of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,final_merged,AV,115,116,Merged Data
+272,94.0,V2_11,Data retained by private entities,86.0,V2_3,Availability of services,positive,5,citizen,V2,,0,1,0,blue,added variable,citizen_5,final_merged,AV,115,86,Merged Data
+273,137.0,V2_54,Quality of services,102.0,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,final_merged,AV,116,54,Merged Data
+274,86.0,V2_3,Availability of services,102.0,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,1,0,0,blue,added variable,citizen_5,final_merged,AV,86,54,Merged Data
+275,102.0,V2_19,Fulfillment of citizens' needs,149.0,V2_66,Use of urban services,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,54,22,Merged Data
+276,94.0,V2_11,Data retained by private entities,110.0,V2_27,Likelihood of privacy violation,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,115,134,Merged Data
+277,110.0,V2_27,Likelihood of privacy violation,99.0,V2_16,Empowerment of vulnerable groups,negative,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,134,97,Merged Data
+278,94.0,V2_11,Data retained by private entities,145.0,V2_62,Targeted advertising,negative,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,115,73,Merged Data
+279,145.0,V2_62,Targeted advertising,99.0,V2_16,Empowerment of vulnerable groups,negative,5,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_5,final_merged,RNC,73,97,Merged Data
+280,94.0,V2_11,Data retained by private entities,93.0,V2_10,Data retained by city council,?,5,citizen,V2,,0,0,2,red,relationship needs clarification,citizen_5,final_merged,RNC,115,131,Merged Data
+281,93.0,V2_10,Data retained by city council,119.0,V2_36,Optimised allocation of funding to public services,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,131,3,Merged Data
+282,119.0,V2_36,Optimised allocation of funding to public services,102.0,V2_19,Fulfillment of citizens' needs,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,3,54,Merged Data
+283,102.0,V2_19,Fulfillment of citizens' needs,136.0,V2_53,Quality of life,positive,5,citizen,V2,,0,0,0,,,citizen_5,final_merged,K,54,83,Merged Data
+284,102.0,V2_19,Fulfillment of citizens' needs,93.0,V2_10,Data retained by city council,positive,5,citizen,V2,,2,2,2,red,relationship needs clarification,citizen_5,final_merged,RNC,54,131,Merged Data
+285,129.0,V2_46,Private-public partnerships,94.0,V2_11,Data retained by private entities,positive,7,advocate,V2,,1,1,1,blue,added variables and link,advocate_7,final_merged,AVAL,129,115,Merged Data
+286,94.0,V2_11,Data retained by private entities,96.0,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,final_merged,AV,115,19,Merged Data
+287,116.0,V2_33,Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts,96.0,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,30,19,Merged Data
+288,92.0,V2_9,Data collection by law enforcement,96.0,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,13,19,Merged Data
+289,142.0,V2_59,Social expectations for law enforcement to be using data to better police,96.0,V2_13,Data use by law enforcement,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,69,19,Merged Data
+290,97.0,V2_14,Degree of techno-solutionism,142.0,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,78,69,Merged Data
+291,117.0,V2_34,Number of people concerned about crime,142.0,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,43,69,Merged Data
+292,124.0,V2_41,Pop-culture,142.0,V2_59,Social expectations for law enforcement to be using data to better police,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,45,69,Merged Data
+293,96.0,V2_13,Data use by law enforcement,126.0,V2_43,Predictive policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,19,46,Merged Data
+294,96.0,V2_13,Data use by law enforcement,138.0,V2_55,Reactive data-driven policing,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,19,64,Merged Data
+295,126.0,V2_43,Predictive policing,98.0,V2_15,Discrimination against marginalised communities,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,46,8,Merged Data
+296,126.0,V2_43,Predictive policing,132.0,V2_49,Protests,negative,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,46,132,Merged Data
+297,138.0,V2_55,Reactive data-driven policing,121.0,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,64,44,Merged Data
+298,126.0,V2_43,Predictive policing,121.0,V2_38,People's sense of freedom to move in public spaces,negative,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,46,44,Merged Data
+299,121.0,V2_38,People's sense of freedom to move in public spaces,106.0,V2_23,Level of citizen sensitisation,negative,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,44,124,Merged Data
+300,93.0,V2_10,Data retained by city council,96.0,V2_13,Data use by law enforcement,positive,7,advocate,V2,,1,0,0,blue,added variable,advocate_7,final_merged,AV,131,19,Merged Data
+301,147.0,V2_64,Use of off-the-shelf tech products by city council,93.0,V2_10,Data retained by city council,positive,7,advocate,V2,,0,1,0,,,advocate_7,final_merged,K,147,131,Merged Data
+302,133.0,V2_50,Public sector expertise,147.0,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,final_merged,AV,57,147,Merged Data
+303,134.0,V2_51,Public sector funding,147.0,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,0,0,Blue,added variable,advocate_7,final_merged,AV,58,147,Merged Data
+304,113.0,V2_30,Need for data insights in government,147.0,V2_64,Use of off-the-shelf tech products by city council,positive,7,advocate,V2,,1,1,1,Blue,added variable,advocate_7,final_merged,AV,127,147,Merged Data
+305,113.0,V2_30,Need for data insights in government,93.0,V2_10,Data retained by city council,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,127,131,Merged Data
+306,98.0,V2_15,Discrimination against marginalised communities,106.0,V2_23,Level of citizen sensitisation,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,8,124,Merged Data
+307,98.0,V2_15,Discrimination against marginalised communities,143.0,V2_60,Social inequalities,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,8,143,Merged Data
+308,121.0,V2_38,People's sense of freedom to move in public spaces,139.0,V2_56,Realisation of human rights,positive,7,advocate,V2,,0,0,0,,,advocate_7,final_merged,K,44,125,Merged Data
+309,130.0,V2_47,Privatisation of urban services,150.0,V2_67,Use of proprietary infrastructures,positive,3,citizen,V2,,0,1,1,Blue,added variable,citizen_3,final_merged,AV,50,150,Merged Data
+310,150.0,V2_67,Use of proprietary infrastructures,151.0,V2_68,Interoperability of infrastructures,positive,3,citizen,V2,,1,1,1,Blue,added variable,citizen_3,final_merged,AV,150,151,Merged Data
+311,151.0,V2_68,Interoperability of infrastructures,152.0,V2_69,Switching costs,positive,3,citizen,V2,,1,1,1,Blue,added variable,citizen_3,final_merged,AV,151,152,Merged Data
+312,152.0,V2_69,Switching costs,107.0,V2_24,Relative level of convenience achieved by reproducing the status quo,positive,3,citizen,V2,,1,0,1,Blue,added variable,citizen_3,final_merged,AV,152,107,Merged Data
+313,108.0,V2_25,Level of regulation,214.0,V2_78,Likelihood of using data nefariously,negative,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,84,101,Merged Data
+314,105.0,V2_22,Level of citizen awareness,215.0,V2_79,Likelihood of using data nefariously,negative,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,85,96,Merged Data
+315,109.0,V2_26,Level of technological advancement,216.0,V2_80,Likelihood of using data nefariously,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,90,94,Merged Data
+316,206.0,V2_70,Embeddedness of digital infrastructures,217.0,V2_81,Likelihood of using data nefariously,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,103,98,Merged Data
+317,207.0,V2_71,Level of decision-maker awareness,108.0,V2_25,Level of regulation,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,102,84,Merged Data
+318,208.0,V2_72,Degree to which people perceive digital connectedness to equate to human connectedness,105.0,V2_22,Level of citizen awareness,negative,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,91,85,Merged Data
+319,135.0,V2_52,Public sector intervention,108.0,V2_25,Level of regulation,positive,2,expert,V2,,1,0,0,,,expert_2,final_merged,K,56,84,Merged Data
+320,209.0,V2_73,Degree of neoliberalism,135.0,V2_52,Public sector intervention,negative,2,expert,V2,,0,1,0,,,expert_2,final_merged,K,89,56,Merged Data
+321,210.0,V2_74,Individualism,209.0,V2_73,Degree of neoliberalism,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,100,89,Merged Data
+322,210.0,V2_74,Individualism,208.0,V2_72,Degree to which people perceive digital connectedness to equate to human connectedness,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,100,91,Merged Data
+323,211.0,V2_75,Human curiosity,109.0,V2_26,Level of technological advancement,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,92,90,Merged Data
+324,212.0,V2_76,Need to achieve efficiency,109.0,V2_26,Level of technological advancement,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,111,90,Merged Data
+325,212.0,V2_76,Need to achieve efficiency,206.0,V2_70,Embeddedness of digital infrastructures,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,111,103,Merged Data
+326,114.0,V2_31,Need for profit,212.0,V2_76,Need to achieve efficiency,positive,2,expert,V2,,1,0,0,,,expert_2,final_merged,K,37,111,Merged Data
+327,114.0,V2_31,Need for profit,213.0,V2_77,Cost-cutting,positive,2,expert,V2,,1,1,0,,,expert_2,final_merged,K,37,110,Merged Data
+328,213.0,V2_77,Cost-cutting,206.0,V2_70,Embeddedness of digital infrastructures,positive,2,expert,V2,,1,0,0,,,expert_2,final_merged,K,110,103,Merged Data
+329,214.0,V2_78,Likelihood of using data nefariously,218.0,V2_82,Disinformation,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,101,93,Merged Data
+330,214.0,V2_78,Likelihood of using data nefariously,220.0,V2_84,Assetisation of data,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,101,220,Merged Data
+331,214.0,V2_78,Likelihood of using data nefariously,89.0,V2_6,Commodification of data,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,101,117,Merged Data
+332,214.0,V2_78,Likelihood of using data nefariously,145.0,V2_62,Targeted advertising,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,101,73,Merged Data
+333,214.0,V2_78,Likelihood of using data nefariously,221.0,V2_85,Tampering political systems,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,101,118,Merged Data
+334,214.0,V2_78,Likelihood of using data nefariously,215.0,V2_79,Collective action,negative,2,expert,V2,,0,2,0,,,expert_2,final_merged,K,101,96,Merged Data
+335,215.0,V2_79,Collective action,210.0,V2_74,Individualism,negative,2,expert,V2,,2,0,0,,,expert_2,final_merged,K,96,100,Merged Data
+336,89.0,V2_6,Commodification of data,145.0,V2_62,Targeted advertising,positive,2,expert,V2,,1,1,0,,,expert_2,final_merged,K,117,73,Merged Data
+337,89.0,V2_6,Commodification of data,221.0,V2_85,Tampering political systems,positive,2,expert,V2,,1,1,0,,,expert_2,final_merged,K,117,118,Merged Data
+338,89.0,V2_6,Commodification of data,216.0,V2_80,Big Tech's market cap,positive,2,expert,V2,,1,0,0,,,expert_2,final_merged,K,117,94,Merged Data
+339,216.0,V2_80,Big Tech's market cap,217.0,V2_81,Economic equality,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,94,98,Merged Data
+340,217.0,V2_81,Economic equality,99.0,V2_16,Empowerment of vulnerable groups,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,98,97,Merged Data
+341,99.0,V2_16,Empowerment of vulnerable groups,217.0,V2_81,Economic equality,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,97,98,Merged Data
+342,218.0,V2_82,Disinformation,99.0,V2_16,Empowerment of vulnerable groups,negative,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,93,97,Merged Data
+343,145.0,V2_62,Targeted advertising,219.0,V2_83,Human autonomy,negative,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,73,95,Merged Data
+344,219.0,V2_83,Human autonomy,99.0,V2_16,Empowerment of vulnerable groups,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,95,97,Merged Data
+345,220.0,V2_84,Assetisation of data,216.0,V2_80,Big Tech's market cap,positive,2,expert,V2,,1,0,0,,,expert_2,final_merged,K,220,94,Merged Data
+346,207.0,V2_71,Level of decision-maker awareness,108.0,V2_25,Level of regulation,positive,2,expert,V2,,0,0,0,,,expert_2,final_merged,K,102,84,Merged Data
+347,108.0,V2_25,Level of regulation,94.0,V2_11,Data retained by private entities,negative,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,84,115,Merged Data
+348,222.0,V2_86,Data disposal,94.0,V2_11,Data retained by private entities,negative,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,136,115,Merged Data
+349,206.0,V2_70,Embeddedness of digital infrastructures,94.0,V2_11,Data retained by private entities,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,103,115,Merged Data
+350,223.0,V2_87,Data sharing between entities,94.0,V2_11,Data retained by private entities,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,105,115,Merged Data
+351,224.0,V2_88,Need for insights about customers,94.0,V2_11,Data retained by private entities,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,106,115,Merged Data
+352,225.0,V2_89,Collection of new types of data,94.0,V2_11,Data retained by private entities,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,225,115,Merged Data
+353,106.0,V2_23,Level of citizen sensitisation,94.0,V2_11,Data retained by private entities,negative,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,124,115,Merged Data
+354,226.0,V2_90,Cost of data storage technology,222.0,V2_86,Data disposal,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,109,136,Merged Data
+355,213.0,V2_77,Cost-cutting,206.0,V2_70,Embeddedness of digital infrastructures,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,110,103,Merged Data
+356,212.0,V2_76,Need to achieve efficiency,206.0,V2_70,Embeddedness of digital infrastructures,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,111,103,Merged Data
+357,227.0,V2_91,Partnering with other entities to provide bundle services,223.0,V2_87,Data sharing between entities,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,112,105,Merged Data
+358,227.0,V2_91,Partnering with other entities to provide bundle services,232.0,V2_96,Ease of access to my data as a user,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,112,122,Merged Data
+359,227.0,V2_91,Partnering with other entities to provide bundle services,233.0,V2_97,Consumerism,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,112,121,Merged Data
+360,228.0,V2_92,Expansion of service offering,224.0,V2_88,Need for insights about customers,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,113,106,Merged Data
+361,103.0,V2_20,Investment in services,228.0,V2_92,Expansion of service offering,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,29,113,Merged Data
+362,128.0,V2_45,Private sector revenue,103.0,V2_20,Investment in services,positive,9,expert,V2,,1,1,0,,,expert_9,final_merged,K,51,29,Merged Data
+363,149.0,V2_66,Use of urban services,128.0,V2_45,Private sector revenue,positive,9,expert,V2,,0,1,0,,,expert_9,final_merged,K,22,51,Merged Data
+364,118.0,V2_35,Optimisation of services,128.0,V2_45,Private sector revenue,positive,9,expert,V2,,1,1,0,,,expert_9,final_merged,K,40,51,Merged Data
+365,118.0,V2_35,Optimisation of services,137.0,V2_54,Quality of services,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,40,116,Merged Data
+366,137.0,V2_54,Quality of services,149.0,V2_66,Use of urban services,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,116,22,Merged Data
+367,128.0,V2_45,Private sector revenue,104.0,V2_21,Investment in technology,positive,9,expert,V2,,1,1,0,,,expert_9,final_merged,K,51,74,Merged Data
+368,104.0,V2_21,Investment in technology,109.0,V2_26,Level of technological advancement,positive,9,expert,V2,,1,1,0,,,expert_9,final_merged,K,74,90,Merged Data
+369,109.0,V2_26,Level of technological advancement,229.0,V2_93,Onset of new technologies,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,90,114,Merged Data
+370,229.0,V2_93,Onset of new technologies,225.0,V2_89,Collection of new types of data,positive,9,expert,V2,,0,1,0,,,expert_9,final_merged,K,114,225,Merged Data
+371,94.0,V2_11,Data retained by private entities,230.0,V2_94,Customised user experience,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,115,104,Merged Data
+372,94.0,V2_11,Data retained by private entities,106.0,V2_23,Level of citizen sensitisation,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,115,124,Merged Data
+373,94.0,V2_11,Data retained by private entities,234.0,V2_98,Connectedness through virtual environments,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,115,234,Merged Data
+374,94.0,V2_11,Data retained by private entities,89.0,V2_6,Commodification of data,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,115,117,Merged Data
+375,230.0,V2_94,Customised user experience,233.0,V2_97,Consumerism,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,104,121,Merged Data
+376,230.0,V2_94,Customised user experience,122.0,V2_39,Perceived level of technological convenience,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,104,120,Merged Data
+377,122.0,V2_39,Perceived level of technological convenience,106.0,V2_23,Level of citizen sensitisation,negative,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,120,124,Merged Data
+378,110.0,V2_27,Likelihood of privacy violation,222.0,V2_86,Data disposal,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,134,136,Merged Data
+379,110.0,V2_27,Likelihood of privacy violation,106.0,V2_23,Level of citizen sensitisation,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,134,124,Merged Data
+380,89.0,V2_6,Commodification of data,128.0,V2_45,Private sector revenue,positive,9,expert,V2,,0,1,0,,,expert_9,final_merged,K,117,51,Merged Data
+381,89.0,V2_6,Commodification of data,221.0,V2_85,Tampering political systems,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,117,118,Merged Data
+382,89.0,V2_6,Commodification of data,231.0,V2_95,Undesignated use of data,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,117,119,Merged Data
+383,231.0,V2_95,Undesignated use of data,110.0,V2_27,Likelihood of privacy violation,positive,9,expert,V2,,0,0,0,,,expert_9,final_merged,K,119,134,Merged Data
+384,221.0,V2_85,Tampering political systems,219.0,V2_83,Human autonomy,negative,9,expert,V2,,0,1,0,,,expert_9,final_merged,K,118,95,Merged Data
+385,219.0,V2_83,Human autonomy,139.0,V2_56,Realisation of human rights,positive,9,expert,V2,,1,0,0,,,expert_9,final_merged,K,95,125,Merged Data
+386,222.0,V2_86,Data disposal,93.0,V2_10,Data retained by city council,negative,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,136,131,Merged Data
+387,235.0,V2_99,City-led data collection schemes,93.0,V2_10,Data retained by city council,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,126,131,Merged Data
+388,236.0,V2_100,City-led use of surveillance technologies,93.0,V2_10,Data retained by city council,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,128,131,Merged Data
+389,113.0,V2_30,Need for data insights in government,235.0,V2_99,City-led data collection schemes,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,127,126,Merged Data
+390,237.0,V2_101,Need to reduce criminal activity,236.0,V2_100,City-led use of surveillance technologies,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,130,128,Merged Data
+391,117.0,V2_34,Number of people concerned about crime,237.0,V2_101,Need to reduce criminal activity,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,43,130,Merged Data
+392,93.0,V2_10,Data retained by city council,244.0,V2_108,Optimisation of urban infrastructures,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,131,132,Merged Data
+393,93.0,V2_10,Data retained by city council,238.0,V2_102,Aggregation of data,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,131,135,Merged Data
+394,93.0,V2_10,Data retained by city council,239.0,V2_103,De-identification of data,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,131,239,Merged Data
+395,93.0,V2_10,Data retained by city council,141.0,V2_58,Security risks,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,131,67,Merged Data
+396,93.0,V2_10,Data retained by city council,231.0,V2_95,Undesignated use of data,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,131,119,Merged Data
+397,238.0,V2_102,Aggregation of data,110.0,V2_27,Likelihood of privacy violation,negative,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,135,134,Merged Data
+398,239.0,V2_103,De-identification of data,110.0,V2_27,Likelihood of privacy violation,negative,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,239,134,Merged Data
+399,141.0,V2_58,Security risks,110.0,V2_27,Likelihood of privacy violation,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,67,134,Merged Data
+400,240.0,V2_104,Familiarity with data-related policies,110.0,V2_27,Likelihood of privacy violation,negative,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,240,134,Merged Data
+401,110.0,V2_27,Likelihood of privacy violation,231.0,V2_95,Undesignated use of data,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,134,119,Merged Data
+402,239.0,V2_103,De-identification of data,241.0,V2_105,Possibility of masking inequalities,positive,6,activist,V2,,0,1,0,,,activist_6,final_merged,K,239,241,Merged Data
+403,241.0,V2_105,Possibility of masking inequalities,99.0,V2_16,Empowerment of vulnerable groups,negative,6,activist,V2,,1,1,0,,,activist_6,final_merged,K,241,97,Merged Data
+404,110.0,V2_27,Likelihood of privacy violation,242.0,V2_106,Harassment of vulnerable individuals,positive,6,activist,V2,,0,1,0,,,activist_6,final_merged,K,134,242,Merged Data
+405,242.0,V2_106,Harassment of vulnerable individuals,99.0,V2_16,Empowerment of vulnerable groups,negative,6,activist,V2,,1,1,0,,,activist_6,final_merged,K,242,97,Merged Data
+406,133.0,V2_50,Public sector expertise,240.0,V2_104,Familiarity with data-related policies,positive,6,activist,V2,,1,0,0,,,activist_6,final_merged,K,57,240,Merged Data
+407,243.0,V2_107,Possibility of data re-identification,110.0,V2_27,Likelihood of privacy violation,positive,6,activist,V2,,0,0,0,,,activist_6,final_merged,K,243,134,Merged Data
+408,129.0,V2_46,Private-public partnerships,93.0,V2_10,Data retained by city council,negative,8,government,V2,,0,0,0,,Transcribed from an interview,government_8,final_merged,TFAI,129,131,Merged Data
+409,235.0,V2_99,City-led data collection schemes,93.0,V2_10,Data retained by city council,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,126,131,Merged Data
+410,245.0,V2_109,Public procurement of digital infrastructures,93.0,V2_10,Data retained by city council,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,245,131,Merged Data
+411,246.0,V2_110,Buying data from private entities,93.0,V2_10,Data retained by city council,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,246,131,Merged Data
+412,134.0,V2_51,Public sector funding,93.0,V2_10,Data retained by city council,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,58,131,Merged Data
+413,247.0,V2_111,Data sharing by private entities,93.0,V2_10,Data retained by city council,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,247,131,Merged Data
+414,129.0,V2_46,Private-public partnerships,94.0,V2_11,Data retained by private entities,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,129,115,Merged Data
+415,94.0,V2_11,Data retained by private entities,89.0,V2_6,Commodification of data,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,115,117,Merged Data
+416,89.0,V2_6,Commodification of data,246.0,V2_110,Buying data from private entities,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,117,246,Merged Data
+417,134.0,V2_51,Public sector funding,246.0,V2_110,Buying data from private entities,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,58,246,Merged Data
+418,134.0,V2_51,Public sector funding,245.0,V2_109,Public procurement of digital infrastructures,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,58,245,Merged Data
+419,248.0,V2_112,Private organisations' legal hurdles,247.0,V2_111,Data sharing by private entities,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,248,247,Merged Data
+420,93.0,V2_10,Data retained by city council,249.0,V2_113,Open data,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,131,249,Merged Data
+421,249.0,V2_113,Open data,254.0,V2_118,Exposure of flaws in decision-making,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,249,254,Merged Data
+422,249.0,V2_113,Open data,111.0,V2_28,Likelihood of using data for public good,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,249,55,Merged Data
+423,249.0,V2_113,Open data,255.0,V2_119,Collaborations between various stakeholders,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,249,255,Merged Data
+424,249.0,V2_113,Open data,251.0,V2_115,Difficulty of dealing with data requests,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,249,251,Merged Data
+425,249.0,V2_113,Open data,250.0,V2_114,Data siloes,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,249,250,Merged Data
+426,250.0,V2_114,Data siloes,256.0,V2_120,Efficiency of the city's internal operations,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,250,256,Merged Data
+427,251.0,V2_115,Difficulty of dealing with data requests,256.0,V2_120,Efficiency of the city's internal operations,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,251,256,Merged Data
+428,252.0,V2_116,Reluctance to share data,249.0,V2_113,Open data,negative,8,government,V2,,0,0,0,,,government_8,final_merged,K,252,249,Merged Data
+429,253.0,V2_117,Potential repercussions,252.0,V2_116,Reluctance to share data,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,253,252,Merged Data
+430,254.0,V2_118,Exposure of flaws in decision-making,253.0,V2_117,Potential repercussions,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,254,253,Merged Data
+431,111.0,V2_28,Likelihood of using data for public good,257.0,V2_121,Development of urban solutions,positive,8,government,V2,,0,0,0,,,government_8,final_merged,K,55,257,Merged Data
+432,127.0,V2_44,Privacy concerns,93.0,V2_10,Data retained by city council,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,47,131,Merged Data
+433,258.0,V2_122,Compliance to data minimisation,93.0,V2_10,Data retained by city council,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,258,131,Merged Data
+434,259.0,V2_123,Capacity to build and use mature data systems,93.0,V2_10,Data retained by city council,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,259,131,Merged Data
+435,236.0,V2_100,City-led use of surveillance technologies,93.0,V2_10,Data retained by city council,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,128,131,Merged Data
+436,113.0,V2_30,Need for data insights in government,93.0,V2_10,Data retained by city council,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,127,131,Merged Data
+437,260.0,V2_124,City-led experimentation with data collection schemes,93.0,V2_10,Data retained by city council,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,260,131,Merged Data
+438,113.0,V2_30,Need for data insights in government,260.0,V2_124,City-led experimentation with data collection schemes,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,127,260,Merged Data
+439,236.0,V2_100,City-led use of surveillance technologies,96.0,V2_13,Data use by law enforcement,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,128,19,Merged Data
+440,134.0,V2_51,Public sector funding,259.0,V2_123,Capacity to build and use mature data systems,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,58,259,Merged Data
+441,133.0,V2_50,Public sector expertise,259.0,V2_123,Capacity to build and use mature data systems,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,57,259,Merged Data
+442,134.0,V2_51,Public sector funding,133.0,V2_50,Public sector expertise,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,58,57,Merged Data
+443,127.0,V2_44,Privacy concerns,258.0,V2_122,Compliance to data minimisation,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,47,258,Merged Data
+444,93.0,V2_10,Data retained by city council,261.0,V2_125,Generation of personal data,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,131,261,Merged Data
+445,93.0,V2_10,Data retained by city council,118.0,V2_35,Optimisation of services,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,131,40,Merged Data
+446,93.0,V2_10,Data retained by city council,264.0,V2_128,Optimisation of urban planning decisions,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,131,264,Merged Data
+447,93.0,V2_10,Data retained by city council,249.0,V2_113,Open data,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,131,249,Merged Data
+448,261.0,V2_125,Generation of personal data,127.0,V2_44,Privacy concerns,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,261,47,Merged Data
+449,250.0,V2_114,Data siloes,264.0,V2_128,Optimisation of urban planning decisions,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,250,264,Merged Data
+450,250.0,V2_114,Data siloes,118.0,V2_35,Optimisation of services,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,250,40,Merged Data
+451,127.0,V2_44,Privacy concerns,250.0,V2_114,Data siloes,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,47,250,Merged Data
+452,249.0,V2_113,Open data,263.0,V2_127,Commodification of data by the public sector,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,249,263,Merged Data
+453,263.0,V2_127,Commodification of data by the public sector,134.0,V2_51,Public sector funding,positive,10,government,V2,,0,0,0,,,government_10,final_merged,K,263,58,Merged Data
+454,127.0,V2_44,Privacy concerns,263.0,V2_127,Commodification of data by the public sector,negative,10,government,V2,,0,0,0,,,government_10,final_merged,K,47,263,Merged Data
