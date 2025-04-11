@@ -699,7 +699,16 @@ const allCyDataSets = {
                       "label": "Protests",
                       "participant_type": "advocate",
                       "color": "0",
-                      "history": []
+                      "history": [
+                        {
+                            "id": "44",
+                            "key": 44,
+                            "label": "People's sense of being able to move in public spaces, protest. etc.",
+                            "participant_type": "advocate",
+                            "group": "advocate_7",
+                            "history": []
+                        }
+                      ]
                   },
                   "classes": ""
               },
@@ -751,7 +760,7 @@ const allCyDataSets = {
                       "key": "V2_64",
                       "label": "Use of off-the-shelf tech products by city council",
                       "participant_type": "advocate",
-                      "color": "0",
+                      "color": "1",
                       "history": []
                   },
                   "classes": ""
@@ -6154,7 +6163,16 @@ const allCyDataSets = {
                       "label": "Data retained by private entities",
                       "participant_type": "citizen",
                       "color": "0",
-                      "history": []
+                      "history": [
+                        {
+                            "id": "5",
+                            "key": 5,
+                            "label": "Amount of urban data retained by private entities",
+                            "participant_type": "citizen",
+                            "group": "citizen_4",
+                            "history": []
+                        }
+                      ]
                   },
                   "classes": ""
               },
@@ -6286,7 +6304,7 @@ const allCyDataSets = {
                       "key": "V2_27",
                       "label": "Likelihood of privacy violation",
                       "participant_type": "citizen",
-                      "color": "0",
+                      "color": "1",
                       "history": []
                   },
                   "classes": ""
