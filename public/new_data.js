@@ -9,7 +9,16 @@ const allCyDataSets = {
             "label": "Citizen buy-in",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "10",
+                "key": "10",
+                "label": "Citizen buy-in",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -20,7 +29,16 @@ const allCyDataSets = {
             "label": "Citizen privacy concern",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "12",
+                "key": "12",
+                "label": "Citizen privacy concern",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -31,7 +49,16 @@ const allCyDataSets = {
             "label": "Commercial value of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "14",
+                "key": "14",
+                "label": "Commercial value of data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -42,7 +69,16 @@ const allCyDataSets = {
             "label": "Corporate profits",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "17",
+                "key": "17",
+                "label": "Corporate profits",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -53,7 +89,16 @@ const allCyDataSets = {
             "label": "Actual misuse of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "2",
+                "key": "2",
+                "label": "Actual misuse of data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -64,7 +109,16 @@ const allCyDataSets = {
             "label": "Government data use capacity",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "25",
+                "key": "25",
+                "label": "Government data use capacity",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -75,7 +129,16 @@ const allCyDataSets = {
             "label": "Hoarding data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "27",
+                "key": "27",
+                "label": "Hoarding data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -86,7 +149,16 @@ const allCyDataSets = {
             "label": "Imagined fear of data misuse",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "28",
+                "key": "28",
+                "label": "Imagined fear of data misuse",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -97,7 +169,16 @@ const allCyDataSets = {
             "label": "Legal regulation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "31",
+                "key": "31",
+                "label": "Legal regulation",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -108,7 +189,16 @@ const allCyDataSets = {
             "label": "Lobby by private interests",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "33",
+                "key": "33",
+                "label": "Lobby by private interests",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -119,7 +209,16 @@ const allCyDataSets = {
             "label": "Need for data insights in government",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "36",
+                "key": "36",
+                "label": "Need for data insights in government",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -130,7 +229,16 @@ const allCyDataSets = {
             "label": "Privatisation of urban data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "49",
+                "key": "49",
+                "label": "Privatisation of urban data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -141,7 +249,16 @@ const allCyDataSets = {
             "label": "Public good uses of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "55",
+                "key": "55",
+                "label": "Public good uses of data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -152,7 +269,16 @@ const allCyDataSets = {
             "label": "Service efficiency, coverage, and performance",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "68",
+                "key": "68",
+                "label": "Service efficiency, coverage, and performance",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -163,7 +289,16 @@ const allCyDataSets = {
             "label": "Technological innovation in data use",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "76",
+                "key": "76",
+                "label": "Technological innovation in data use",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -463,10 +598,19 @@ const allCyDataSets = {
           "data": {
             "id": "101",
             "key": "V2_101",
-            "label": "Events of data misuse",
+            "label": "Need to reduce criminal activity",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "130",
+                "key": "130",
+                "label": "Fighting /reducing criminal activity",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -477,7 +621,16 @@ const allCyDataSets = {
             "label": "Level of citizen sensitisation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Level of citizen sensitisation",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -485,10 +638,19 @@ const allCyDataSets = {
           "data": {
             "id": "108",
             "key": "V2_108",
-            "label": "Level of regulation",
+            "label": "Optimisation of urban infrastructures",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -499,7 +661,16 @@ const allCyDataSets = {
             "label": "Level of technological advancement",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Level of technological advancement",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -510,7 +681,16 @@ const allCyDataSets = {
             "label": "Likelihood of using data for public good",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "111",
+                "key": "111",
+                "label": "Likelihood of using data for public good",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -521,7 +701,16 @@ const allCyDataSets = {
             "label": "Lobbying",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "112",
+                "key": "112",
+                "label": "Lobbying",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -532,7 +721,16 @@ const allCyDataSets = {
             "label": "Need for data insights in government",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "113",
+                "key": "113",
+                "label": "Need for data insights in government",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -543,7 +741,16 @@ const allCyDataSets = {
             "label": "Perceived level of technological convenience",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "122",
+                "key": "122",
+                "label": "Perceived level of technological convenience",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -554,7 +761,16 @@ const allCyDataSets = {
             "label": "Perceived misuse of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "123",
+                "key": "123",
+                "label": "Perceived misuse of data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -565,7 +781,16 @@ const allCyDataSets = {
             "label": "Privacy concerns",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "127",
+                "key": "127",
+                "label": "Privacy concerns",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -576,7 +801,16 @@ const allCyDataSets = {
             "label": "Private sector revenue",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "128",
+                "key": "128",
+                "label": "Private sector revenue",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -587,7 +821,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Public sector expertise",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -598,7 +841,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "137",
+                "key": "137",
+                "label": "Quality of services",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -606,10 +858,19 @@ const allCyDataSets = {
           "data": {
             "id": "85",
             "key": "V2_85",
-            "label": "Amount of horaded data",
+            "label": "Tampering political systems",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "118",
+                "key": "118",
+                "label": "Tampering political systems",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -617,10 +878,19 @@ const allCyDataSets = {
           "data": {
             "id": "86",
             "key": "V2_86",
-            "label": "Availability of services",
+            "label": "Data disposal",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "136",
+                "key": "136",
+                "label": "Data is (hopefully) kept for only as long as is required before being securely erased",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -628,10 +898,19 @@ const allCyDataSets = {
           "data": {
             "id": "87",
             "key": "V2_87",
-            "label": "Commercial value of data",
+            "label": "Data sharing between entities",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "105",
+                "key": "105",
+                "label": "Data sharing between entities",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -642,7 +921,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -650,10 +938,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "citizen",
+                "group": "citizen_1",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -1023,7 +1320,16 @@ const allCyDataSets = {
             "label": "Citizen desensitisation to data collection",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "11",
+                "key": "11",
+                "label": "Citizen desensitisation to data collection",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1034,7 +1340,16 @@ const allCyDataSets = {
             "label": "Corporate data practices",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "16",
+                "key": "16",
+                "label": "Corporate data practices",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1045,7 +1360,16 @@ const allCyDataSets = {
             "label": "Hiring consultants",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "26",
+                "key": "26",
+                "label": "Hiring consultants",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1056,7 +1380,16 @@ const allCyDataSets = {
             "label": "Lobbying",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "34",
+                "key": "34",
+                "label": "Lobbying",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1067,7 +1400,16 @@ const allCyDataSets = {
             "label": "On-selling of de-identified data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "39",
+                "key": "39",
+                "label": "On-selling of de-identified data",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1078,7 +1420,16 @@ const allCyDataSets = {
             "label": "Amount of data retained by private enterprises",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "4",
+                "key": "4",
+                "label": "Amount of data retained by private enterprises",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1089,7 +1440,16 @@ const allCyDataSets = {
             "label": "Pedestrian data models",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "41",
+                "key": "41",
+                "label": "Pedestrian data models",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1100,7 +1460,16 @@ const allCyDataSets = {
             "label": "Private sector revenue",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "48",
+                "key": "48",
+                "label": "Private sector revenue",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1111,7 +1480,16 @@ const allCyDataSets = {
             "label": "Privatised transport services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "50",
+                "key": "50",
+                "label": "Privatised transport services",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1122,7 +1500,16 @@ const allCyDataSets = {
             "label": "Pro-private sector data structures",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "52",
+                "key": "52",
+                "label": "Pro-private sector data structures",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1133,7 +1520,16 @@ const allCyDataSets = {
             "label": "Public policy tech sector intervention",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "56",
+                "key": "56",
+                "label": "Public policy tech sector intervention",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1144,7 +1540,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "57",
+                "key": "57",
+                "label": "Public sector expertise",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1155,7 +1560,16 @@ const allCyDataSets = {
             "label": "Public service funding",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "58",
+                "key": "58",
+                "label": "Public service funding",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1166,7 +1580,16 @@ const allCyDataSets = {
             "label": "Quality and availability of urban services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "59",
+                "key": "59",
+                "label": "Quality and availability of urban services",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1177,7 +1600,16 @@ const allCyDataSets = {
             "label": "Rate of tech innovation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "62",
+                "key": "62",
+                "label": "Rate of tech innovation",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1188,7 +1620,16 @@ const allCyDataSets = {
             "label": "Rate of technological innovation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "63",
+                "key": "63",
+                "label": "Rate of technological innovation",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1199,7 +1640,16 @@ const allCyDataSets = {
             "label": "Speculation of data as a commodity",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "71",
+                "key": "71",
+                "label": "Speculation of data as a commodity",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1210,7 +1660,16 @@ const allCyDataSets = {
             "label": "Tech investment",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "74",
+                "key": "74",
+                "label": "Tech investment",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1221,7 +1680,16 @@ const allCyDataSets = {
             "label": "Technological convenience",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "75",
+                "key": "75",
+                "label": "Technological convenience",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1232,7 +1700,16 @@ const allCyDataSets = {
             "label": "Violation of contextual integrity",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "82",
+                "key": "82",
+                "label": "Violation of contextual integrity",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1243,7 +1720,16 @@ const allCyDataSets = {
             "label": "Citizen awareness of data collection",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "9",
+                "key": "9",
+                "label": "Citizen awareness of data collection",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -1624,7 +2110,16 @@ const allCyDataSets = {
             "label": "Investment in technology",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Investment in technology",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1635,7 +2130,16 @@ const allCyDataSets = {
             "label": "Level of citizen awareness",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "105",
+                "key": "105",
+                "label": "Level of citizen awareness",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1646,7 +2150,16 @@ const allCyDataSets = {
             "label": "Level of citizen sensitisation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Level of citizen sensitisation",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1657,7 +2170,16 @@ const allCyDataSets = {
             "label": "Relative level of convenience achieved by reproducing the status quo",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "107",
+                "key": "107",
+                "label": "Relative level of convenience achieved by reproducing the status quo",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1668,7 +2190,16 @@ const allCyDataSets = {
             "label": "Level of technological advancement",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Level of technological advancement",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1679,7 +2210,16 @@ const allCyDataSets = {
             "label": "Likelihood of privacy violation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "110",
+                "key": "110",
+                "label": "Likelihood of privacy violation",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1690,7 +2230,16 @@ const allCyDataSets = {
             "label": "Lobbying",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "112",
+                "key": "112",
+                "label": "Lobbying",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1701,7 +2250,16 @@ const allCyDataSets = {
             "label": "Perceived level of technological convenience",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "122",
+                "key": "122",
+                "label": "Perceived level of technological convenience",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1712,7 +2270,16 @@ const allCyDataSets = {
             "label": "Privacy concerns",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "127",
+                "key": "127",
+                "label": "Privacy concerns",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1723,7 +2290,16 @@ const allCyDataSets = {
             "label": "Private sector revenue",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "128",
+                "key": "128",
+                "label": "Private sector revenue",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1734,7 +2310,16 @@ const allCyDataSets = {
             "label": "Privatisation of urban services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "130",
+                "key": "130",
+                "label": "Privatisation of urban services",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1745,7 +2330,16 @@ const allCyDataSets = {
             "label": "Promotion of pro-private data collection schemes",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "131",
+                "key": "131",
+                "label": "Promotion of pro-private data collection schemes",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1756,7 +2350,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Public sector expertise",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1767,7 +2370,16 @@ const allCyDataSets = {
             "label": "Public sector funding",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "134",
+                "key": "134",
+                "label": "Public sector funding",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1778,7 +2390,16 @@ const allCyDataSets = {
             "label": "Public sector intervention",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "135",
+                "key": "135",
+                "label": "Public sector intervention",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1789,7 +2410,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "137",
+                "key": "137",
+                "label": "Quality of services",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1800,7 +2430,16 @@ const allCyDataSets = {
             "label": "Recruitment of consultancy firms",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "140",
+                "key": "140",
+                "label": "Recruitment of consultancy firms",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1811,7 +2450,16 @@ const allCyDataSets = {
             "label": "Use of proprietary infrastructures",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "150",
+                "key": "150",
+                "label": "Use of proprietary infrastructures",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1822,7 +2470,16 @@ const allCyDataSets = {
             "label": "Interoperability of infrastructures",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "151",
+                "key": "151",
+                "label": "Interoperability of infrastructures",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1833,7 +2490,16 @@ const allCyDataSets = {
             "label": "Switching costs",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "152",
+                "key": "152",
+                "label": "Switching costs",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1841,10 +2507,19 @@ const allCyDataSets = {
           "data": {
             "id": "86",
             "key": "V2_86",
-            "label": "Availability of services",
+            "label": "Data disposal",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "136",
+                "key": "136",
+                "label": "Data is (hopefully) kept for only as long as is required before being securely erased",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1855,7 +2530,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1863,10 +2547,19 @@ const allCyDataSets = {
           "data": {
             "id": "91",
             "key": "V2_91",
-            "label": "Data analytics models",
+            "label": "Partnering with other entities to provide bundle services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "112",
+                "key": "112",
+                "label": "Partnering with other entities to provide bundle services",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1874,10 +2567,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -1885,10 +2587,19 @@ const allCyDataSets = {
           "data": {
             "id": "95",
             "key": "V2_95",
-            "label": "Data subject interventions",
+            "label": "Undesignated use of data",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "119",
+                "key": "119",
+                "label": "Undesignated use of data",
+                "participant_type": "citizen",
+                "group": "citizen_3",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -2388,7 +3099,16 @@ const allCyDataSets = {
             "label": "Commercialisation of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "15",
+                "key": "15",
+                "label": "Commercialisation of data",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2399,7 +3119,16 @@ const allCyDataSets = {
             "label": "Data leakage",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "18",
+                "key": "18",
+                "label": "Data leakage",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2410,7 +3139,16 @@ const allCyDataSets = {
             "label": "Enforcement of people-centred data related regulations",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "21",
+                "key": "21",
+                "label": "Enforcement of people-centred data related regulations",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2421,7 +3159,16 @@ const allCyDataSets = {
             "label": "Investment in services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "29",
+                "key": "29",
+                "label": "Investment in services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2432,7 +3179,16 @@ const allCyDataSets = {
             "label": "Level of technology advancement",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "32",
+                "key": "32",
+                "label": "Level of technology advancement",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2443,7 +3199,16 @@ const allCyDataSets = {
             "label": "Need for profit",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "37",
+                "key": "37",
+                "label": "Need for profit",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2454,7 +3219,16 @@ const allCyDataSets = {
             "label": "Need for services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "38",
+                "key": "38",
+                "label": "Need for services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2465,7 +3239,16 @@ const allCyDataSets = {
             "label": "Optimising services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "40",
+                "key": "40",
+                "label": "Optimising services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2476,7 +3259,16 @@ const allCyDataSets = {
             "label": "Penalty",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "42",
+                "key": "42",
+                "label": "Penalty",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2487,7 +3279,16 @@ const allCyDataSets = {
             "label": "Privacy concerns",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "47",
+                "key": "47",
+                "label": "Privacy concerns",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2498,7 +3299,16 @@ const allCyDataSets = {
             "label": "Amount of urban data retained by private entities",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "5",
+                "key": "5",
+                "label": "Amount of urban data retained by private entities",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2509,7 +3319,16 @@ const allCyDataSets = {
             "label": "Profit",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "51",
+                "key": "51",
+                "label": "Profit",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2520,7 +3339,16 @@ const allCyDataSets = {
             "label": "Quality of life",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "60",
+                "key": "60",
+                "label": "Quality of life",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2531,7 +3359,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "61",
+                "key": "61",
+                "label": "Quality of services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2542,7 +3379,16 @@ const allCyDataSets = {
             "label": "Security risks",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "67",
+                "key": "67",
+                "label": "Security risks",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2553,7 +3399,16 @@ const allCyDataSets = {
             "label": "State surveillance",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "72",
+                "key": "72",
+                "label": "State surveillance",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2564,7 +3419,16 @@ const allCyDataSets = {
             "label": "Technology adoption",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "77",
+                "key": "77",
+                "label": "Technology adoption",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2575,7 +3439,16 @@ const allCyDataSets = {
             "label": "Transparency of data collection and use",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "79",
+                "key": "79",
+                "label": "Transparency of data collection and use",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2586,7 +3459,16 @@ const allCyDataSets = {
             "label": "Trust by people",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "80",
+                "key": "80",
+                "label": "Trust by people",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -2941,7 +3823,16 @@ const allCyDataSets = {
             "label": "Investment in services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "103",
+                "key": "103",
+                "label": "Investment in services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2952,7 +3843,16 @@ const allCyDataSets = {
             "label": "Level of citizen sensitisation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Level of citizen sensitisation",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2960,10 +3860,19 @@ const allCyDataSets = {
           "data": {
             "id": "108",
             "key": "V2_108",
-            "label": "Level of regulation",
+            "label": "Optimisation of urban infrastructures",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2974,7 +3883,16 @@ const allCyDataSets = {
             "label": "Level of technological advancement",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Level of technological advancement",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2985,7 +3903,16 @@ const allCyDataSets = {
             "label": "Likelihood of privacy violation",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "110",
+                "key": "110",
+                "label": "Likelihood of privacy violation",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -2996,7 +3923,16 @@ const allCyDataSets = {
             "label": "Need for profit",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Need for profit",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3007,7 +3943,16 @@ const allCyDataSets = {
             "label": "Need for services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "115",
+                "key": "115",
+                "label": "Need for services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3018,7 +3963,16 @@ const allCyDataSets = {
             "label": "Optimisation of services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "118",
+                "key": "118",
+                "label": "Optimisation of services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3029,7 +3983,16 @@ const allCyDataSets = {
             "label": "Penalties",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "120",
+                "key": "120",
+                "label": "Penalties",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3040,7 +4003,16 @@ const allCyDataSets = {
             "label": "Possibility of data leakage",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "125",
+                "key": "125",
+                "label": "Possibility of data leakage",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3051,7 +4023,16 @@ const allCyDataSets = {
             "label": "Privacy concerns",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "127",
+                "key": "127",
+                "label": "Privacy concerns",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3062,7 +4043,16 @@ const allCyDataSets = {
             "label": "Private sector revenue",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "128",
+                "key": "128",
+                "label": "Private sector revenue",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3073,7 +4063,16 @@ const allCyDataSets = {
             "label": "Quality of life",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "136",
+                "key": "136",
+                "label": "Quality of life",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3084,7 +4083,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "137",
+                "key": "137",
+                "label": "Quality of services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3095,7 +4103,16 @@ const allCyDataSets = {
             "label": "Security risks",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "141",
+                "key": "141",
+                "label": "Security risks",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3106,7 +4123,16 @@ const allCyDataSets = {
             "label": "State surveillance",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "144",
+                "key": "144",
+                "label": "State surveillance",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3117,7 +4143,16 @@ const allCyDataSets = {
             "label": "Transparency of data collection and use",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "146",
+                "key": "146",
+                "label": "Transparency of data collection and use",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3128,7 +4163,16 @@ const allCyDataSets = {
             "label": "Use of urban services",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "149",
+                "key": "149",
+                "label": "Use of urban services",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3139,7 +4183,16 @@ const allCyDataSets = {
             "label": "Adoption of technology",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "84",
+                "key": "84",
+                "label": "Adoption of technology",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3147,10 +4200,19 @@ const allCyDataSets = {
           "data": {
             "id": "88",
             "key": "V2_88",
-            "label": "Commercialisation of data",
+            "label": "Need for insights about customers",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Need for insights about customers",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3161,7 +4223,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3169,10 +4240,19 @@ const allCyDataSets = {
           "data": {
             "id": "90",
             "key": "V2_90",
-            "label": "Competitive market",
+            "label": "Cost of data storage technology",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Cost of data storage technology",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3180,10 +4260,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3191,10 +4280,19 @@ const allCyDataSets = {
           "data": {
             "id": "95",
             "key": "V2_95",
-            "label": "Data subject interventions",
+            "label": "Undesignated use of data",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "119",
+                "key": "119",
+                "label": "Undesignated use of data",
+                "participant_type": "citizen",
+                "group": "citizen_4",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -3642,7 +4740,16 @@ const allCyDataSets = {
             "label": "Empowerment of vulnerable groups",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "20",
+                "key": "20",
+                "label": "Empowerment of vulnerable groups",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3653,7 +4760,16 @@ const allCyDataSets = {
             "label": "Engagement with public transport",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "22",
+                "key": "22",
+                "label": "Engagement with public transport",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3664,7 +4780,16 @@ const allCyDataSets = {
             "label": "Ensuring citizens interests",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "23",
+                "key": "23",
+                "label": "Ensuring citizens interests",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3675,7 +4800,16 @@ const allCyDataSets = {
             "label": "Allocating funding for public services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "3",
+                "key": "3",
+                "label": "Allocating funding for public services",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3686,7 +4820,16 @@ const allCyDataSets = {
             "label": "Money donations to public entities",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "35",
+                "key": "35",
+                "label": "Money donations to public entities",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3697,7 +4840,16 @@ const allCyDataSets = {
             "label": "Amount of urban data retained by private entities",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "5",
+                "key": "5",
+                "label": "Amount of urban data retained by private entities",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3708,7 +4860,16 @@ const allCyDataSets = {
             "label": "Protection of the most vulnerable",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "53",
+                "key": "53",
+                "label": "Protection of the most vulnerable",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3719,7 +4880,16 @@ const allCyDataSets = {
             "label": "Providing consumer wants and needs",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "54",
+                "key": "54",
+                "label": "Providing consumer wants and needs",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3730,7 +4900,16 @@ const allCyDataSets = {
             "label": "Amount of urban data retained by public entities",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "6",
+                "key": "6",
+                "label": "Amount of urban data retained by public entities",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3741,7 +4920,16 @@ const allCyDataSets = {
             "label": "Regulation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "65",
+                "key": "65",
+                "label": "Regulation",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3752,7 +4940,16 @@ const allCyDataSets = {
             "label": "Reward systems",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "66",
+                "key": "66",
+                "label": "Reward systems",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3763,7 +4960,16 @@ const allCyDataSets = {
             "label": "Anonymity",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "7",
+                "key": "7",
+                "label": "Anonymity",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3774,7 +4980,16 @@ const allCyDataSets = {
             "label": "Social media",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "70",
+                "key": "70",
+                "label": "Social media",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3785,7 +5000,16 @@ const allCyDataSets = {
             "label": "Targeted advertising",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "73",
+                "key": "73",
+                "label": "Targeted advertising",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -3796,7 +5020,16 @@ const allCyDataSets = {
             "label": "Wellbeing, livelihood, and safety",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "83",
+                "key": "83",
+                "label": "Wellbeing, livelihood, and safety",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -4057,10 +5290,19 @@ const allCyDataSets = {
           "data": {
             "id": "100",
             "key": "V2_100",
-            "label": "Engagement with reward systems",
+            "label": "City-led use of surveillance technologies",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "128",
+                "key": "128",
+                "label": "Surveillance of the community",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4068,10 +5310,19 @@ const allCyDataSets = {
           "data": {
             "id": "102",
             "key": "V2_102",
-            "label": "Fulfillment of citizens' needs",
+            "label": "Aggregation of data",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "135",
+                "key": "135",
+                "label": "Data is aggregated and de-identified where appropriate, again to preserve individual privacy, while also remaining useful for its intended collection purpose",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4079,10 +5330,19 @@ const allCyDataSets = {
           "data": {
             "id": "108",
             "key": "V2_108",
-            "label": "Level of regulation",
+            "label": "Optimisation of urban infrastructures",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4093,7 +5353,16 @@ const allCyDataSets = {
             "label": "Likelihood of privacy violation",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "110",
+                "key": "110",
+                "label": "Likelihood of privacy violation",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4104,7 +5373,16 @@ const allCyDataSets = {
             "label": "Lobbying",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "112",
+                "key": "112",
+                "label": "Lobbying",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4115,7 +5393,16 @@ const allCyDataSets = {
             "label": "Optimised allocation of funding to public services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "119",
+                "key": "119",
+                "label": "Optimised allocation of funding to public services",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4126,7 +5413,16 @@ const allCyDataSets = {
             "label": "Quality of life",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "136",
+                "key": "136",
+                "label": "Quality of life",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4137,7 +5433,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "137",
+                "key": "137",
+                "label": "Quality of services",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4148,7 +5453,16 @@ const allCyDataSets = {
             "label": "Targeted advertising",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "145",
+                "key": "145",
+                "label": "Targeted advertising",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4159,7 +5473,16 @@ const allCyDataSets = {
             "label": "Use of social media",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "148",
+                "key": "148",
+                "label": "Use of social media",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4170,7 +5493,16 @@ const allCyDataSets = {
             "label": "Use of urban services",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "149",
+                "key": "149",
+                "label": "Use of urban services",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4178,10 +5510,19 @@ const allCyDataSets = {
           "data": {
             "id": "86",
             "key": "V2_86",
-            "label": "Availability of services",
+            "label": "Data disposal",
             "participant_type": "citizen",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "136",
+                "key": "136",
+                "label": "Data is (hopefully) kept for only as long as is required before being securely erased",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4189,10 +5530,19 @@ const allCyDataSets = {
           "data": {
             "id": "93",
             "key": "V2_93",
-            "label": "Data retained by city council",
+            "label": "Onset of new technologies",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Onset of new technologies",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4200,10 +5550,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "citizen",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4211,10 +5570,19 @@ const allCyDataSets = {
           "data": {
             "id": "99",
             "key": "V2_99",
-            "label": "Empowerment of vulnerable groups",
+            "label": "City-led data collection schemes",
             "participant_type": "citizen",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "126",
+                "key": "126",
+                "label": "Polls or surveys from citizens to decide how and where to provide community resources",
+                "participant_type": "citizen",
+                "group": "citizen_5",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -4480,7 +5848,16 @@ const allCyDataSets = {
             "label": "Access to data from other entities",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "1",
+                "key": "1",
+                "label": "Access to data from other entities",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4491,7 +5868,16 @@ const allCyDataSets = {
             "label": "Collection of data by law enforcement",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "13",
+                "key": "13",
+                "label": "Collection of data by law enforcement",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4502,7 +5888,16 @@ const allCyDataSets = {
             "label": "Data used by law enforcement",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "19",
+                "key": "19",
+                "label": "Data used by law enforcement",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4513,7 +5908,16 @@ const allCyDataSets = {
             "label": "Exemptions in different acts",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "24",
+                "key": "24",
+                "label": "Exemptions in different acts",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4524,7 +5928,16 @@ const allCyDataSets = {
             "label": "Legal permission to use data (Identify and Disrupt Act)",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "30",
+                "key": "30",
+                "label": "Legal permission to use data (Identify and Disrupt Act)",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4535,7 +5948,16 @@ const allCyDataSets = {
             "label": "People's concerns about crime",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "43",
+                "key": "43",
+                "label": "People's concerns about crime",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4546,7 +5968,16 @@ const allCyDataSets = {
             "label": "People's sense of being able to move in public spaces, protest. etc.",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "44",
+                "key": "44",
+                "label": "People's sense of being able to move in public spaces, protest. etc.",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4557,7 +5988,16 @@ const allCyDataSets = {
             "label": "Pop-culture",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "45",
+                "key": "45",
+                "label": "Pop-culture",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4568,7 +6008,16 @@ const allCyDataSets = {
             "label": "Predictive policing",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "46",
+                "key": "46",
+                "label": "Predictive policing",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4579,7 +6028,16 @@ const allCyDataSets = {
             "label": "Reactive policing",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "64",
+                "key": "64",
+                "label": "Reactive policing",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4590,7 +6048,16 @@ const allCyDataSets = {
             "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "69",
+                "key": "69",
+                "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4601,7 +6068,16 @@ const allCyDataSets = {
             "label": "Techno-solutionism",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "78",
+                "key": "78",
+                "label": "Techno-solutionism",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4612,7 +6088,16 @@ const allCyDataSets = {
             "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "8",
+                "key": "8",
+                "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4623,7 +6108,16 @@ const allCyDataSets = {
             "label": "Undermining of human rights",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "81",
+                "key": "81",
+                "label": "Undermining of human rights",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -4822,7 +6316,16 @@ const allCyDataSets = {
             "label": "Level of citizen sensitisation",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Level of citizen sensitisation",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4833,7 +6336,16 @@ const allCyDataSets = {
             "label": "Need for data insights in government",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "113",
+                "key": "113",
+                "label": "Need for data insights in government",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4844,7 +6356,16 @@ const allCyDataSets = {
             "label": "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "116",
+                "key": "116",
+                "label": "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4855,7 +6376,16 @@ const allCyDataSets = {
             "label": "Number of people concerned about crime",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "117",
+                "key": "117",
+                "label": "Number of people concerned about crime",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4866,7 +6396,16 @@ const allCyDataSets = {
             "label": "People's sense of freedom to move in public spaces",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "121",
+                "key": "121",
+                "label": "People's sense of freedom to move in public spaces",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4877,7 +6416,16 @@ const allCyDataSets = {
             "label": "Pop-culture",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "124",
+                "key": "124",
+                "label": "Pop-culture",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4888,7 +6436,16 @@ const allCyDataSets = {
             "label": "Predictive policing",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "126",
+                "key": "126",
+                "label": "Predictive policing",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4899,7 +6456,16 @@ const allCyDataSets = {
             "label": "Private-public partnerships",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "129",
+                "key": "129",
+                "label": "Private-public partnerships",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4910,7 +6476,16 @@ const allCyDataSets = {
             "label": "Protests",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "Protests",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4921,7 +6496,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Public sector expertise",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4932,7 +6516,16 @@ const allCyDataSets = {
             "label": "Public sector funding",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "134",
+                "key": "134",
+                "label": "Public sector funding",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4943,7 +6536,16 @@ const allCyDataSets = {
             "label": "Reactive data-driven policing",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "138",
+                "key": "138",
+                "label": "Reactive data-driven policing",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4954,7 +6556,16 @@ const allCyDataSets = {
             "label": "Realisation of human rights",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "139",
+                "key": "139",
+                "label": "Realisation of human rights",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4965,7 +6576,16 @@ const allCyDataSets = {
             "label": "Social expectations for law enforcement to be using data to better police",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "142",
+                "key": "142",
+                "label": "Social expectations for law enforcement to be using data to better police",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4976,7 +6596,16 @@ const allCyDataSets = {
             "label": "Social inequalities",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "143",
+                "key": "143",
+                "label": "Social inequalities",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4987,7 +6616,16 @@ const allCyDataSets = {
             "label": "Use of off-the-shelf tech products by city council",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "147",
+                "key": "147",
+                "label": "Use of off-the-shelf tech products by city council",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -4995,10 +6633,19 @@ const allCyDataSets = {
           "data": {
             "id": "92",
             "key": "V2_92",
-            "label": "Data collection by law enforcement",
+            "label": "Expansion of service offering",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "113",
+                "key": "113",
+                "label": "Expanding products/ services offering",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5006,10 +6653,19 @@ const allCyDataSets = {
           "data": {
             "id": "93",
             "key": "V2_93",
-            "label": "Data retained by city council",
+            "label": "Onset of new technologies",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Onset of new technologies",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5017,10 +6673,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5028,10 +6693,19 @@ const allCyDataSets = {
           "data": {
             "id": "96",
             "key": "V2_96",
-            "label": "Data use by law enforcement",
+            "label": "Ease of access to my data as a user",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "122",
+                "key": "122",
+                "label": "Ease of access to my data as a user",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5039,10 +6713,19 @@ const allCyDataSets = {
           "data": {
             "id": "97",
             "key": "V2_97",
-            "label": "Degree of techno-solutionism",
+            "label": "Consumerism",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "121",
+                "key": "121",
+                "label": "Consumerism",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5053,7 +6736,16 @@ const allCyDataSets = {
             "label": "Discrimination against marginalised communities",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "98",
+                "key": "98",
+                "label": "Discrimination against marginalised communities",
+                "participant_type": "advocate",
+                "group": "advocate_7",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -5381,10 +7073,19 @@ const allCyDataSets = {
           "data": {
             "id": "133",
             "key": "V1_133",
-            "label": "Public sector expertise",
+            "label": "Awareness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Awareness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5395,7 +7096,16 @@ const allCyDataSets = {
             "label": "Regulations",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "153",
+                "key": "153",
+                "label": "Regulations",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5406,7 +7116,16 @@ const allCyDataSets = {
             "label": "Awareness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "154",
+                "key": "154",
+                "label": "Awareness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5417,7 +7136,16 @@ const allCyDataSets = {
             "label": "Need to achieve efficiency",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "157",
+                "key": "157",
+                "label": "Need to achieve efficiency",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5428,7 +7156,16 @@ const allCyDataSets = {
             "label": "Degree of neoliberalism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "158",
+                "key": "158",
+                "label": "Degree of neoliberalism",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5439,7 +7176,16 @@ const allCyDataSets = {
             "label": "Technology",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "159",
+                "key": "159",
+                "label": "Technology",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5450,7 +7196,16 @@ const allCyDataSets = {
             "label": "People's perception of human connectedness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "160",
+                "key": "160",
+                "label": "People's perception of human connectedness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5461,7 +7216,16 @@ const allCyDataSets = {
             "label": "Human curiosity",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "161",
+                "key": "161",
+                "label": "Human curiosity",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5472,7 +7236,16 @@ const allCyDataSets = {
             "label": "Disinformation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "162",
+                "key": "162",
+                "label": "Disinformation",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5483,7 +7256,16 @@ const allCyDataSets = {
             "label": "Empowerment of already powerful actors (e.g. Big Tech)",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "163",
+                "key": "163",
+                "label": "Empowerment of already powerful actors (e.g. Big Tech)",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5494,7 +7276,16 @@ const allCyDataSets = {
             "label": "Degree of control over people",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "164",
+                "key": "164",
+                "label": "Degree of control over people",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5505,7 +7296,16 @@ const allCyDataSets = {
             "label": "Collective action",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "165",
+                "key": "165",
+                "label": "Collective action",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5516,7 +7316,16 @@ const allCyDataSets = {
             "label": "(dis)empowerment of individuals/groups",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "166",
+                "key": "166",
+                "label": "(dis)empowerment of individuals/groups",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5527,7 +7336,16 @@ const allCyDataSets = {
             "label": "Economic equality",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "167",
+                "key": "167",
+                "label": "Economic equality",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5538,7 +7356,16 @@ const allCyDataSets = {
             "label": "Ethical political discourse",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "168",
+                "key": "168",
+                "label": "Ethical political discourse",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5546,10 +7373,19 @@ const allCyDataSets = {
           "data": {
             "id": "169",
             "key": "V1_169",
-            "label": "Individualism ",
+            "label": "Individualism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "169",
+                "key": "169",
+                "label": "Individualism",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5557,10 +7393,19 @@ const allCyDataSets = {
           "data": {
             "id": "170",
             "key": "V1_170",
-            "label": "Nefarious use of data ",
+            "label": "Nefarious use of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "170",
+                "key": "170",
+                "label": "Nefarious use of data",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -5902,7 +7747,16 @@ const allCyDataSets = {
             "label": "Level of citizen awareness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "105",
+                "key": "105",
+                "label": "Level of citizen awareness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5910,10 +7764,19 @@ const allCyDataSets = {
           "data": {
             "id": "108",
             "key": "V2_108",
-            "label": "Level of regulation",
+            "label": "Optimisation of urban infrastructures",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5924,7 +7787,16 @@ const allCyDataSets = {
             "label": "Level of technological advancement",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Level of technological advancement",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5935,7 +7807,16 @@ const allCyDataSets = {
             "label": "Need for profit",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Need for profit",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5946,7 +7827,16 @@ const allCyDataSets = {
             "label": "Public sector intervention",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "135",
+                "key": "135",
+                "label": "Public sector intervention",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5957,7 +7847,16 @@ const allCyDataSets = {
             "label": "Targeted advertising",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "145",
+                "key": "145",
+                "label": "Targeted advertising",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5968,7 +7867,16 @@ const allCyDataSets = {
             "label": "Embeddedness of digital infrastructures",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "206",
+                "key": "206",
+                "label": "Embeddedness of digital infrastructures",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5979,7 +7887,16 @@ const allCyDataSets = {
             "label": "Level of decision-maker awareness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "207",
+                "key": "207",
+                "label": "Level of decision-maker awareness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -5990,7 +7907,16 @@ const allCyDataSets = {
             "label": "Degree to which people perceive digital connectedness to equate to human connectedness",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "208",
+                "key": "208",
+                "label": "Degree to which people perceive digital connectedness to equate to human connectedness",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6001,7 +7927,16 @@ const allCyDataSets = {
             "label": "Degree of neoliberalism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "209",
+                "key": "209",
+                "label": "Degree of neoliberalism",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6012,7 +7947,16 @@ const allCyDataSets = {
             "label": "Individualism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "210",
+                "key": "210",
+                "label": "Individualism",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6023,7 +7967,16 @@ const allCyDataSets = {
             "label": "Human curiosity",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "211",
+                "key": "211",
+                "label": "Human curiosity",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6034,7 +7987,16 @@ const allCyDataSets = {
             "label": "Need to achieve efficiency",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "212",
+                "key": "212",
+                "label": "Need to achieve efficiency",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6045,7 +8007,16 @@ const allCyDataSets = {
             "label": "Cost-cutting",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "213",
+                "key": "213",
+                "label": "Cost-cutting",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6056,7 +8027,16 @@ const allCyDataSets = {
             "label": "Likelihood of using data nefariously",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "214",
+                "key": "214",
+                "label": "Likelihood of using data nefariously",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6064,10 +8044,19 @@ const allCyDataSets = {
           "data": {
             "id": "215",
             "key": "V2_215",
-            "label": "Collective action",
+            "label": "Likelihood of using data nefariously",
             "participant_type": "expert",
             "color": "2",
-            "history": []
+            "history": [
+              {
+                "id": "215",
+                "key": "215",
+                "label": "Likelihood of using data nefariously",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6075,10 +8064,19 @@ const allCyDataSets = {
           "data": {
             "id": "216",
             "key": "V2_216",
-            "label": "Big Tech's market cap",
+            "label": "Likelihood of using data nefariously",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "216",
+                "key": "216",
+                "label": "Likelihood of using data nefariously",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6086,10 +8084,19 @@ const allCyDataSets = {
           "data": {
             "id": "217",
             "key": "V2_217",
-            "label": "Economic equality",
+            "label": "Likelihood of using data nefariously",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "217",
+                "key": "217",
+                "label": "Likelihood of using data nefariously",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6100,7 +8107,16 @@ const allCyDataSets = {
             "label": "Disinformation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "218",
+                "key": "218",
+                "label": "Disinformation",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6111,7 +8127,16 @@ const allCyDataSets = {
             "label": "Human autonomy",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "219",
+                "key": "219",
+                "label": "Human autonomy",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6122,7 +8147,16 @@ const allCyDataSets = {
             "label": "Assetisation of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "220",
+                "key": "220",
+                "label": "Assetisation of data",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6133,7 +8167,16 @@ const allCyDataSets = {
             "label": "Tampering political systems",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "221",
+                "key": "221",
+                "label": "Tampering political systems",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6144,7 +8187,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6152,10 +8204,19 @@ const allCyDataSets = {
           "data": {
             "id": "99",
             "key": "V2_99",
-            "label": "Empowerment of vulnerable groups",
+            "label": "City-led data collection schemes",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "126",
+                "key": "126",
+                "label": "Polls or surveys from citizens to decide how and where to provide community resources",
+                "participant_type": "expert",
+                "group": "expert_2",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -6616,7 +8677,16 @@ const allCyDataSets = {
             "label": "Regulations",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "153",
+                "key": "153",
+                "label": "Regulations",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6627,7 +8697,16 @@ const allCyDataSets = {
             "label": "Data disposal",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "171",
+                "key": "171",
+                "label": "Data disposal",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6638,7 +8717,16 @@ const allCyDataSets = {
             "label": "Tendency to go digital",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "172",
+                "key": "172",
+                "label": "Tendency to go digital",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6649,7 +8737,16 @@ const allCyDataSets = {
             "label": "Need for customised user experience",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "173",
+                "key": "173",
+                "label": "Need for customised user experience",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6660,7 +8757,16 @@ const allCyDataSets = {
             "label": "Data sharing between entities",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "174",
+                "key": "174",
+                "label": "Data sharing between entities",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6671,7 +8777,16 @@ const allCyDataSets = {
             "label": "Need for insights about customers",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "175",
+                "key": "175",
+                "label": "Need for insights about customers",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6682,7 +8797,16 @@ const allCyDataSets = {
             "label": "Business model based on data monetisation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "176",
+                "key": "176",
+                "label": "Business model based on data monetisation",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6693,7 +8817,16 @@ const allCyDataSets = {
             "label": "Privacy breaches",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "177",
+                "key": "177",
+                "label": "Privacy breaches",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6704,7 +8837,16 @@ const allCyDataSets = {
             "label": "Cost of data storage technology",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "178",
+                "key": "178",
+                "label": "Cost of data storage technology",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6715,7 +8857,16 @@ const allCyDataSets = {
             "label": "Cost-cutting",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "179",
+                "key": "179",
+                "label": "Cost-cutting",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6726,7 +8877,16 @@ const allCyDataSets = {
             "label": "Faster delivery services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "180",
+                "key": "180",
+                "label": "Faster delivery services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6737,7 +8897,16 @@ const allCyDataSets = {
             "label": "Partnering with other entities to provide bundle services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "181",
+                "key": "181",
+                "label": "Partnering with other entities to provide bundle services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6748,7 +8917,16 @@ const allCyDataSets = {
             "label": "Expanding products/ services offering",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "182",
+                "key": "182",
+                "label": "Expanding products/ services offering",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6759,7 +8937,16 @@ const allCyDataSets = {
             "label": "Onset of new technologies",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "183",
+                "key": "183",
+                "label": "Onset of new technologies",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6770,7 +8957,16 @@ const allCyDataSets = {
             "label": "Data retained by private entities",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "184",
+                "key": "184",
+                "label": "Data retained by private entities",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6781,7 +8977,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "185",
+                "key": "185",
+                "label": "Quality of services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6792,7 +8997,16 @@ const allCyDataSets = {
             "label": "Opportunities for data monetisation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "186",
+                "key": "186",
+                "label": "Opportunities for data monetisation",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6803,7 +9017,16 @@ const allCyDataSets = {
             "label": "Tampering political systems",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "187",
+                "key": "187",
+                "label": "Tampering political systems",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6814,7 +9037,16 @@ const allCyDataSets = {
             "label": "Undesignated use of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "188",
+                "key": "188",
+                "label": "Undesignated use of data",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6825,7 +9057,16 @@ const allCyDataSets = {
             "label": "Timesaving",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "189",
+                "key": "189",
+                "label": "Timesaving",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6836,7 +9077,16 @@ const allCyDataSets = {
             "label": "Consumerism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "190",
+                "key": "190",
+                "label": "Consumerism",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6847,7 +9097,16 @@ const allCyDataSets = {
             "label": "Ease of access to my data as a user",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "191",
+                "key": "191",
+                "label": "Ease of access to my data as a user",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6858,7 +9117,16 @@ const allCyDataSets = {
             "label": "Connectedness through virtual environments",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "192",
+                "key": "192",
+                "label": "Connectedness through virtual environments",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6869,7 +9137,16 @@ const allCyDataSets = {
             "label": "Trust in service providers",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "193",
+                "key": "193",
+                "label": "Trust in service providers",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -6880,7 +9157,16 @@ const allCyDataSets = {
             "label": "Justice",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "194",
+                "key": "194",
+                "label": "Justice",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -7261,7 +9547,16 @@ const allCyDataSets = {
             "label": "Investment in services",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "103",
+                "key": "103",
+                "label": "Investment in services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7272,7 +9567,16 @@ const allCyDataSets = {
             "label": "Investment in technology",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Investment in technology",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7283,7 +9587,16 @@ const allCyDataSets = {
             "label": "Level of citizen sensitisation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "106",
+                "key": "106",
+                "label": "Level of citizen sensitisation",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7291,10 +9604,19 @@ const allCyDataSets = {
           "data": {
             "id": "108",
             "key": "V2_108",
-            "label": "Level of regulation",
+            "label": "Optimisation of urban infrastructures",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "132",
+                "key": "132",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7305,7 +9627,16 @@ const allCyDataSets = {
             "label": "Level of technological advancement",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "109",
+                "key": "109",
+                "label": "Level of technological advancement",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7316,7 +9647,16 @@ const allCyDataSets = {
             "label": "Likelihood of privacy violation",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "110",
+                "key": "110",
+                "label": "Likelihood of privacy violation",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7327,7 +9667,16 @@ const allCyDataSets = {
             "label": "Optimisation of services",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "118",
+                "key": "118",
+                "label": "Optimisation of services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7338,7 +9687,16 @@ const allCyDataSets = {
             "label": "Perceived level of technological convenience",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "122",
+                "key": "122",
+                "label": "Perceived level of technological convenience",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7349,7 +9707,16 @@ const allCyDataSets = {
             "label": "Private sector revenue",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "128",
+                "key": "128",
+                "label": "Private sector revenue",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7360,7 +9727,16 @@ const allCyDataSets = {
             "label": "Quality of services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "137",
+                "key": "137",
+                "label": "Quality of services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7371,7 +9747,16 @@ const allCyDataSets = {
             "label": "Realisation of human rights",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "139",
+                "key": "139",
+                "label": "Realisation of human rights",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7382,7 +9767,16 @@ const allCyDataSets = {
             "label": "Use of urban services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "149",
+                "key": "149",
+                "label": "Use of urban services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7393,7 +9787,16 @@ const allCyDataSets = {
             "label": "Embeddedness of digital infrastructures",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "206",
+                "key": "206",
+                "label": "Embeddedness of digital infrastructures",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7404,7 +9807,16 @@ const allCyDataSets = {
             "label": "Need to achieve efficiency",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "212",
+                "key": "212",
+                "label": "Need to achieve efficiency",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7415,7 +9827,16 @@ const allCyDataSets = {
             "label": "Cost-cutting",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "213",
+                "key": "213",
+                "label": "Cost-cutting",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7426,7 +9847,16 @@ const allCyDataSets = {
             "label": "Human autonomy",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "219",
+                "key": "219",
+                "label": "Human autonomy",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7437,7 +9867,16 @@ const allCyDataSets = {
             "label": "Tampering political systems",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "221",
+                "key": "221",
+                "label": "Tampering political systems",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7448,7 +9887,16 @@ const allCyDataSets = {
             "label": "Data disposal",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "222",
+                "key": "222",
+                "label": "Data disposal",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7459,7 +9907,16 @@ const allCyDataSets = {
             "label": "Data sharing between entities",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "223",
+                "key": "223",
+                "label": "Data sharing between entities",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7470,7 +9927,16 @@ const allCyDataSets = {
             "label": "Need for insights about customers",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "224",
+                "key": "224",
+                "label": "Need for insights about customers",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7481,7 +9947,16 @@ const allCyDataSets = {
             "label": "Collection of new types of data",
             "participant_type": "expert",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "225",
+                "key": "225",
+                "label": "Collection of new types of data",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7492,7 +9967,16 @@ const allCyDataSets = {
             "label": "Cost of data storage technology",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "226",
+                "key": "226",
+                "label": "Cost of data storage technology",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7503,7 +9987,16 @@ const allCyDataSets = {
             "label": "Partnering with other entities to provide bundle services",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "227",
+                "key": "227",
+                "label": "Partnering with other entities to provide bundle services",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7514,7 +10007,16 @@ const allCyDataSets = {
             "label": "Expansion of service offering",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "228",
+                "key": "228",
+                "label": "Expansion of service offering",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7525,7 +10027,16 @@ const allCyDataSets = {
             "label": "Onset of new technologies",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "229",
+                "key": "229",
+                "label": "Onset of new technologies",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7536,7 +10047,16 @@ const allCyDataSets = {
             "label": "Customised user experience",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "230",
+                "key": "230",
+                "label": "Customised user experience",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7547,7 +10067,16 @@ const allCyDataSets = {
             "label": "Undesignated use of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "231",
+                "key": "231",
+                "label": "Undesignated use of data",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7558,7 +10087,16 @@ const allCyDataSets = {
             "label": "Ease of access to my data as a user",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "232",
+                "key": "232",
+                "label": "Ease of access to my data as a user",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7569,7 +10107,16 @@ const allCyDataSets = {
             "label": "Consumerism",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "233",
+                "key": "233",
+                "label": "Consumerism",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7580,7 +10127,16 @@ const allCyDataSets = {
             "label": "Connectedness through virtual environments",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "234",
+                "key": "234",
+                "label": "Connectedness through virtual environments",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7591,7 +10147,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -7599,10 +10164,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "expert",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "expert",
+                "group": "expert_9",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -8128,7 +10702,16 @@ const allCyDataSets = {
             "label": "Polls or surveys from citizens to decide how and where to provide community resources",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "195",
+                "key": "195",
+                "label": "Polls or surveys from citizens to decide how and where to provide community resources",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8139,7 +10722,16 @@ const allCyDataSets = {
             "label": "Need for information to develop and maintain the city/urban environment",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "196",
+                "key": "196",
+                "label": "Need for information to develop and maintain the city/urban environment",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8150,7 +10742,16 @@ const allCyDataSets = {
             "label": "Surveillance of the community",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "197",
+                "key": "197",
+                "label": "Surveillance of the community",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8161,7 +10762,16 @@ const allCyDataSets = {
             "label": "A desire / imperative to serve the community; this is literally the city council's entire role",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "198",
+                "key": "198",
+                "label": "A desire / imperative to serve the community; this is literally the city council's entire role",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8169,10 +10779,19 @@ const allCyDataSets = {
           "data": {
             "id": "199",
             "key": "V1_199",
-            "label": "Fighting /reducing criminal activity",
+            "label": "fighting /reducing criminal activity",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "199",
+                "key": "199",
+                "label": "fighting /reducing criminal activity",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8183,7 +10802,16 @@ const allCyDataSets = {
             "label": "Amount of data retained with city council",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "200",
+                "key": "200",
+                "label": "Amount of data retained with city council",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8194,7 +10822,16 @@ const allCyDataSets = {
             "label": "City can aggregate data to make decisions about infrastructure",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "201",
+                "key": "201",
+                "label": "City can aggregate data to make decisions about infrastructure",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8205,7 +10842,16 @@ const allCyDataSets = {
             "label": "Data is stored as historical data for future comparisons",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "202",
+                "key": "202",
+                "label": "Data is stored as historical data for future comparisons",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8216,7 +10862,16 @@ const allCyDataSets = {
             "label": "Data is (hopefully) appropriately access-controlled to protect the privacy of individuals",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "203",
+                "key": "203",
+                "label": "Data is (hopefully) appropriately access-controlled to protect the privacy of individuals",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8227,7 +10882,16 @@ const allCyDataSets = {
             "label": "Data is aggregated and de-identified where appropriate, again to preserve individual privacy, while also remaining useful for its intended collection purpose",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "204",
+                "key": "204",
+                "label": "Data is aggregated and de-identified where appropriate, again to preserve individual privacy, while also remaining useful for its intended collection purpose",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8238,7 +10902,16 @@ const allCyDataSets = {
             "label": "Data is (hopefully) kept for only as long as is required before being securely erased",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "205",
+                "key": "205",
+                "label": "Data is (hopefully) kept for only as long as is required before being securely erased",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -8398,7 +11071,16 @@ const allCyDataSets = {
             "label": "Likelihood of privacy violation",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "110",
+                "key": "110",
+                "label": "Likelihood of privacy violation",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8409,7 +11091,16 @@ const allCyDataSets = {
             "label": "Need for data insights in government",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "113",
+                "key": "113",
+                "label": "Need for data insights in government",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8420,7 +11111,16 @@ const allCyDataSets = {
             "label": "Number of people concerned about crime",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "117",
+                "key": "117",
+                "label": "Number of people concerned about crime",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8431,7 +11131,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Public sector expertise",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8442,7 +11151,16 @@ const allCyDataSets = {
             "label": "Security risks",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "141",
+                "key": "141",
+                "label": "Security risks",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8453,7 +11171,16 @@ const allCyDataSets = {
             "label": "Data disposal",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "222",
+                "key": "222",
+                "label": "Data disposal",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8464,7 +11191,16 @@ const allCyDataSets = {
             "label": "Undesignated use of data",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "231",
+                "key": "231",
+                "label": "Undesignated use of data",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8475,7 +11211,16 @@ const allCyDataSets = {
             "label": "City-led data collection schemes",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "235",
+                "key": "235",
+                "label": "City-led data collection schemes",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8486,7 +11231,16 @@ const allCyDataSets = {
             "label": "City-led use of surveillance technologies",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "236",
+                "key": "236",
+                "label": "City-led use of surveillance technologies",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8497,7 +11251,16 @@ const allCyDataSets = {
             "label": "Need to reduce criminal activity",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "237",
+                "key": "237",
+                "label": "Need to reduce criminal activity",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8508,7 +11271,16 @@ const allCyDataSets = {
             "label": "Aggregation of data",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "238",
+                "key": "238",
+                "label": "Aggregation of data",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8519,7 +11291,16 @@ const allCyDataSets = {
             "label": "De-identification of data",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "239",
+                "key": "239",
+                "label": "De-identification of data",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8530,7 +11311,16 @@ const allCyDataSets = {
             "label": "Familiarity with data-related policies",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "240",
+                "key": "240",
+                "label": "Familiarity with data-related policies",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8541,7 +11331,16 @@ const allCyDataSets = {
             "label": "Possibility of masking inequalities",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "241",
+                "key": "241",
+                "label": "Possibility of masking inequalities",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8552,7 +11351,16 @@ const allCyDataSets = {
             "label": "Harassment of vulnerable individuals",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "242",
+                "key": "242",
+                "label": "Harassment of vulnerable individuals",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8563,7 +11371,16 @@ const allCyDataSets = {
             "label": "Possibility of data re-identification",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "243",
+                "key": "243",
+                "label": "Possibility of data re-identification",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8574,7 +11391,16 @@ const allCyDataSets = {
             "label": "Optimisation of urban infrastructures",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "244",
+                "key": "244",
+                "label": "Optimisation of urban infrastructures",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8582,10 +11408,19 @@ const allCyDataSets = {
           "data": {
             "id": "93",
             "key": "V2_93",
-            "label": "Data retained by city council",
+            "label": "Onset of new technologies",
             "participant_type": "advocate",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Onset of new technologies",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8593,10 +11428,19 @@ const allCyDataSets = {
           "data": {
             "id": "99",
             "key": "V2_99",
-            "label": "Empowerment of vulnerable groups",
+            "label": "City-led data collection schemes",
             "participant_type": "advocate",
             "color": "1",
-            "history": []
+            "history": [
+              {
+                "id": "126",
+                "key": "126",
+                "label": "Polls or surveys from citizens to decide how and where to provide community resources",
+                "participant_type": "advocate",
+                "group": "advocate_6",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -8905,7 +11749,16 @@ const allCyDataSets = {
             "label": "Likelihood of using data for public good",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "111",
+                "key": "111",
+                "label": "Likelihood of using data for public good",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8916,7 +11769,16 @@ const allCyDataSets = {
             "label": "Private-public partnerships",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "129",
+                "key": "129",
+                "label": "Private-public partnerships",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8927,7 +11789,16 @@ const allCyDataSets = {
             "label": "Public sector funding",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "134",
+                "key": "134",
+                "label": "Public sector funding",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8938,7 +11809,16 @@ const allCyDataSets = {
             "label": "City-led data collection schemes",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "235",
+                "key": "235",
+                "label": "City-led data collection schemes",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8949,7 +11829,16 @@ const allCyDataSets = {
             "label": "Public procurement of digital infrastructures",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "245",
+                "key": "245",
+                "label": "Public procurement of digital infrastructures",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8960,7 +11849,16 @@ const allCyDataSets = {
             "label": "Buying data from private entities",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "246",
+                "key": "246",
+                "label": "Buying data from private entities",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8971,7 +11869,16 @@ const allCyDataSets = {
             "label": "Data sharing by private entities",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "247",
+                "key": "247",
+                "label": "Data sharing by private entities",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8982,7 +11889,16 @@ const allCyDataSets = {
             "label": "Private organisations' legal hurdles",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "248",
+                "key": "248",
+                "label": "Private organisations' legal hurdles",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -8993,7 +11909,16 @@ const allCyDataSets = {
             "label": "Open data",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "249",
+                "key": "249",
+                "label": "Open data",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9004,7 +11929,16 @@ const allCyDataSets = {
             "label": "Data siloes",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "250",
+                "key": "250",
+                "label": "Data siloes",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9015,7 +11949,16 @@ const allCyDataSets = {
             "label": "Difficulty of dealing with data requests",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "251",
+                "key": "251",
+                "label": "Difficulty of dealing with data requests",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9026,7 +11969,16 @@ const allCyDataSets = {
             "label": "Reluctance to share data",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "252",
+                "key": "252",
+                "label": "Reluctance to share data",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9037,7 +11989,16 @@ const allCyDataSets = {
             "label": "Potential repercussions",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "253",
+                "key": "253",
+                "label": "Potential repercussions",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9048,7 +12009,16 @@ const allCyDataSets = {
             "label": "Exposure of flaws in decision-making",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "254",
+                "key": "254",
+                "label": "Exposure of flaws in decision-making",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9059,7 +12029,16 @@ const allCyDataSets = {
             "label": "Collaborations between various stakeholders",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "255",
+                "key": "255",
+                "label": "Collaborations between various stakeholders",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9070,7 +12049,16 @@ const allCyDataSets = {
             "label": "Efficiency of the city's internal operations",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "256",
+                "key": "256",
+                "label": "Efficiency of the city's internal operations",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9081,7 +12069,16 @@ const allCyDataSets = {
             "label": "Development of urban solutions",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "257",
+                "key": "257",
+                "label": "Development of urban solutions",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9092,7 +12089,16 @@ const allCyDataSets = {
             "label": "Commodification of data",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "89",
+                "key": "89",
+                "label": "Commodification of data",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9100,10 +12106,19 @@ const allCyDataSets = {
           "data": {
             "id": "93",
             "key": "V2_93",
-            "label": "Data retained by city council",
+            "label": "Onset of new technologies",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Onset of new technologies",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9111,10 +12126,19 @@ const allCyDataSets = {
           "data": {
             "id": "94",
             "key": "V2_94",
-            "label": "Data retained by private entities",
+            "label": "Customised user experience",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "104",
+                "key": "104",
+                "label": "Need for customised user experience",
+                "participant_type": "government",
+                "group": "government_8",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
@@ -9449,7 +12473,16 @@ const allCyDataSets = {
             "label": "Need for data insights in government",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "113",
+                "key": "113",
+                "label": "Need for data insights in government",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9460,7 +12493,16 @@ const allCyDataSets = {
             "label": "Optimisation of services",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "118",
+                "key": "118",
+                "label": "Optimisation of services",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9471,7 +12513,16 @@ const allCyDataSets = {
             "label": "Privacy concerns",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "127",
+                "key": "127",
+                "label": "Privacy concerns",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9482,7 +12533,16 @@ const allCyDataSets = {
             "label": "Public sector expertise",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "133",
+                "key": "133",
+                "label": "Public sector expertise",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9493,7 +12553,16 @@ const allCyDataSets = {
             "label": "Public sector funding",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "134",
+                "key": "134",
+                "label": "Public sector funding",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9504,7 +12573,16 @@ const allCyDataSets = {
             "label": "City-led use of surveillance technologies",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "236",
+                "key": "236",
+                "label": "City-led use of surveillance technologies",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9515,7 +12593,16 @@ const allCyDataSets = {
             "label": "Open data",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "249",
+                "key": "249",
+                "label": "Open data",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9526,7 +12613,16 @@ const allCyDataSets = {
             "label": "Data siloes",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "250",
+                "key": "250",
+                "label": "Data siloes",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9537,7 +12633,16 @@ const allCyDataSets = {
             "label": "Compliance to data minimisation",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "258",
+                "key": "258",
+                "label": "Compliance to data minimisation",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9548,7 +12653,16 @@ const allCyDataSets = {
             "label": "Capacity to build and use mature data systems",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "259",
+                "key": "259",
+                "label": "Capacity to build and use mature data systems",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9559,7 +12673,16 @@ const allCyDataSets = {
             "label": "City-led experimentation with data collection schemes",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "260",
+                "key": "260",
+                "label": "City-led experimentation with data collection schemes",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9570,7 +12693,16 @@ const allCyDataSets = {
             "label": "Generation of personal data",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "261",
+                "key": "261",
+                "label": "Generation of personal data",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9581,7 +12713,16 @@ const allCyDataSets = {
             "label": "Commodification of data by the public sector",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "263",
+                "key": "263",
+                "label": "Commodification of data by the public sector",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9592,7 +12733,16 @@ const allCyDataSets = {
             "label": "Optimisation of urban planning decisions",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "264",
+                "key": "264",
+                "label": "Optimisation of urban planning decisions",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9600,10 +12750,19 @@ const allCyDataSets = {
           "data": {
             "id": "93",
             "key": "V2_93",
-            "label": "Data retained by city council",
+            "label": "Onset of new technologies",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "114",
+                "key": "114",
+                "label": "Onset of new technologies",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         },
@@ -9611,10 +12770,19 @@ const allCyDataSets = {
           "data": {
             "id": "96",
             "key": "V2_96",
-            "label": "Data use by law enforcement",
+            "label": "Ease of access to my data as a user",
             "participant_type": "government",
             "color": "0",
-            "history": []
+            "history": [
+              {
+                "id": "122",
+                "key": "122",
+                "label": "Ease of access to my data as a user",
+                "participant_type": "government",
+                "group": "government_10",
+                "history": []
+              }
+            ]
           },
           "classes": ""
         }
