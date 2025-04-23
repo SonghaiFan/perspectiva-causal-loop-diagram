@@ -1,4 +1,1232 @@
 const allCyDataSets = {
+	"advocate_7": {
+	  "V1": {
+		"nodes": [
+		  {
+			"data": {
+			  "id": "30",
+			  "key": "V1_30",
+			  "label": "Legal permission to use data (Identify and Disrupt Act)",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "30",
+				  "key": "30",
+				  "label": "Legal permission to use data (Identify and Disrupt Act)",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "19",
+			  "key": "V1_19",
+			  "label": "Data used by law enforcement",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "19",
+				  "key": "19",
+				  "label": "Data used by law enforcement",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "24",
+			  "key": "V1_24",
+			  "label": "Exemptions in different acts",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "24",
+				  "key": "24",
+				  "label": "Exemptions in different acts",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "1",
+			  "key": "V1_1",
+			  "label": "Access to data from other entities",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "1",
+				  "key": "1",
+				  "label": "Access to data from other entities",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "13",
+			  "key": "V1_13",
+			  "label": "Collection of data by law enforcement",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "13",
+				  "key": "13",
+				  "label": "Collection of data by law enforcement",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "69",
+			  "key": "V1_69",
+			  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "69",
+				  "key": "69",
+				  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "78",
+			  "key": "V1_78",
+			  "label": "Techno-solutionism",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "78",
+				  "key": "78",
+				  "label": "Techno-solutionism",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "43",
+			  "key": "V1_43",
+			  "label": "People's concerns about crime",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "43",
+				  "key": "43",
+				  "label": "People's concerns about crime",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "45",
+			  "key": "V1_45",
+			  "label": "Pop-culture",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "45",
+				  "key": "45",
+				  "label": "Pop-culture",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "46",
+			  "key": "V1_46",
+			  "label": "Predictive policing",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "46",
+				  "key": "46",
+				  "label": "Predictive policing",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "64",
+			  "key": "V1_64",
+			  "label": "Reactive policing",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "64",
+				  "key": "64",
+				  "label": "Reactive policing",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "8",
+			  "key": "V1_8",
+			  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "8",
+				  "key": "8",
+				  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "44",
+			  "key": "V1_44",
+			  "label": "People's sense of being able to move in public spaces, protest. etc.",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "44",
+				  "key": "44",
+				  "label": "People's sense of being able to move in public spaces, protest. etc.",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "81",
+			  "key": "V1_81",
+			  "label": "Undermining of human rights",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "81",
+				  "key": "81",
+				  "label": "Undermining of human rights",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  }
+		],
+		"edges": [
+		  {
+			"data": {
+			  "id": "30-19",
+			  "source": "30",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "24-1",
+			  "source": "24",
+			  "target": "1",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "13-19",
+			  "source": "13",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "69-19",
+			  "source": "69",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "78-69",
+			  "source": "78",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "43-69",
+			  "source": "43",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "45-69",
+			  "source": "45",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "19-46",
+			  "source": "19",
+			  "target": "46",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "19-64",
+			  "source": "19",
+			  "target": "64",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "46-8",
+			  "source": "46",
+			  "target": "8",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "46-44",
+			  "source": "46",
+			  "target": "44",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "64-44",
+			  "source": "64",
+			  "target": "44",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "44-81",
+			  "source": "44",
+			  "target": "81",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "1-19",
+			  "source": "1",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  }
+		]
+	  },
+	  "final": {
+		"nodes": [
+		  {
+			"data": {
+			  "id": "129",
+			  "key": "V2_46",
+			  "label": "Private-public partnerships",
+			  "participant_type": "advocate",
+			  "color": "1",
+			  "history": [
+				{
+				  "id": "129",
+				  "key": "129",
+				  "label": "Private-public partnerships",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "115",
+			  "key": "V2_11",
+			  "label": "Data retained by private entities",
+			  "participant_type": "advocate",
+			  "color": "1",
+			  "history": [
+				{
+				  "id": "115",
+				  "key": "115",
+				  "label": "Data retained by private entities",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "19",
+			  "key": "V2_13",
+			  "label": "Data use by law enforcement",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "19",
+				  "key": "19",
+				  "label": "Data used by law enforcement",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "30",
+			  "key": "V2_33",
+			  "label": "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "30",
+				  "key": "30",
+				  "label": "Legal permission to use data (Identify and Disrupt Act)",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "13",
+			  "key": "V2_9",
+			  "label": "Data collection by law enforcement",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "13",
+				  "key": "13",
+				  "label": "Collection of data by law enforcement",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "69",
+			  "key": "V2_59",
+			  "label": "Social expectations for law enforcement to be using data to better police",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "69",
+				  "key": "69",
+				  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "78",
+			  "key": "V2_14",
+			  "label": "Degree of techno-solutionism",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "78",
+				  "key": "78",
+				  "label": "Techno-solutionism",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "43",
+			  "key": "V2_34",
+			  "label": "Number of people concerned about crime",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "43",
+				  "key": "43",
+				  "label": "People's concerns about crime",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "45",
+			  "key": "V2_41",
+			  "label": "Pop-culture",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "45",
+				  "key": "45",
+				  "label": "Pop-culture",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "46",
+			  "key": "V2_43",
+			  "label": "Predictive policing",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "46",
+				  "key": "46",
+				  "label": "Predictive policing",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "64",
+			  "key": "V2_55",
+			  "label": "Reactive data-driven policing",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "64",
+				  "key": "64",
+				  "label": "Reactive policing",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "8",
+			  "key": "V2_15",
+			  "label": "Discrimination against marginalised communities",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "8",
+				  "key": "8",
+				  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "132",
+			  "key": "V2_49",
+			  "label": "Protests",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "132",
+				  "key": "132",
+				  "label": "Protests",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "44",
+			  "key": "V2_38",
+			  "label": "People's sense of freedom to move in public spaces",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "44",
+				  "key": "44",
+				  "label": "People's sense of being able to move in public spaces, protest. etc.",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "124",
+			  "key": "V2_23",
+			  "label": "Level of citizen sensitisation",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "124",
+				  "key": "124",
+				  "label": "Trust in service providers",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "131",
+			  "key": "V2_10",
+			  "label": "Data retained by city council",
+			  "participant_type": "advocate",
+			  "color": "1",
+			  "history": [
+				{
+				  "id": "131",
+				  "key": "131",
+				  "label": "Amount of data retained with city council",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "147",
+			  "key": "V2_64",
+			  "label": "Use of off-the-shelf tech products by city council",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "147",
+				  "key": "147",
+				  "label": "Use of off-the-shelf tech products by city council",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "57",
+			  "key": "V2_50",
+			  "label": "Public sector expertise",
+			  "participant_type": "advocate",
+			  "color": "1",
+			  "history": [
+				{
+				  "id": "57",
+				  "key": "57",
+				  "label": "Public sector expertise",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "58",
+			  "key": "V2_51",
+			  "label": "Public sector funding",
+			  "participant_type": "advocate",
+			  "color": "1",
+			  "history": [
+				{
+				  "id": "58",
+				  "key": "58",
+				  "label": "Public service funding",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "127",
+			  "key": "V2_30",
+			  "label": "Need for data insights in government",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "127",
+				  "key": "127",
+				  "label": "Need for information to develop and maintain the city/urban environment",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "143",
+			  "key": "V2_60",
+			  "label": "Social inequalities",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "143",
+				  "key": "143",
+				  "label": "Social inequalities",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  },
+		  {
+			"data": {
+			  "id": "125",
+			  "key": "V2_56",
+			  "label": "Realisation of human rights",
+			  "participant_type": "advocate",
+			  "color": "0",
+			  "history": [
+				{
+				  "id": "125",
+				  "key": "125",
+				  "label": "Justice",
+				  "participant_type": "advocate",
+				  "group": "advocate_7",
+				  "history": []
+				}
+			  ]
+			},
+			"classes": ""
+		  }
+		],
+		"edges": [
+		  {
+			"data": {
+			  "id": "129-115",
+			  "source": "129",
+			  "target": "115",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "1"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "115-19",
+			  "source": "115",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "30-19",
+			  "source": "30",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "13-19",
+			  "source": "13",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "69-19",
+			  "source": "69",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "78-69",
+			  "source": "78",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "43-69",
+			  "source": "43",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "45-69",
+			  "source": "45",
+			  "target": "69",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "19-46",
+			  "source": "19",
+			  "target": "46",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "19-64",
+			  "source": "19",
+			  "target": "64",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "46-8",
+			  "source": "46",
+			  "target": "8",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "46-132",
+			  "source": "46",
+			  "target": "132",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "64-44",
+			  "source": "64",
+			  "target": "44",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "46-44",
+			  "source": "46",
+			  "target": "44",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "44-124",
+			  "source": "44",
+			  "target": "124",
+			  "label": "-",
+			  "value": -1,
+			  "polarity": "negative",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "131-19",
+			  "source": "131",
+			  "target": "19",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "147-131",
+			  "source": "147",
+			  "target": "131",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "57-147",
+			  "source": "57",
+			  "target": "147",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "58-147",
+			  "source": "58",
+			  "target": "147",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "127-147",
+			  "source": "127",
+			  "target": "147",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "1"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "127-131",
+			  "source": "127",
+			  "target": "131",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "8-124",
+			  "source": "8",
+			  "target": "124",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "8-143",
+			  "source": "8",
+			  "target": "143",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  },
+		  {
+			"data": {
+			  "id": "44-125",
+			  "source": "44",
+			  "target": "125",
+			  "label": "+",
+			  "value": 1,
+			  "polarity": "positive",
+			  "participant_type": "advocate",
+			  "group": "advocate_7",
+			  "color": "0"
+			}
+		  }
+		]
+	  }
+	},
 	"citizen_1": {
 	  "V1": {
 		"nodes": [
@@ -8476,1234 +9704,6 @@ const allCyDataSets = {
 			  "polarity": "positive",
 			  "participant_type": "advocate",
 			  "group": "advocate_6",
-			  "color": "0"
-			}
-		  }
-		]
-	  }
-	},
-	"advocate_7": {
-	  "V1": {
-		"nodes": [
-		  {
-			"data": {
-			  "id": "30",
-			  "key": "V1_30",
-			  "label": "Legal permission to use data (Identify and Disrupt Act)",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "30",
-				  "key": "30",
-				  "label": "Legal permission to use data (Identify and Disrupt Act)",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "19",
-			  "key": "V1_19",
-			  "label": "Data used by law enforcement",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "19",
-				  "key": "19",
-				  "label": "Data used by law enforcement",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "24",
-			  "key": "V1_24",
-			  "label": "Exemptions in different acts",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "24",
-				  "key": "24",
-				  "label": "Exemptions in different acts",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "1",
-			  "key": "V1_1",
-			  "label": "Access to data from other entities",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "1",
-				  "key": "1",
-				  "label": "Access to data from other entities",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "13",
-			  "key": "V1_13",
-			  "label": "Collection of data by law enforcement",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "13",
-				  "key": "13",
-				  "label": "Collection of data by law enforcement",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "69",
-			  "key": "V1_69",
-			  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "69",
-				  "key": "69",
-				  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "78",
-			  "key": "V1_78",
-			  "label": "Techno-solutionism",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "78",
-				  "key": "78",
-				  "label": "Techno-solutionism",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "43",
-			  "key": "V1_43",
-			  "label": "People's concerns about crime",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "43",
-				  "key": "43",
-				  "label": "People's concerns about crime",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "45",
-			  "key": "V1_45",
-			  "label": "Pop-culture",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "45",
-				  "key": "45",
-				  "label": "Pop-culture",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "46",
-			  "key": "V1_46",
-			  "label": "Predictive policing",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "46",
-				  "key": "46",
-				  "label": "Predictive policing",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "64",
-			  "key": "V1_64",
-			  "label": "Reactive policing",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "64",
-				  "key": "64",
-				  "label": "Reactive policing",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "8",
-			  "key": "V1_8",
-			  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "8",
-				  "key": "8",
-				  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "44",
-			  "key": "V1_44",
-			  "label": "People's sense of being able to move in public spaces, protest. etc.",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "44",
-				  "key": "44",
-				  "label": "People's sense of being able to move in public spaces, protest. etc.",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "81",
-			  "key": "V1_81",
-			  "label": "Undermining of human rights",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "81",
-				  "key": "81",
-				  "label": "Undermining of human rights",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  }
-		],
-		"edges": [
-		  {
-			"data": {
-			  "id": "30-19",
-			  "source": "30",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "24-1",
-			  "source": "24",
-			  "target": "1",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "13-19",
-			  "source": "13",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "69-19",
-			  "source": "69",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "78-69",
-			  "source": "78",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "43-69",
-			  "source": "43",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "45-69",
-			  "source": "45",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "19-46",
-			  "source": "19",
-			  "target": "46",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "19-64",
-			  "source": "19",
-			  "target": "64",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "46-8",
-			  "source": "46",
-			  "target": "8",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "46-44",
-			  "source": "46",
-			  "target": "44",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "64-44",
-			  "source": "64",
-			  "target": "44",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "44-81",
-			  "source": "44",
-			  "target": "81",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "1-19",
-			  "source": "1",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  }
-		]
-	  },
-	  "final": {
-		"nodes": [
-		  {
-			"data": {
-			  "id": "129",
-			  "key": "V2_46",
-			  "label": "Private-public partnerships",
-			  "participant_type": "advocate",
-			  "color": "1",
-			  "history": [
-				{
-				  "id": "129",
-				  "key": "129",
-				  "label": "Private-public partnerships",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "115",
-			  "key": "V2_11",
-			  "label": "Data retained by private entities",
-			  "participant_type": "advocate",
-			  "color": "1",
-			  "history": [
-				{
-				  "id": "115",
-				  "key": "115",
-				  "label": "Data retained by private entities",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "19",
-			  "key": "V2_13",
-			  "label": "Data use by law enforcement",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "19",
-				  "key": "19",
-				  "label": "Data used by law enforcement",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "30",
-			  "key": "V2_33",
-			  "label": "Number of exepmtions allowing law enforcement to access data from other entities in different Australian acts",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "30",
-				  "key": "30",
-				  "label": "Legal permission to use data (Identify and Disrupt Act)",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "13",
-			  "key": "V2_9",
-			  "label": "Data collection by law enforcement",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "13",
-				  "key": "13",
-				  "label": "Collection of data by law enforcement",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "69",
-			  "key": "V2_59",
-			  "label": "Social expectations for law enforcement to be using data to better police",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "69",
-				  "key": "69",
-				  "label": "Social and political expectations for law enforcement to be using data and technologies to better police",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "78",
-			  "key": "V2_14",
-			  "label": "Degree of techno-solutionism",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "78",
-				  "key": "78",
-				  "label": "Techno-solutionism",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "43",
-			  "key": "V2_34",
-			  "label": "Number of people concerned about crime",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "43",
-				  "key": "43",
-				  "label": "People's concerns about crime",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "45",
-			  "key": "V2_41",
-			  "label": "Pop-culture",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "45",
-				  "key": "45",
-				  "label": "Pop-culture",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "46",
-			  "key": "V2_43",
-			  "label": "Predictive policing",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "46",
-				  "key": "46",
-				  "label": "Predictive policing",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "64",
-			  "key": "V2_55",
-			  "label": "Reactive data-driven policing",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "64",
-				  "key": "64",
-				  "label": "Reactive policing",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "8",
-			  "key": "V2_15",
-			  "label": "Discrimination against marginalised communities",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "8",
-				  "key": "8",
-				  "label": "Biased and discriminatory outcomes that reinforce historical and social inequalities in race and class",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "132",
-			  "key": "V2_49",
-			  "label": "Protests",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "132",
-				  "key": "132",
-				  "label": "Protests",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "44",
-			  "key": "V2_38",
-			  "label": "People's sense of freedom to move in public spaces",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "44",
-				  "key": "44",
-				  "label": "People's sense of being able to move in public spaces, protest. etc.",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "124",
-			  "key": "V2_23",
-			  "label": "Level of citizen sensitisation",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "124",
-				  "key": "124",
-				  "label": "Trust in service providers",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "131",
-			  "key": "V2_10",
-			  "label": "Data retained by city council",
-			  "participant_type": "advocate",
-			  "color": "1",
-			  "history": [
-				{
-				  "id": "131",
-				  "key": "131",
-				  "label": "Amount of data retained with city council",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "147",
-			  "key": "V2_64",
-			  "label": "Use of off-the-shelf tech products by city council",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "147",
-				  "key": "147",
-				  "label": "Use of off-the-shelf tech products by city council",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "57",
-			  "key": "V2_50",
-			  "label": "Public sector expertise",
-			  "participant_type": "advocate",
-			  "color": "1",
-			  "history": [
-				{
-				  "id": "57",
-				  "key": "57",
-				  "label": "Public sector expertise",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "58",
-			  "key": "V2_51",
-			  "label": "Public sector funding",
-			  "participant_type": "advocate",
-			  "color": "1",
-			  "history": [
-				{
-				  "id": "58",
-				  "key": "58",
-				  "label": "Public service funding",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "127",
-			  "key": "V2_30",
-			  "label": "Need for data insights in government",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "127",
-				  "key": "127",
-				  "label": "Need for information to develop and maintain the city/urban environment",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "143",
-			  "key": "V2_60",
-			  "label": "Social inequalities",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "143",
-				  "key": "143",
-				  "label": "Social inequalities",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  },
-		  {
-			"data": {
-			  "id": "125",
-			  "key": "V2_56",
-			  "label": "Realisation of human rights",
-			  "participant_type": "advocate",
-			  "color": "0",
-			  "history": [
-				{
-				  "id": "125",
-				  "key": "125",
-				  "label": "Justice",
-				  "participant_type": "advocate",
-				  "group": "advocate_7",
-				  "history": []
-				}
-			  ]
-			},
-			"classes": ""
-		  }
-		],
-		"edges": [
-		  {
-			"data": {
-			  "id": "129-115",
-			  "source": "129",
-			  "target": "115",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "1"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "115-19",
-			  "source": "115",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "30-19",
-			  "source": "30",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "13-19",
-			  "source": "13",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "69-19",
-			  "source": "69",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "78-69",
-			  "source": "78",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "43-69",
-			  "source": "43",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "45-69",
-			  "source": "45",
-			  "target": "69",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "19-46",
-			  "source": "19",
-			  "target": "46",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "19-64",
-			  "source": "19",
-			  "target": "64",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "46-8",
-			  "source": "46",
-			  "target": "8",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "46-132",
-			  "source": "46",
-			  "target": "132",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "64-44",
-			  "source": "64",
-			  "target": "44",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "46-44",
-			  "source": "46",
-			  "target": "44",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "44-124",
-			  "source": "44",
-			  "target": "124",
-			  "label": "-",
-			  "value": -1,
-			  "polarity": "negative",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "131-19",
-			  "source": "131",
-			  "target": "19",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "147-131",
-			  "source": "147",
-			  "target": "131",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "57-147",
-			  "source": "57",
-			  "target": "147",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "58-147",
-			  "source": "58",
-			  "target": "147",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "127-147",
-			  "source": "127",
-			  "target": "147",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "1"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "127-131",
-			  "source": "127",
-			  "target": "131",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "8-124",
-			  "source": "8",
-			  "target": "124",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "8-143",
-			  "source": "8",
-			  "target": "143",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
-			  "color": "0"
-			}
-		  },
-		  {
-			"data": {
-			  "id": "44-125",
-			  "source": "44",
-			  "target": "125",
-			  "label": "+",
-			  "value": 1,
-			  "polarity": "positive",
-			  "participant_type": "advocate",
-			  "group": "advocate_7",
 			  "color": "0"
 			}
 		  }
