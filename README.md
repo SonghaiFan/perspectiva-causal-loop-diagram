@@ -1,4 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Perspectiva: Causal Loop Diagram (CLD) Comparison Tool
+
+**Perspectiva** is a visual analytics platform for **comparing and documenting versions of Causal Loop Diagrams (CLDs)**. It enhances transparency in collaborative modelling by enabling layout-synchronised visual comparisons between different versions of system models.
+
+> **TL;DR:** Based on dataset provided, select one or two versions, and Perspectiva anchors the layout of the second diagram to the first—making structural changes immediately visible.
+
+## Links
+
+- **VIS 2025 Paper**  
+  _Out of the Loop: Enhancing Documentation and Transparency in Collaborative Causal Loop Diagrams to Capture Multiple Perspectives_  
+  [Link to be added]
+
+- **Connected COMPASS Paper**  
+  [COMPASS Paper title here] \
+  [Link to be added]
+
+
+## Overview of repository
+
+This repository contains the **web interface** for Perspectiva, implemented in **Next.js + React** with **Cytoscape.js** under the hood (refer to the `Graph`/`Diagram` component).
+
+The main page `pages/index.tsx` is responsible for:
+
+- Loading the appropriate **dataset** and **version(s)** from `allCyDataSets`.
+- Letting the user choose:
+  - Which **dataset** to view,
+  - Which **versions** to compare (e.g. `V1` vs `final`),
+  - Which **graph layout** to use (e.g. `fcose`),
+  - Whether to view **1 graph** or **2 graphs**.
+- Computing node positions from a **baseline version** (left graph, usually `V1`) and then **forcing those positions** on the right-hand graph (e.g. `final`), so that shared nodes appear in the same place in both diagrams.
+
+Core features as listed in **VIS 2025 Paper** Paper:
+
+- **R1 – Support navigation between individual CLDs**  
+  The page renders **two synchronised graphs** (`graph-1` and `graph-2`) and allows quick switching between versions and view modes (`1 Graph` vs `2 Graphs`).
+- **R2 – Support the depiction of changes and conflicts**  
+  By enforcing a **shared layout** across versions, added/removed/changed variables and links can be visually highlighted (e.g. via colour, line style) in `Diagram.tsx` and the Cytoscape styles.
+- **R3 – Document the provenance of terminology**  
+  Node metadata (e.g. original term, standardised label, stakeholder group) can be passed via `data1`/`data2` and surfaced in the graph component (e.g. hover pop-ups).
+- **R4 – Document participant contributions in merged CLDs**  
+This interface is the base for representing merged C-CLDs, contributor groups, and contribution counts via encodings and legends.
+
+
+## Code Structure
+
+All application code lives under `src/`:
+
+```text
+src/
+  components/
+    DatasetSelector.js     # Choosing dataset
+    Diagram.js             # CLD view 
+    Header.js              # Title bar
+    LayoutSelector.js      # Choosing graph layout
+    Legend.js
+    Sidebar.js             # Selectors and view controls
+    Tooltip.js             # Hover tooltip
+    VersionSelector.js     # Switching between CLD
+
+  config/
+    colorSchema.js
+    graphLayout.js
+    graphStyling.js
+
+  data/
+    data.js
+    new_data.js
+
+  pages/
+    api/
+    _app.js
+    _document.js
+    index.js
+
+  styles/
+  utils/
+```
 
 ## Getting Started
 
@@ -14,27 +90,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the app.
