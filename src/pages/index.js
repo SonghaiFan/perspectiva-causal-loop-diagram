@@ -2,9 +2,11 @@ import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Graph from "@/components/Diagram";
 import { allCyDataSets } from "../data/new_data";
+import { nodeAnchors } from "../data/nodeAnchors";
 import { layoutConfigs } from "@/config/graphLayout";
+import { alignPositions } from "@/utils/alignPositions";
 import cloneDeep from "lodash/cloneDeep";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useRouter } from "next/router";
 
 export default function Home() {
@@ -41,6 +43,18 @@ export default function Home() {
   // Stores positions computed from the baseline version (V1)
   const [v1Positions, setV1Positions] = useState({});
 
+  // Node ids differ between V1 and final, so positions go through the anchors
+  const forcedPositions = useMemo(
+    () =>
+      alignPositions(
+        v1Positions,
+        version1 === "V1" && version2 === "final"
+          ? nodeAnchors[dataset]
+          : undefined
+      ),
+    [v1Positions, dataset, version1, version2]
+  );
+
   /**
    * Utility function:
    * Returns a deep-cloned version of the requested dataset + version.
@@ -48,6 +62,15 @@ export default function Home() {
    */
   const getCyData = (dataset, version) =>
     cloneDeep(allCyDataSets[dataset][version]);
+
+  // Version shown in 1-graph mode; changes together with singleVersion
+  const singleData = useMemo(
+    () => getCyData(dataset, singleVersion),
+    [dataset, singleVersion]
+  );
+
+  // Node positions already computed, so every view of a version agrees
+  const positionCache = useRef({});
 
   // Graph data for left (data1) and right (data2) diagrams
   const [data1, setData1] = useState(getCyData(dataset, version1));
@@ -125,13 +148,17 @@ export default function Home() {
           {viewMode === "1 Graph" ? (
             /**
              * 1-GRAPH MODE:
-             * Only one version is shown, no layout anchoring required.
+             * One version at a time; switching version animates the same graph.
              */
             <div className="flex-1 border border-gray-300 h-full">
               <Graph
                 key="single-graph"
-                data1={data1}
+                data1={singleData}
                 data2={data2}
+                dataset={dataset}
+                version={singleVersion}
+                anchors={nodeAnchors[dataset]}
+                positionCache={positionCache}
                 layout={layoutConfig}
                 focusVersion={focusVersion}
                 viewMode={viewMode}
@@ -150,6 +177,9 @@ export default function Home() {
                 {/*  compute positions from V1 and pass them up */}
                 <Graph
                   key="graph-1"
+                  dataset={dataset}
+                  version={version1}
+                  positionCache={positionCache}
                   data1={data1}
                   data2={data2} // data2 is not used here for positions
                   layout={layoutConfig}
@@ -164,13 +194,16 @@ export default function Home() {
                 {/* display final version and force positions from V1 */}
                 <Graph
                   key="graph-2"
+                  dataset={dataset}
+                  version={version2}
+                  positionCache={positionCache}
                   data1={data2}  // V2 data here
                   data2={data1}  // Not used in this instance
                   layout={layoutConfig}
                   focusVersion={focusVersion}
                   viewMode={viewMode}
                   graphId="graph-2"
-                  forcedPositions={v1Positions} // Force positions computed from V1
+                  forcedPositions={forcedPositions} // Force positions computed from V1
                 />
               </div>
             </>

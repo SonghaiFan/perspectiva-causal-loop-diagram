@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "anchors": "node scripts/build-node-anchors.mjs",
+    "check:anchors": "node scripts/build-node-anchors.mjs --check"
   },
   "dependencies": {
     "cytoscape": "^3.28.1",
