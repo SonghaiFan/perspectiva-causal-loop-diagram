@@ -45,7 +45,9 @@ export function transitionToVersion(cy, data, { counterparts, positions, onSettl
   // Stopping fires layoutstop, which must not count as that transition settling
   cy.scratch("versionTransition", transition);
   previous?.layout.stop();
-  previous?.outgoing.remove();
+  // Leftovers stay for this transition to reuse or fade out. Removing them and adding
+  // an element with the same id would strand its animations: Cytoscape's animation
+  // pool tracks elements by id, so it would still hold the removed one.
   cy.elements().stop(true);
 
   const sources = {};
@@ -124,7 +126,6 @@ export function transitionToVersion(cy, data, { counterparts, positions, onSettl
     }
   });
 
-  transition.outgoing = outgoing;
   transition.layout = incoming.layout(
     positions
       ? {
